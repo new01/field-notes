@@ -8,8 +8,25 @@ footer {
     margin: 0;
     padding: 0;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     gap: 1rem;
     margin-top: -1rem;
+  }
+
+  & .footer-theme-toggle {
+    appearance: none;
+    background: none;
+    border: 0;
+    color: var(--gray);
+    cursor: pointer;
+    font: inherit;
+    padding: 0;
+    text-decoration: underline;
+    text-underline-offset: 0.15em;
+  }
+
+  & .footer-theme-toggle:hover {
+    color: var(--secondary);
   }
 }

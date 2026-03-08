@@ -1,6 +1,8 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
 
+const baseUrl = process.env.QUARTZ_BASE_URL ?? "example.com"
+
 /**
  * Quartz 4 Configuration
  *
@@ -8,47 +10,46 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "Website Theme Demo",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
-    analytics: {
-      provider: "plausible",
-    },
+    analytics: null,
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl,
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
+        title: "Atkinson Hyperlegible Mono",
+        header: "Atkinson Hyperlegible Mono",
+        body: "Ubuntu Mono",
         code: "IBM Plex Mono",
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#fffcf0",
+          lightgray: "#e6e4d9",
+          gray: "#878580",
+          darkgray: "#6f6e69",
+          dark: "#100f0f",
+          secondary: "#73a5c9",
+          tertiary: "#5e94bb",
+          highlight: "rgba(115, 165, 201, 0.22)",
+          textHighlight: "rgba(173, 131, 1, 0.3)",
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          light: "#100f0f",
+          lightgray: "#282726",
+          gray: "#878580",
+          darkgray: "#cecdc3",
+          dark: "#fffcf0",
+          secondary: "#73a5c9",
+          tertiary: "#8ab7d6",
+          highlight: "rgba(115, 165, 201, 0.28)",
+          textHighlight: "rgba(208, 162, 21, 0.38)",
         },
       },
     },
