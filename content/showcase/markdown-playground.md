@@ -48,12 +48,12 @@ For the full type gallery, see [[showcase/callout-gallery|Callout Gallery]].
 
 ## Tables and Footnotes
 
-| Feature   | Syntax      | Why it matters                           |
-| --------- | ----------- | ---------------------------------------- | --- | --- | ------------------------------ |
-| Wikilinks | `[[note]]`  | Enables graph relationships and popovers |
-| Callouts  | `> [!info]` | Recreates Obsidian-style note structure  |
-| Footnotes | `[^id]`     | Useful for dense reference writing       |
-| Tables    | `           | a                                        | b   | `   | Good for comparisons and specs |
+| Feature   | Syntax         | Why it matters                           |
+| --------- | -------------- | ---------------------------------------- |
+| Wikilinks | `[[note]]`     | Enables graph relationships and popovers |
+| Callouts  | `> [!info]`    | Recreates Obsidian-style note structure  |
+| Footnotes | `[^id]`        | Useful for dense reference writing       |
+| Tables    | `\| a \| b \|` | Good for comparisons and specs           |
 
 Here is a sentence with a footnote for testing.[^table]
 
