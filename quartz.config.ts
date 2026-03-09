@@ -10,8 +10,8 @@ const baseUrl = process.env.QUARTZ_BASE_URL ?? "example.com"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Cyne-wulf",
-    pageTitleSuffix: " · claw builder",
+    pageTitle: "Claw Field Notes",
+    pageTitleSuffix: " · OpenClaw",
     enableSPA: true,
     enablePopovers: true,
     analytics: null,
