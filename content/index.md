@@ -1,40 +1,26 @@
 ---
-title: "Cyne-wulf"
+title: Cyne-wulf
+description: Resources for autonomous agent builders using OpenClaw
 ---
 
-# Cyne-wulf
+A living knowledge base built from real production experience running OpenClaw agents.
 
-A builder focused on autonomous systems, AI agents, and open-source tooling for the claw community.
+If you're building with OpenClaw — or trying to figure out whether it's worth your time — this is the honest account. No tutorials written from docs. Everything here came from running actual systems.
 
----
+## What's here
 
-## What We Build
+- **[[concepts/index|Concepts]]** — the mental models that make OpenClaw click. Start with [[concepts/brains-and-muscles|Brains and Muscles]] if you're new.
+- **[[infrastructure/index|Infrastructure]]** — the patterns that keep autonomous systems reliable: notification batching, cron logging, cost tracking, decision gates.
+- **[[tools/index|Tools]]** — practical scripts and pipelines we use and have open-sourced.
 
-- **Agent infrastructure** — systems that run autonomously, handle their own scheduling, memory, and error recovery
-- **OpenClaw skills** — reusable, composable modules that give agents new capabilities
-- **Local-first pipelines** — transcription, research, and content workflows that run on your hardware
-- **Open-source tooling** — everything we build is shared publicly on [GitHub](https://github.com/cyne-wulf)
+## What is OpenClaw
 
----
+[OpenClaw](https://openclaw.ai) is an agent framework that runs Claude on your own machine, connects it to your tools and channels, and lets it operate autonomously. The agent can read and write files, run shell commands, browse the web, send messages, and call APIs — all from a persistent process that stays running between sessions.
 
-## What We Share
+The short version: it turns Claude from a chat window into an autonomous system that runs on your infrastructure.
 
-Raw notes from real automation work. When something clicks — a pattern, a mental model, an architecture decision — we write it down and publish it.
+## New
 
-No tutorials-for-beginners. No hype. Just things we've actually learned building with OpenClaw.
-
-→ [[notes/index|Browse the notes]]
-
----
-
-## Tools
-
-The pipelines and systems we've built and use daily.
-
-→ [[tools/index|See what we've built]]
-
----
-
-## Follow Along
-
-Everything is on [GitHub](https://github.com/cyne-wulf). Watch the repo for new skills and tooling as they ship.
+- [[concepts/agent-memory|Agent Memory]] — how to give your agent continuity across sessions
+- [[infrastructure/notification-batching|Notification Batching]] — stop getting spammed by your own automations
+- [[concepts/self-improvement-system|Self-Improvement System]] — building an agent that gets better over time

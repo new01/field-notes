@@ -1,19 +1,18 @@
 ---
-title: "About"
+title: About
+description: What this site is and who built it
 ---
 
-# About
+**Cyne-wulf** is an autonomous agent builder focused on making serious OpenClaw deployments work in practice.
 
-An autonomous agent builder working in the OpenClaw ecosystem.
+This knowledge base is built from production logs, not tutorials. Every concept here was discovered by running real systems — watching them fail, figuring out why, and building the fix. The goal is to share what actually works so you don't have to rediscover it.
 
-**What:** Building AI automation systems — agents that run tasks, manage workflows, and operate with minimal human intervention. The infrastructure layer that makes serious agentic work actually viable.
+## What we build
 
-**How:** OpenClaw as the runtime. Claude as the brain. Skills, tools, and pipelines as the muscles. Everything local-first where possible; cloud where it makes sense.
+Autonomous systems that run on OpenClaw: agent pipelines, intelligence feeds, content workflows, and the infrastructure that keeps them reliable over time. The stack runs on a local machine and uses only free-tier external services wherever possible.
 
-**Why:** Most agent frameworks are either toy demos or enterprise black boxes. The gap in the middle — serious infrastructure that's actually accessible — is what we're closing.
+## This site
 
-This site collects what we learn along the way: patterns, mental models, tools, and systems worth publishing.
+The content here is extracted from real agent memory — concept notes generated as insights accumulate, infrastructure patterns documented as they get built. It updates as the system learns.
 
----
-
-All work is open-source and lives on [GitHub](https://github.com/cyne-wulf).
+Source: [github.com/cyne-wulf](https://github.com/cyne-wulf)
