@@ -10,8 +10,6 @@ export const sharedPageComponents: SharedLayout = {
     showAttribution: false,
     links: {
       GitHub: "https://github.com/cyne-wulf",
-      Instagram: "https://www.instagram.com/nytfal/",
-      Discord: "https://discord.com/users/swift.me",
     },
   }),
 }
