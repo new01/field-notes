@@ -1,41 +1,18 @@
 ---
-title: "About"
+title: About
+description: What this site is and who built it
 ---
 
-# About
+**Claw Field Notes** is a production knowledge base for [OpenClaw](https://openclaw.ai) builders.
 
-This is a knowledge base built from production experience running OpenClaw agents.
+The content here is extracted from real agent memory — patterns and concepts documented as they get discovered running actual OpenClaw deployments. Not tutorials. Not marketing. The honest account of what works, what doesn't, and why.
 
-Not tutorials. Not marketing copy. Notes from building real systems: what works, what breaks, what tradeoffs you'll face.
+## What we build
 
----
+Autonomous agent systems on OpenClaw: intelligence pipelines, content workflows, monitoring infrastructure, and the scaffolding that keeps long-running agents reliable. The goal is building systems that work unattended over weeks, not demos that work for one session.
 
-## What's Here
+## This site
 
-The [[concepts/index|concepts]] are the mental models — frameworks for understanding how agent architecture works and why. The [[infrastructure/index|infrastructure]] section covers the practical patterns that keep systems reliable. The [[tools/index|tools]] page describes the pipelines we actually use day-to-day.
+Built with [Quartz](https://quartz.jzhao.xyz/). Content extracted from an Obsidian knowledge base that grows as the system learns. Source: [github.com/cyne-wulf](https://github.com/cyne-wulf).
 
-Every page started as a private note. When a pattern proved durable enough to be worth explaining to someone else, it got written up here.
-
----
-
-## Built From Production Logs, Not Tutorials
-
-The distinction matters. A tutorial is written to teach a concept. A production log is written because something broke or worked in an unexpected way. The notes here lean toward the second kind.
-
-Sources are credited where applicable — a lot of the infrastructure patterns trace back to Matthew Berman's work on production agent stacks, and the agent team patterns come from Mark Kashef's applied demos. We've adapted, extended, and tested them in real deployments.
-
----
-
-## Where to Start
-
-If you're new to OpenClaw: start with [[concepts/brains-and-muscles|Brains and Muscles]]. It's the mental model that makes everything else easier to understand.
-
-If you're building infrastructure: [[infrastructure/cron-infrastructure|Cron Job Infrastructure]] and [[infrastructure/notification-batching|Notification Batching]] are the foundational layer.
-
-If you want to understand multi-agent patterns: [[concepts/agent-teams|Agent Teams]] and the [[infrastructure/ai-advisory-board|AI Advisory Board]] pattern.
-
----
-
-## GitHub
-
-Everything open-source is on [GitHub](https://github.com/cyne-wulf).
+If you find an error — factual, technical, or otherwise — the PII pipeline is not the only quality gate we need.

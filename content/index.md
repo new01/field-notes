@@ -1,23 +1,25 @@
 ---
-title: Cyne-wulf
-description: Resources for autonomous agent builders using OpenClaw
+title: Claw Field Notes
+description: Production knowledge for OpenClaw builders — patterns, infrastructure, and hard-won lessons
 ---
 
-A living knowledge base built from real production experience running OpenClaw agents.
+Real-world patterns and infrastructure for people building with [OpenClaw](https://openclaw.ai).
 
-If you're building with OpenClaw — or trying to figure out whether it's worth your time — this is the honest account. No tutorials written from docs. Everything here came from running actual systems.
+Everything here came from running actual systems — not tutorials written from docs. If something is documented here, it's because we built it, broke it, and figured it out.
 
 ## What's here
 
-- **[[concepts/index|Concepts]]** — the mental models that make OpenClaw click. Start with [[concepts/brains-and-muscles|Brains and Muscles]] if you're new.
-- **[[infrastructure/index|Infrastructure]]** — the patterns that keep autonomous systems reliable: notification batching, cron logging, cost tracking, decision gates.
-- **[[tools/index|Tools]]** — practical scripts and pipelines we use and have open-sourced.
+- **[[concepts/index|Concepts]]** — the mental models that make OpenClaw click. Start with [[concepts/brains-and-muscles|Brains and Muscles]].
+- **[[infrastructure/index|Infrastructure]]** — patterns that keep autonomous systems reliable: notification batching, cron logging, cost tracking, decision gates.
+- **[[tools/index|Tools]]** — practical scripts and pipelines we run in production.
 
 ## What is OpenClaw
 
-[OpenClaw](https://openclaw.ai) is an agent framework that runs Claude on your own machine, connects it to your tools and channels, and lets it operate autonomously. The agent can read and write files, run shell commands, browse the web, send messages, and call APIs — all from a persistent process that stays running between sessions.
+[OpenClaw](https://openclaw.ai) is a self-hosted gateway that connects your chat apps — WhatsApp, Telegram, Discord, iMessage, and more — to AI agents. You run a single Gateway process on your own machine or a server. It bridges your messaging apps to an always-available AI assistant that can use tools, maintain sessions, remember context, and run autonomously.
 
-The short version: it turns Claude from a chat window into an autonomous system that runs on your infrastructure.
+It supports multiple model providers: Anthropic, OpenAI, Google, and others. You bring your own API key.
+
+The short version: a persistent, self-hosted AI agent connected to every communication channel you use.
 
 ## New
 
