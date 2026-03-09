@@ -1,18 +1,41 @@
 ---
-title: About
-description: What this site is and who built it
+title: "About"
 ---
 
-**Cyne-wulf** is an autonomous agent builder focused on making serious OpenClaw deployments work in practice.
+# About
 
-This knowledge base is built from production logs, not tutorials. Every concept here was discovered by running real systems — watching them fail, figuring out why, and building the fix. The goal is to share what actually works so you don't have to rediscover it.
+This is a knowledge base built from production experience running OpenClaw agents.
 
-## What we build
+Not tutorials. Not marketing copy. Notes from building real systems: what works, what breaks, what tradeoffs you'll face.
 
-Autonomous systems that run on OpenClaw: agent pipelines, intelligence feeds, content workflows, and the infrastructure that keeps them reliable over time. The stack runs on a local machine and uses only free-tier external services wherever possible.
+---
 
-## This site
+## What's Here
 
-The content here is extracted from real agent memory — concept notes generated as insights accumulate, infrastructure patterns documented as they get built. It updates as the system learns.
+The [[concepts/index|concepts]] are the mental models — frameworks for understanding how agent architecture works and why. The [[infrastructure/index|infrastructure]] section covers the practical patterns that keep systems reliable. The [[tools/index|tools]] page describes the pipelines we actually use day-to-day.
 
-Source: [github.com/cyne-wulf](https://github.com/cyne-wulf)
+Every page started as a private note. When a pattern proved durable enough to be worth explaining to someone else, it got written up here.
+
+---
+
+## Built From Production Logs, Not Tutorials
+
+The distinction matters. A tutorial is written to teach a concept. A production log is written because something broke or worked in an unexpected way. The notes here lean toward the second kind.
+
+Sources are credited where applicable — a lot of the infrastructure patterns trace back to Matthew Berman's work on production agent stacks, and the agent team patterns come from Mark Kashef's applied demos. We've adapted, extended, and tested them in real deployments.
+
+---
+
+## Where to Start
+
+If you're new to OpenClaw: start with [[concepts/brains-and-muscles|Brains and Muscles]]. It's the mental model that makes everything else easier to understand.
+
+If you're building infrastructure: [[infrastructure/cron-infrastructure|Cron Job Infrastructure]] and [[infrastructure/notification-batching|Notification Batching]] are the foundational layer.
+
+If you want to understand multi-agent patterns: [[concepts/agent-teams|Agent Teams]] and the [[infrastructure/ai-advisory-board|AI Advisory Board]] pattern.
+
+---
+
+## GitHub
+
+Everything open-source is on [GitHub](https://github.com/cyne-wulf).
