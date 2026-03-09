@@ -38,8 +38,8 @@ This is a long-term investment. The first month you won't notice much. Six month
 
 ## Related
 
-- [[agent-memory|Agent Memory]] — the memory files this system writes to
-- [[ai-advisory-board|AI Advisory Board]] — decision gate before accepting any proposed improvement
+- [[concepts/agent-memory|Agent Memory]] — the memory files this system writes to
+- [[infrastructure/ai-advisory-board|AI Advisory Board]] — decision gate before accepting any proposed improvement
 
 ## Sources
 

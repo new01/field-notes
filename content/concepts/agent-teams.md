@@ -41,7 +41,7 @@ Running 4 agents simultaneously = 4 concurrent API consumers. At scale this caus
 ## Related
 
 - [[infrastructure/ai-advisory-board|AI Advisory Board]] — a specific team pattern for multi-perspective decision evaluation
-- [[brains-and-muscles|Brains and Muscles]] — each team member is a brain; the muscles are shared
+- [[concepts/brains-and-muscles|Brains and Muscles]] — each team member is a brain; the muscles are shared
 
 ## Sources
 

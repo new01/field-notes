@@ -30,9 +30,9 @@ The brain stays the same. The muscles expand as you add integrations.
 
 ## Related
 
-- [[agent-teams|Agent Teams]] — running multiple brains in parallel on the same task
-- [[agent-memory|Agent Memory]] — how the brain persists state across sessions
-- [[prompt-file-governance|Prompt File Governance]] — what auto-loads into the brain on every request
+- [[concepts/agent-teams|Agent Teams]] — running multiple brains in parallel on the same task
+- [[concepts/agent-memory|Agent Memory]] — how the brain persists state across sessions
+- [[concepts/prompt-file-governance|Prompt File Governance]] — what auto-loads into the brain on every request
 
 ## Sources
 

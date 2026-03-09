@@ -33,12 +33,12 @@ workspace/
 
 Keep `MEMORY.md` out of shared contexts (group chats, multi-user sessions). It contains personal context that shouldn't leak.
 
-Extended memory patterns (from Matthew Berman's system): `LEARNINGS.md` for corrections, `ERRORS.md` for recurring mistake patterns, `FEATURE_REQUESTS.md` for self-improvement ideas. These feed into the [[self-improvement-system|Self-Improvement System]].
+Extended memory patterns (from Matthew Berman's system): `LEARNINGS.md` for corrections, `ERRORS.md` for recurring mistake patterns, `FEATURE_REQUESTS.md` for self-improvement ideas. These feed into the [[concepts/self-improvement-system|Self-Improvement System]].
 
 ## Related
 
-- [[prompt-file-governance|Prompt File Governance]] — controlling what auto-loads and what it costs
-- [[self-improvement-system|Self-Improvement System]] — using memory files as input to an improvement feedback loop
+- [[concepts/prompt-file-governance|Prompt File Governance]] — controlling what auto-loads and what it costs
+- [[concepts/self-improvement-system|Self-Improvement System]] — using memory files as input to an improvement feedback loop
 
 ## Sources
 

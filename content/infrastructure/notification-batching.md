@@ -39,8 +39,8 @@ Tier assignment guide for OpenClaw: errors and interactive prompts = Critical; a
 
 ## Related
 
-- [[cron-infrastructure|Cron Infrastructure]] — the cron logging system that triggers these notifications
-- [[llm-cost-tracking|LLM Cost Tracking]] — cost spikes are a Critical notification
+- [[infrastructure/cron-infrastructure|Cron Infrastructure]] — the cron logging system that triggers these notifications
+- [[infrastructure/llm-cost-tracking|LLM Cost Tracking]] — cost spikes are a Critical notification
 
 ## Sources
 

@@ -34,8 +34,8 @@ Keep `IDENTITY.md` under 5 lines. Keep `USER.md` under 20. Review `SOUL.md` quar
 
 ## Related
 
-- [[agent-memory|Agent Memory]] — what belongs in MEMORY.md specifically
-- [[brains-and-muscles|Brains and Muscles]] — the brain reads these files; respect what you load into it
+- [[concepts/agent-memory|Agent Memory]] — what belongs in MEMORY.md specifically
+- [[concepts/brains-and-muscles|Brains and Muscles]] — the brain reads these files; respect what you load into it
 
 ## Sources
 
