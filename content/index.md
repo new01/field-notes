@@ -9,6 +9,7 @@ Everything here came from running actual systems — not tutorials written from 
 
 ## What's here
 
+- **[[guides/index|Guides]]** — start here if you're new. Installation, model setup, first-week onboarding, security.
 - **[[concepts/index|Concepts]]** — the mental models that make OpenClaw click. Start with [[concepts/brains-and-muscles|Brains and Muscles]].
 - **[[infrastructure/index|Infrastructure]]** — patterns that keep autonomous systems reliable: notification batching, cron logging, cost tracking, decision gates.
 - **[[tools/index|Tools]]** — practical scripts and pipelines we run in production.
