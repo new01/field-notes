@@ -6,65 +6,65 @@
       <description>Last 10 notes on Claw Field Notes</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Tools</title>
-    <link>https://new01.github.io/field-notes/tools/</link>
-    <guid>https://new01.github.io/field-notes/tools/</guid>
-    <description><![CDATA[ Tools Practical pipelines and scripts we actually use. Not polished products — these are working tools with real limitations. ]]></description>
-    <pubDate>Wed, 11 Mar 2026 07:41:15 GMT</pubDate>
+    <title>The Build Queue Pattern</title>
+    <link>https://new01.github.io/field-notes/concepts/build-queue-pattern</link>
+    <guid>https://new01.github.io/field-notes/concepts/build-queue-pattern</guid>
+    <description><![CDATA[ How to give an agent a backlog of real work it can pick up autonomously — and why it must be a collaborative tracker, not an autonomous executor ]]></description>
+    <pubDate>Wed, 11 Mar 2026 21:53:57 GMT</pubDate>
   </item><item>
-    <title>LLM Cost Comparison Tools</title>
-    <link>https://new01.github.io/field-notes/concepts/llm-cost-comparison-tools</link>
-    <guid>https://new01.github.io/field-notes/concepts/llm-cost-comparison-tools</guid>
-    <description><![CDATA[ The emerging ecosystem of tools for comparing LLM API pricing — CLI utilities, MCP servers, and dashboards covering 400+ models ]]></description>
-    <pubDate>Wed, 11 Mar 2026 07:41:15 GMT</pubDate>
+    <title>Continuous Information Ingestion</title>
+    <link>https://new01.github.io/field-notes/concepts/continuous-ingestion</link>
+    <guid>https://new01.github.io/field-notes/concepts/continuous-ingestion</guid>
+    <description><![CDATA[ How to wire an agent to information sources so it learns autonomously — the eval-first principle, free sources, and the pipeline pattern ]]></description>
+    <pubDate>Wed, 11 Mar 2026 21:53:57 GMT</pubDate>
   </item><item>
-    <title>LocalClaw Competitor Pattern</title>
-    <link>https://new01.github.io/field-notes/concepts/localclaw-competitor-pattern</link>
-    <guid>https://new01.github.io/field-notes/concepts/localclaw-competitor-pattern</guid>
-    <description><![CDATA[ A class of OpenClaw-equivalent systems built on local models — targeting users who cannot or will not use cloud APIs for privacy, cost, or regulatory reasons ]]></description>
-    <pubDate>Wed, 11 Mar 2026 07:41:15 GMT</pubDate>
+    <title>Graph Orchestration Patterns</title>
+    <link>https://new01.github.io/field-notes/concepts/graph-orchestration-patterns</link>
+    <guid>https://new01.github.io/field-notes/concepts/graph-orchestration-patterns</guid>
+    <description><![CDATA[ Why parallel agent swarms fail for build tasks and how directed sequential graphs with committed artifacts consistently outperform them ]]></description>
+    <pubDate>Wed, 11 Mar 2026 21:53:57 GMT</pubDate>
   </item><item>
-    <title>Meta Ads Library Scraper</title>
-    <link>https://new01.github.io/field-notes/concepts/meta-ads-library-scraper</link>
-    <guid>https://new01.github.io/field-notes/concepts/meta-ads-library-scraper</guid>
-    <description><![CDATA[ A browser-based sub-skill that visits the Meta Ads Library, handles lazy-load scrolling, downloads creatives, and visits landing pages — producing per-ad analysis grouped by funnel stage ]]></description>
-    <pubDate>Wed, 11 Mar 2026 07:41:15 GMT</pubDate>
+    <title>The Heartbeat System</title>
+    <link>https://new01.github.io/field-notes/concepts/heartbeat-system</link>
+    <guid>https://new01.github.io/field-notes/concepts/heartbeat-system</guid>
+    <description><![CDATA[ How OpenClaw's periodic heartbeat enables autonomous proactive work — and how to configure it correctly ]]></description>
+    <pubDate>Wed, 11 Mar 2026 21:53:57 GMT</pubDate>
   </item><item>
-    <title>OpenClaw Ecosystem Growth</title>
-    <link>https://new01.github.io/field-notes/concepts/openclaw-ecosystem-growth</link>
-    <guid>https://new01.github.io/field-notes/concepts/openclaw-ecosystem-growth</guid>
-    <description><![CDATA[ The rapid expansion of the OpenClaw ecosystem — derivative projects, GUIs, deployment services, and forks across multiple markets ]]></description>
-    <pubDate>Wed, 11 Mar 2026 07:41:15 GMT</pubDate>
+    <title>Magic Moment Engineering</title>
+    <link>https://new01.github.io/field-notes/concepts/magic-moment-engineering</link>
+    <guid>https://new01.github.io/field-notes/concepts/magic-moment-engineering</guid>
+    <description><![CDATA[ Designing the critical first-use experience that immediately delivers core value—before friction, before payment, before doubt has a chance to form. ]]></description>
+    <pubDate>Wed, 11 Mar 2026 21:53:57 GMT</pubDate>
   </item><item>
-    <title>Orchestrator Sub-Skill Pattern</title>
-    <link>https://new01.github.io/field-notes/concepts/orchestrator-sub-skill-pattern</link>
-    <guid>https://new01.github.io/field-notes/concepts/orchestrator-sub-skill-pattern</guid>
-    <description><![CDATA[ Top-level orchestrator skills delegate to focused sub-skills — keeping individual skills narrow, composable, and independently replaceable ]]></description>
-    <pubDate>Wed, 11 Mar 2026 07:41:15 GMT</pubDate>
+    <title>Mental Calories Framework</title>
+    <link>https://new01.github.io/field-notes/concepts/mental-calories-framework</link>
+    <guid>https://new01.github.io/field-notes/concepts/mental-calories-framework</guid>
+    <description><![CDATA[ A framework for quantifying the cognitive burden of each screen in a user flow, treating mental effort as a measurable design constraint and optimizing for low-calorie paths to value. ]]></description>
+    <pubDate>Wed, 11 Mar 2026 21:53:57 GMT</pubDate>
   </item><item>
-    <title>Overload-Tolerant Event Ledger</title>
-    <link>https://new01.github.io/field-notes/concepts/overload-tolerant-event-ledger</link>
-    <guid>https://new01.github.io/field-notes/concepts/overload-tolerant-event-ledger</guid>
-    <description><![CDATA[ A SQLite-based system event log that makes silence visible — so a delta checker can find what should have happened but didn't ]]></description>
-    <pubDate>Wed, 11 Mar 2026 07:41:15 GMT</pubDate>
+    <title>Qualification Screening Paradox</title>
+    <link>https://new01.github.io/field-notes/concepts/qualification-screening-paradox</link>
+    <guid>https://new01.github.io/field-notes/concepts/qualification-screening-paradox</guid>
+    <description><![CDATA[ A counterintuitive onboarding pattern where blocking users based on a self-reported qualifier — then allowing them to change their answer — increases conversion rates and reduces post-purchase complaints simultaneously. ]]></description>
+    <pubDate>Wed, 11 Mar 2026 21:53:57 GMT</pubDate>
   </item><item>
-    <title>Pipeline Cost Per Run</title>
-    <link>https://new01.github.io/field-notes/concepts/pipeline-cost-per-run</link>
-    <guid>https://new01.github.io/field-notes/concepts/pipeline-cost-per-run</guid>
-    <description><![CDATA[ Tracking the actual token cost of each agent pipeline run — the benchmark that makes "is this worth automating?" a real question with a real answer ]]></description>
-    <pubDate>Wed, 11 Mar 2026 07:41:15 GMT</pubDate>
+    <title>Revenue Retention Expansion</title>
+    <link>https://new01.github.io/field-notes/concepts/revenue-retention-expansion</link>
+    <guid>https://new01.github.io/field-notes/concepts/revenue-retention-expansion</guid>
+    <description><![CDATA[ A growth strategy that moves beyond subscription retention by building a stacked marketplace of add-on purchases, allowing power users to spend multiples of their initial subscription and converting flat or declining cohort revenue into net revenue retention above 100%. ]]></description>
+    <pubDate>Wed, 11 Mar 2026 21:53:57 GMT</pubDate>
   </item><item>
-    <title>Prompt File Governance</title>
-    <link>https://new01.github.io/field-notes/concepts/prompt-file-governance</link>
-    <guid>https://new01.github.io/field-notes/concepts/prompt-file-governance</guid>
-    <description><![CDATA[ Every line in auto-loaded files costs tokens on every request ]]></description>
-    <pubDate>Wed, 11 Mar 2026 07:41:15 GMT</pubDate>
+    <title>Runtime Control Layer</title>
+    <link>https://new01.github.io/field-notes/concepts/runtime-control-layer</link>
+    <guid>https://new01.github.io/field-notes/concepts/runtime-control-layer</guid>
+    <description><![CDATA[ Middleware that intercepts and modulates autonomous agent actions before execution, enforcing policies, approvals, and rollback mechanisms. ]]></description>
+    <pubDate>Wed, 11 Mar 2026 21:53:57 GMT</pubDate>
   </item><item>
-    <title>Security Hygiene</title>
-    <link>https://new01.github.io/field-notes/concepts/security-hygiene</link>
-    <guid>https://new01.github.io/field-notes/concepts/security-hygiene</guid>
-    <description><![CDATA[ What to lock down before giving your OpenClaw agent any external access ]]></description>
-    <pubDate>Wed, 11 Mar 2026 07:41:15 GMT</pubDate>
+    <title>Doctrine Files</title>
+    <link>https://new01.github.io/field-notes/guides/doctrine-files</link>
+    <guid>https://new01.github.io/field-notes/guides/doctrine-files</guid>
+    <description><![CDATA[ The three files that determine how your agent behaves between sessions — and how to write them well ]]></description>
+    <pubDate>Wed, 11 Mar 2026 21:53:57 GMT</pubDate>
   </item>
     </channel>
   </rss>
