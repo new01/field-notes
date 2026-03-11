@@ -36,6 +36,10 @@ fi
 if [ -d "$SITE_DIR/overrides/styles" ]; then
   cp "$SITE_DIR/overrides/styles/"*.scss "$QUARTZ_ENGINE/quartz/styles/" 2>/dev/null || true
 fi
+# Copy util overrides (e.g. patched theme.ts for Google Fonts URL encoding)
+if [ -d "$SITE_DIR/overrides/util" ]; then
+  cp "$SITE_DIR/overrides/util/"*.ts "$QUARTZ_ENGINE/quartz/util/" 2>/dev/null || true
+fi
 
 # Build
 echo "🔨 Building..."

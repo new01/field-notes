@@ -1,3 +1,5 @@
+@use "./base.scss";
+
 // ── Flexoki Color Palette + Custom Heading Colors ─────────────────────────────
 // Restored from the original Claw Field Notes theme
 
@@ -138,6 +140,12 @@
 
 // ── Internal links — no highlight box, just colored text ─────────────────────
 // (The default Quartz adds a blue box; original theme used plain colored links)
+
+// ── Page title link — use theme secondary color, not browser default blue ────
+.page-title a {
+  color: var(--secondary);
+  text-decoration: none;
+}
 
 .page article a.internal {
   line-height: inherit;

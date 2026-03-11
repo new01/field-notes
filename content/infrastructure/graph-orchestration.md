@@ -2,6 +2,7 @@
 title: Graph Orchestration
 description: Why sequential graph execution produces better results than parallel agent swarms for deterministic build tasks — and how to implement it.
 tags: [infrastructure, agent-systems, design-pattern]
+aliases: [Graph Orchestration Patterns]
 date: 2026-03-10
 ---
 
