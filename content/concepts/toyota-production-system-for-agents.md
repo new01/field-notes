@@ -51,7 +51,7 @@ For pipelines producing content that a human will review anyway, halting is chea
 
 ## Related
 
-- [[Agent Self-Review Loop]] — the self-review step that can trigger a halt
-- [[Input Validation in Skills]] — the input contract that detects upstream failures
-- [[Four-Role Orchestrator Chain]] — the pipeline structure where Andon halts propagate
-- [[Dead-Man's Switch]] — the complementary monitoring pattern (absence of signal vs explicit halt signal)
+- [[concepts/agent-self-review-loop|Agent Self-Review Loop]] — the self-review step that can trigger a halt
+- [[concepts/input-validation-in-skills|Input Validation in Skills]] — the input contract that detects upstream failures
+- [[concepts/four-role-orchestrator-chain|Four-Role Orchestrator Chain]] — the pipeline structure where Andon halts propagate
+- [[concepts/dead-mans-switch|Dead-Man's Switch]] — the complementary monitoring pattern (absence of signal vs explicit halt signal)

@@ -28,6 +28,6 @@ The meta-skill — knowing how to use agents effectively, when to intervene, how
 
 ## Related
 
-- [[Graph Orchestration Patterns]] — the orchestration patterns at the core of agentic coding
-- [[Skill-Based Agent Architecture]] — how agentic coding workflows are structured as skills
-- [[OpenClaw Ecosystem Growth]] — the ecosystem these job market trends are feeding into
+- [[concepts/graph-orchestration-patterns|Graph Orchestration Patterns]] — the orchestration patterns at the core of agentic coding
+- [[concepts/skill-based-agent-architecture|Skill-Based Agent Architecture]] — how agentic coding workflows are structured as skills
+- [[concepts/openclaw-ecosystem-growth|OpenClaw Ecosystem Growth]] — the ecosystem these job market trends are feeding into

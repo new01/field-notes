@@ -59,6 +59,6 @@ The most valuable signal is longevity: ads that have been running for 3+ months 
 
 ## Related
 
-- [[Orchestrator Sub-Skill Pattern]] — this scraper is a sub-skill within a competitive analysis orchestrator
-- [[Skill-Based Agent Architecture]] — the architecture that makes this sub-skill composable
-- [[Graph Orchestration Patterns]] — the pipeline context this sub-skill operates in
+- [[concepts/orchestrator-sub-skill-pattern|Orchestrator Sub-Skill Pattern]] — this scraper is a sub-skill within a competitive analysis orchestrator
+- [[concepts/skill-based-agent-architecture|Skill-Based Agent Architecture]] — the architecture that makes this sub-skill composable
+- [[concepts/graph-orchestration-patterns|Graph Orchestration Patterns]] — the pipeline context this sub-skill operates in

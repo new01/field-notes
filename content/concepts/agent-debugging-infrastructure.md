@@ -50,8 +50,8 @@ The teams shipping reliable agent infrastructure aren't debugging individual run
 
 ## Related
 
-- [[Agent Self-Review Loop]] — agents catching their own errors before they propagate
-- [[Overload-Tolerant Event Ledger]] — system event logging as the foundation for agent observability
-- [[Dead-Man's Switch]] — detecting agent failures via absence of expected signals
-- [[Four-Role Orchestrator Chain]] — structured pipeline stages that enable per-stage debugging
-- [[Skill-Based Agent Architecture]] — modular agent design that makes execution paths more traceable
+- [[concepts/agent-self-review-loop|Agent Self-Review Loop]] — agents catching their own errors before they propagate
+- [[concepts/overload-tolerant-event-ledger|Overload-Tolerant Event Ledger]] — system event logging as the foundation for agent observability
+- [[concepts/dead-mans-switch|Dead-Man's Switch]] — detecting agent failures via absence of expected signals
+- [[concepts/four-role-orchestrator-chain|Four-Role Orchestrator Chain]] — structured pipeline stages that enable per-stage debugging
+- [[concepts/skill-based-agent-architecture|Skill-Based Agent Architecture]] — modular agent design that makes execution paths more traceable

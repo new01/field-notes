@@ -47,6 +47,6 @@ Practical mitigations: don't write raw external content to memory — write stru
 
 ## Related
 
-- [[Dead-Man's Switch]] — monitoring pattern that detects unexpected agent behavior
-- [[Self-Improvement System]] — the memory pipeline that benefits from poisoning-aware design
-- [[Overload-Tolerant Event Ledger]] — logging unusual agent behavior for audit
+- [[concepts/dead-mans-switch|Dead-Man's Switch]] — monitoring pattern that detects unexpected agent behavior
+- [[concepts/self-improvement-system|Self-Improvement System]] — the memory pipeline that benefits from poisoning-aware design
+- [[concepts/overload-tolerant-event-ledger|Overload-Tolerant Event Ledger]] — logging unusual agent behavior for audit

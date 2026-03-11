@@ -65,6 +65,9 @@ Always end with a synthesis agent that reads all outputs and produces a unified 
 
 ## API Rate Limits and the Ceiling
 
+> [!warning] Concurrency bites
+> 4 parallel agents = 4 concurrent API consumers. Rate limit errors cascade: one failed agent might require re-running the whole team. Start conservative — 2 max — and increase only after proving reliability.
+
 ### The practical constraint
 
 Running 4 agents simultaneously = 4 concurrent API consumers. At scale this causes rate limit errors, degraded quality, and coordination failures.

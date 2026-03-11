@@ -53,6 +53,6 @@ OpenVerb (openverb.org) proposes a standard for this pattern — a common spec f
 
 ## Related
 
-- [[Graph Orchestration Patterns]] — the pipeline context where deterministic action layers are most valuable
-- [[Skill-Based Agent Architecture]] — skills define what actions to take; the action layer handles execution
-- [[Four-Role Orchestrator Chain]] — the delivery stage of the chain benefits most from deterministic execution
+- [[concepts/graph-orchestration-patterns|Graph Orchestration Patterns]] — the pipeline context where deterministic action layers are most valuable
+- [[concepts/skill-based-agent-architecture|Skill-Based Agent Architecture]] — skills define what actions to take; the action layer handles execution
+- [[concepts/four-role-orchestrator-chain|Four-Role Orchestrator Chain]] — the delivery stage of the chain benefits most from deterministic execution

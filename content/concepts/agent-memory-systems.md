@@ -72,8 +72,8 @@ Agents that update these files as part of their normal operation build genuine c
 
 ## Related
 
-- [[Agent Debugging Infrastructure]] — observability layer that makes memory useful for diagnosing failures
-- [[Agent Self-Review Loop]] — agents evaluating their own outputs, a pattern that benefits from memory of prior reviews
-- [[Overload-Tolerant Event Ledger]] — system event logging as the foundation for reliable agent memory
-- [[Skill-Based Agent Architecture]] — procedural memory encoded as portable skill files
-- [[Graph Orchestration Patterns]] — structured pipelines where memory handoffs between stages are explicit
+- [[concepts/agent-debugging-infrastructure|Agent Debugging Infrastructure]] — observability layer that makes memory useful for diagnosing failures
+- [[concepts/agent-self-review-loop|Agent Self-Review Loop]] — agents evaluating their own outputs, a pattern that benefits from memory of prior reviews
+- [[concepts/overload-tolerant-event-ledger|Overload-Tolerant Event Ledger]] — system event logging as the foundation for reliable agent memory
+- [[concepts/skill-based-agent-architecture|Skill-Based Agent Architecture]] — procedural memory encoded as portable skill files
+- [[concepts/graph-orchestration-patterns|Graph Orchestration Patterns]] — structured pipelines where memory handoffs between stages are explicit

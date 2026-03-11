@@ -68,9 +68,9 @@ It's also not about removing all friction indiscriminately. Some friction serves
 
 ## Related
 
-- [[Behavioral Onboarding Sequencing]] — places the magic moment deliberately before the payment ask by delivering real assets during free onboarding; magic moment engineering defines what that first experience should be
-- [[Cognitive Load Optimization]] — reducing decision friction at every screen to protect the path to the magic moment; unnecessary steps before first value are the primary target
-- [[Data-Driven Friction Audit]] — systematically testing which onboarding elements delay or destroy conversion; identifying magic moment timing is the highest-leverage application
-- [[Binary Choice Architecture]] — simplifying decisions along the path to first value; reducing choice complexity accelerates arrival at the magic moment
-- [[Qualification Screening Paradox]] — the tension between qualifying users early (which may block them) and delivering the magic moment first (which may convert unqualified users)
-- [[Behavioral Onboarding Sequencing]] — the broader structural pattern of sequencing value delivery before payment; magic moment engineering defines the value experience that gets sequenced first
+- [[concepts/behavioral-onboarding-sequencing|Behavioral Onboarding Sequencing]] — places the magic moment deliberately before the payment ask by delivering real assets during free onboarding; magic moment engineering defines what that first experience should be
+- [[concepts/cognitive-load-optimization|Cognitive Load Optimization]] — reducing decision friction at every screen to protect the path to the magic moment; unnecessary steps before first value are the primary target
+- [[concepts/data-driven-friction-audit|Data-Driven Friction Audit]] — systematically testing which onboarding elements delay or destroy conversion; identifying magic moment timing is the highest-leverage application
+- [[concepts/binary-choice-architecture|Binary Choice Architecture]] — simplifying decisions along the path to first value; reducing choice complexity accelerates arrival at the magic moment
+- [[concepts/qualification-screening-paradox|Qualification Screening Paradox]] — the tension between qualifying users early (which may block them) and delivering the magic moment first (which may convert unqualified users)
+- [[concepts/behavioral-onboarding-sequencing|Behavioral Onboarding Sequencing]] — the broader structural pattern of sequencing value delivery before payment; magic moment engineering defines the value experience that gets sequenced first

@@ -92,11 +92,11 @@ The sophistication of each component scales with the needs of the system. A two-
 
 ## Related
 
-- [[Graph Orchestration Patterns]] — DAG-based execution models and how dependencies between agent tasks are structured
-- [[Four-Role Orchestrator Chain]] — sequential multi-agent pipeline where each stage explicitly hands off to the next
-- [[Orchestrator Sub-Skill Pattern]] — how top-level orchestrators delegate to focused sub-agents without coupling
-- [[Skill-Based Agent Architecture]] — agent capability definitions that plug into orchestration systems as interchangeable workers
-- [[Agent Memory Systems]] — persistent state that makes orchestrated agents aware of prior runs and prior agents' findings
-- [[Agent Debugging Infrastructure]] — observability tooling that makes what orchestrated agents are doing visible
-- [[Dead-Man's Switch]] — monitoring pattern for detecting when an orchestrated pipeline has silently stalled
-- [[Overload-Tolerant Event Ledger]] — event logging layer that remains reliable even when the orchestration system itself is under pressure
+- [[concepts/graph-orchestration-patterns|Graph Orchestration Patterns]] — DAG-based execution models and how dependencies between agent tasks are structured
+- [[concepts/four-role-orchestrator-chain|Four-Role Orchestrator Chain]] — sequential multi-agent pipeline where each stage explicitly hands off to the next
+- [[concepts/orchestrator-sub-skill-pattern|Orchestrator Sub-Skill Pattern]] — how top-level orchestrators delegate to focused sub-agents without coupling
+- [[concepts/skill-based-agent-architecture|Skill-Based Agent Architecture]] — agent capability definitions that plug into orchestration systems as interchangeable workers
+- [[concepts/agent-memory-systems|Agent Memory Systems]] — persistent state that makes orchestrated agents aware of prior runs and prior agents' findings
+- [[concepts/agent-debugging-infrastructure|Agent Debugging Infrastructure]] — observability tooling that makes what orchestrated agents are doing visible
+- [[concepts/dead-mans-switch|Dead-Man's Switch]] — monitoring pattern for detecting when an orchestrated pipeline has silently stalled
+- [[concepts/overload-tolerant-event-ledger|Overload-Tolerant Event Ledger]] — event logging layer that remains reliable even when the orchestration system itself is under pressure

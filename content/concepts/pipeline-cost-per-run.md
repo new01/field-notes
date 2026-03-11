@@ -72,7 +72,7 @@ Replace the haiku gate with sonnet and cost jumps 5×. The data makes that trade
 
 ## Related
 
-- [[LLM Cost Comparison Tools]] — tools for comparing per-token pricing across providers
-- [[Graph Orchestration Patterns]] — the pipeline architecture cost tracking plugs into
-- [[Subscription Token Account Risk]] — why API pricing (not subscription) is required for production workloads
-- [[Overload-Tolerant Event Ledger]] — the event log that per-run costs feed into
+- [[concepts/llm-cost-comparison-tools|LLM Cost Comparison Tools]] — tools for comparing per-token pricing across providers
+- [[concepts/graph-orchestration-patterns|Graph Orchestration Patterns]] — the pipeline architecture cost tracking plugs into
+- [[concepts/subscription-token-account-risk|Subscription Token Account Risk]] — why API pricing (not subscription) is required for production workloads
+- [[concepts/overload-tolerant-event-ledger|Overload-Tolerant Event Ledger]] — the event log that per-run costs feed into

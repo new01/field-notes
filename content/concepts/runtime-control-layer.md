@@ -102,11 +102,11 @@ A full runtime control layer is a significant piece of infrastructure. Most syst
 
 ## Related
 
-- [[Deterministic Agent Action Layer]] — structured contracts that define what actions agents can declare, providing the vocabulary the control layer enforces against
-- [[Agent Sandboxing Environments]] — isolation infrastructure that constrains what agents can access, complementary to policy-based control
-- [[Agent Orchestration Platforms]] — the broader coordination layer within which runtime control operates
-- [[Dead-Man's Switch]] — monitoring pattern for detecting when agent activity has stalled or gone silent unexpectedly
-- [[Toyota Production System for Agents]] — stop-the-line principle: any agent can halt a pipeline when something looks wrong
-- [[Agent Self-Review Loop]] — agents checking their own output before passing it forward, a lighter-weight complement to external control
-- [[Agent Debugging Infrastructure]] — observability tooling for understanding what agents did and why
-- [[Overload-Tolerant Event Ledger]] — event logging that remains reliable even under system pressure, forming the audit trail the control layer depends on
+- [[concepts/deterministic-agent-action-layer|Deterministic Agent Action Layer]] — structured contracts that define what actions agents can declare, providing the vocabulary the control layer enforces against
+- [[concepts/agent-sandboxing-environments|Agent Sandboxing Environments]] — isolation infrastructure that constrains what agents can access, complementary to policy-based control
+- [[concepts/agent-orchestration-platforms|Agent Orchestration Platforms]] — the broader coordination layer within which runtime control operates
+- [[concepts/dead-mans-switch|Dead-Man's Switch]] — monitoring pattern for detecting when agent activity has stalled or gone silent unexpectedly
+- [[concepts/toyota-production-system-for-agents|Toyota Production System for Agents]] — stop-the-line principle: any agent can halt a pipeline when something looks wrong
+- [[concepts/agent-self-review-loop|Agent Self-Review Loop]] — agents checking their own output before passing it forward, a lighter-weight complement to external control
+- [[concepts/agent-debugging-infrastructure|Agent Debugging Infrastructure]] — observability tooling for understanding what agents did and why
+- [[concepts/overload-tolerant-event-ledger|Overload-Tolerant Event Ledger]] — event logging that remains reliable even under system pressure, forming the audit trail the control layer depends on

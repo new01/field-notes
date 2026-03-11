@@ -82,10 +82,10 @@ For teams running multiple agents across multiple customer contexts, skill packa
 
 ## Related
 
-- [[Skill-Based Agent Architecture]] — foundational pattern where every agent capability is defined as a discrete, swappable module
-- [[Orchestrator Sub-Skill Pattern]] — delegation model where top-level orchestrators compose sub-skills for focused tasks
-- [[Agent Sandboxing Environments]] — execution isolation infrastructure that enforces skill package permission profiles at runtime
-- [[Input Validation in Skills]] — defensive pattern for validating inputs at the skill boundary before execution proceeds
-- [[Agent Self-Review Loop]] — quality gate pattern that skill packages can integrate to validate their own outputs
-- [[Agent Orchestration Platforms]] — systems that read agent manifests and provision the correct skill packages per agent
-- [[Four-Role Orchestrator Chain]] — multi-stage pipeline architecture where each stage uses a targeted set of skill packages
+- [[concepts/skill-based-agent-architecture|Skill-Based Agent Architecture]] — foundational pattern where every agent capability is defined as a discrete, swappable module
+- [[concepts/orchestrator-sub-skill-pattern|Orchestrator Sub-Skill Pattern]] — delegation model where top-level orchestrators compose sub-skills for focused tasks
+- [[concepts/agent-sandboxing-environments|Agent Sandboxing Environments]] — execution isolation infrastructure that enforces skill package permission profiles at runtime
+- [[concepts/input-validation-in-skills|Input Validation in Skills]] — defensive pattern for validating inputs at the skill boundary before execution proceeds
+- [[concepts/agent-self-review-loop|Agent Self-Review Loop]] — quality gate pattern that skill packages can integrate to validate their own outputs
+- [[concepts/agent-orchestration-platforms|Agent Orchestration Platforms]] — systems that read agent manifests and provision the correct skill packages per agent
+- [[concepts/four-role-orchestrator-chain|Four-Role Orchestrator Chain]] — multi-stage pipeline architecture where each stage uses a targeted set of skill packages

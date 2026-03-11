@@ -56,7 +56,7 @@ The methodology is straightforward, though it requires volume to generate statis
 
 One of the most counterintuitive audit findings is that screen reordering — changing the sequence without removing anything — can have effects as large as removal. Presenting a decision before the user has established any commitment to the product (even just a few seconds of engagement) produces worse outcomes than presenting the same decision after some early investment.
 
-This is related to [[Behavioral Onboarding Sequencing]], which formalizes the principle: the cognitive and emotional state of a user changes as they move through a product. A decision that's easy to make once a user has experienced value is harder to make cold. Reordering to account for this state — not changing what is asked, just when — often produces large conversion lifts without removing a single screen.
+This is related to [[concepts/behavioral-onboarding-sequencing|Behavioral Onboarding Sequencing]], which formalizes the principle: the cognitive and emotional state of a user changes as they move through a product. A decision that's easy to make once a user has experienced value is harder to make cold. Reordering to account for this state — not changing what is asked, just when — often produces large conversion lifts without removing a single screen.
 
 ## The expansion test
 
@@ -66,13 +66,13 @@ The audit makes this testable. Run the current option set against a reduced set 
 
 ## Relationship to adjacent patterns
 
-The data-driven friction audit is the empirical implementation layer for several conceptual patterns. [[Cognitive Load Optimization]] describes the theory — that cognitive burden on each screen determines conversion outcomes. The audit is how that theory gets operationalized in a specific product: you can't know which elements are producing cognitive burden until you test their removal.
+The data-driven friction audit is the empirical implementation layer for several conceptual patterns. [[concepts/cognitive-load-optimization|Cognitive Load Optimization]] describes the theory — that cognitive burden on each screen determines conversion outcomes. The audit is how that theory gets operationalized in a specific product: you can't know which elements are producing cognitive burden until you test their removal.
 
-[[Mental Calories Framework]] offers a complementary lens for pre-testing prioritization — assigning a hypothesized "calorie count" to each screen element before running experiments, which helps direct audit resources toward the highest-friction candidates first.
+[[concepts/mental-calories-framework|Mental Calories Framework]] offers a complementary lens for pre-testing prioritization — assigning a hypothesized "calorie count" to each screen element before running experiments, which helps direct audit resources toward the highest-friction candidates first.
 
-[[Binary Choice Architecture]] is often the output of a friction audit: when experiments consistently show that multiple-option screens perform worse than two-option or single-recommendation screens, the design response is to rebuild those screens as yes/no decisions wherever possible.
+[[concepts/binary-choice-architecture|Binary Choice Architecture]] is often the output of a friction audit: when experiments consistently show that multiple-option screens perform worse than two-option or single-recommendation screens, the design response is to rebuild those screens as yes/no decisions wherever possible.
 
-The audit also informs the boundaries of [[Qualification Screening Paradox]] — it's a tool for testing whether a given screen element, including qualification gates, actually harms or helps conversion, rather than assuming the answer.
+The audit also informs the boundaries of [[concepts/qualification-screening-paradox|Qualification Screening Paradox]] — it's a tool for testing whether a given screen element, including qualification gates, actually harms or helps conversion, rather than assuming the answer.
 
 ## What the audit can't do
 
@@ -86,9 +86,9 @@ Run experiments before adding anything to the conversion path. The default postu
 
 ## Related
 
-- [[Cognitive Load Optimization]] — the theoretical basis; every friction element adds cognitive cost, and the audit operationalizes identifying which costs are real
-- [[Behavioral Onboarding Sequencing]] — sequencing decisions to match the user's cognitive and emotional state; reordering is one of the audit's highest-leverage tools
-- [[Binary Choice Architecture]] — the structural output of friction audits; evidence that multi-option screens underperform drives the shift to yes/no decisions
-- [[Mental Calories Framework]] — a pre-testing prioritization lens; estimating cognitive burden per screen element to direct audit resources
-- [[Magic Moment Engineering]] — the destination that friction reduction is protecting the path to; auditing removes obstacles between arrival and first value experience
-- [[Qualification Screening Paradox]] — a related pattern where screening friction paradoxically improves conversion in some contexts; the audit provides the empirical tool for distinguishing when screening helps versus hurts
+- [[concepts/cognitive-load-optimization|Cognitive Load Optimization]] — the theoretical basis; every friction element adds cognitive cost, and the audit operationalizes identifying which costs are real
+- [[concepts/behavioral-onboarding-sequencing|Behavioral Onboarding Sequencing]] — sequencing decisions to match the user's cognitive and emotional state; reordering is one of the audit's highest-leverage tools
+- [[concepts/binary-choice-architecture|Binary Choice Architecture]] — the structural output of friction audits; evidence that multi-option screens underperform drives the shift to yes/no decisions
+- [[concepts/mental-calories-framework|Mental Calories Framework]] — a pre-testing prioritization lens; estimating cognitive burden per screen element to direct audit resources
+- [[concepts/magic-moment-engineering|Magic Moment Engineering]] — the destination that friction reduction is protecting the path to; auditing removes obstacles between arrival and first value experience
+- [[concepts/qualification-screening-paradox|Qualification Screening Paradox]] — a related pattern where screening friction paradoxically improves conversion in some contexts; the audit provides the empirical tool for distinguishing when screening helps versus hurts

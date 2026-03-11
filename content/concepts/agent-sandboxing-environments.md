@@ -96,10 +96,10 @@ This ephemeral-by-default model is powerful. Each agent run starts from a clean 
 
 ## Related
 
-- [[Agent Orchestration Platforms]] — coordination systems that dispatch work to sandboxed agents and manage their lifecycles
-- [[Agent Debugging Infrastructure]] — observability tooling that works across sandbox boundaries to make agent behavior inspectable
-- [[Deterministic Agent Action Layer]] — structured contracts for agent actions that sandbox enforcement can verify against
-- [[Skill-Based Agent Architecture]] — capability definitions that map directly to sandbox permission grants
-- [[Dead-Man's Switch]] — monitoring pattern for detecting when a sandboxed agent has stalled or been silently killed
-- [[Overload-Tolerant Event Ledger]] — event logging that captures what happens inside sandboxed environments for audit and debugging
-- [[Toyota Production System for Agents]] — operational discipline patterns that complement sandboxing with stop-the-line failure response
+- [[concepts/agent-orchestration-platforms|Agent Orchestration Platforms]] — coordination systems that dispatch work to sandboxed agents and manage their lifecycles
+- [[concepts/agent-debugging-infrastructure|Agent Debugging Infrastructure]] — observability tooling that works across sandbox boundaries to make agent behavior inspectable
+- [[concepts/deterministic-agent-action-layer|Deterministic Agent Action Layer]] — structured contracts for agent actions that sandbox enforcement can verify against
+- [[concepts/skill-based-agent-architecture|Skill-Based Agent Architecture]] — capability definitions that map directly to sandbox permission grants
+- [[concepts/dead-mans-switch|Dead-Man's Switch]] — monitoring pattern for detecting when a sandboxed agent has stalled or been silently killed
+- [[concepts/overload-tolerant-event-ledger|Overload-Tolerant Event Ledger]] — event logging that captures what happens inside sandboxed environments for audit and debugging
+- [[concepts/toyota-production-system-for-agents|Toyota Production System for Agents]] — operational discipline patterns that complement sandboxing with stop-the-line failure response

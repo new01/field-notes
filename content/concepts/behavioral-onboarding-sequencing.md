@@ -65,7 +65,7 @@ The prerequisite is knowing what your magic moment is and building the product t
 
 ## Related
 
-- [[Magic Moment Engineering]] — the craft of designing the first experience that delivers immediate, tangible value; behavioral onboarding sequencing places this moment deliberately before the payment ask
-- [[Cognitive Load Optimization]] — reducing decision friction at every screen; sequencing payment after value reduces the cognitive weight of the payment decision itself
-- [[Data-Driven Friction Audit]] — systematically testing onboarding elements to find where friction destroys conversion; payment timing is typically the highest-leverage intervention
-- [[Qualification Screening Paradox]] — related pattern where blocking users based on stated qualifiers can paradoxically increase their desire to qualify and proceed
+- [[concepts/magic-moment-engineering|Magic Moment Engineering]] — the craft of designing the first experience that delivers immediate, tangible value; behavioral onboarding sequencing places this moment deliberately before the payment ask
+- [[concepts/cognitive-load-optimization|Cognitive Load Optimization]] — reducing decision friction at every screen; sequencing payment after value reduces the cognitive weight of the payment decision itself
+- [[concepts/data-driven-friction-audit|Data-Driven Friction Audit]] — systematically testing onboarding elements to find where friction destroys conversion; payment timing is typically the highest-leverage intervention
+- [[concepts/qualification-screening-paradox|Qualification Screening Paradox]] — related pattern where blocking users based on stated qualifiers can paradoxically increase their desire to qualify and proceed

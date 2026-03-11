@@ -135,6 +135,9 @@ Multiple items failing in sequence usually means a shared dependency is broken. 
 
 ---
 
+> [!caution] Don't ignore the failures view
+> Agent failures are the most actionable signal in Mission Control. An unread failure is a pattern waiting to repeat. Review and mark investigated within 24 hours — or automate the investigation.
+
 ## Agent Failures: What They Mean
 
 ### Timeout

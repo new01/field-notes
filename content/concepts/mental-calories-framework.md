@@ -51,7 +51,7 @@ Similarly, a screen asking users to connect a financial account carries legitima
 
 The Mental Calories Framework implies a specific ordering principle: low-calorie decisions come first, high-calorie decisions come after value is established.
 
-This is the structural version of [[Behavioral Onboarding Sequencing]] — making sure that commitment friction doesn't appear before the user has a reason to commit. A user who hasn't experienced the product's core value yet doesn't have enough context to make high-stakes decisions confidently. Moving those decisions to after the magic moment doesn't make them less necessary; it makes the user better positioned to answer them.
+This is the structural version of [[concepts/behavioral-onboarding-sequencing|Behavioral Onboarding Sequencing]] — making sure that commitment friction doesn't appear before the user has a reason to commit. A user who hasn't experienced the product's core value yet doesn't have enough context to make high-stakes decisions confidently. Moving those decisions to after the magic moment doesn't make them less necessary; it makes the user better positioned to answer them.
 
 The sequencing principle also reduces false exits — moments where users abandon not because they don't want the product but because they hit a high-calorie screen before they were ready for it.
 
@@ -63,7 +63,7 @@ The effect of presenting many options versus few is well documented. When users 
 
 Crucially, curation is not the same as restriction. The full option set remains available. What changes is the default path: instead of presenting everything and asking the user to navigate it, the product does that navigation work in advance and presents only what's most likely to be right. Users who want to go deeper can; most won't need to.
 
-This is the core technique behind [[Cognitive Load Optimization]]: exercise product intelligence on behalf of the user so they don't have to.
+This is the core technique behind [[concepts/cognitive-load-optimization|Cognitive Load Optimization]]: exercise product intelligence on behalf of the user so they don't have to.
 
 ## Running a mental calories audit
 
@@ -73,7 +73,7 @@ Applying the framework to an existing flow is an audit process:
 2. **Assign a relative calorie count.** For each screen, estimate the cognitive effort required: how many options, how much reading, how much decision-making, how much context is needed to proceed.
 3. **Identify the high-calorie screens.** Which steps are most demanding? Where do users pause, abandon, or ask for help?
 4. **Classify each screen.** Is this a routing screen (where high calories are wasted) or a commitment screen (where high calories might be earned)? The answer determines whether the goal is to reduce, move, or design around the friction.
-5. **Test and measure.** [[Data-Driven Friction Audit]] operationalizes this step: A/B test changes to high-calorie screens, measure conversion impact, and retain only the elements that earn their calorie cost.
+5. **Test and measure.** [[concepts/data-driven-friction-audit|Data-Driven Friction Audit]] operationalizes this step: A/B test changes to high-calorie screens, measure conversion impact, and retain only the elements that earn their calorie cost.
 
 The output is a ranked list of friction points and a clear prioritization of where simplification has the highest expected return.
 
@@ -81,21 +81,21 @@ The output is a ranked list of friction points and a clear prioritization of whe
 
 The Mental Calories Framework is a measurement lens. It doesn't tell you how to reduce friction — it tells you where friction exists and how to think about whether it belongs there.
 
-[[Cognitive Load Optimization]] is the parent discipline: the systematic reduction of decision friction across a product experience. The Mental Calories Framework provides the vocabulary for quantifying that friction.
+[[concepts/cognitive-load-optimization|Cognitive Load Optimization]] is the parent discipline: the systematic reduction of decision friction across a product experience. The Mental Calories Framework provides the vocabulary for quantifying that friction.
 
-[[Binary Choice Architecture]] is one of the primary techniques for reducing calories on decision screens — converting multi-option selections to binary yes/no flows wherever the product logic allows.
+[[concepts/binary-choice-architecture|Binary Choice Architecture]] is one of the primary techniques for reducing calories on decision screens — converting multi-option selections to binary yes/no flows wherever the product logic allows.
 
-[[Behavioral Onboarding Sequencing]] operationalizes the sequencing insight — placing high-calorie commitment screens after the magic moment rather than before it.
+[[concepts/behavioral-onboarding-sequencing|Behavioral Onboarding Sequencing]] operationalizes the sequencing insight — placing high-calorie commitment screens after the magic moment rather than before it.
 
-[[Data-Driven Friction Audit]] is the experimental method for validating which elements are carrying unnecessary caloric load and can be safely removed.
+[[concepts/data-driven-friction-audit|Data-Driven Friction Audit]] is the experimental method for validating which elements are carrying unnecessary caloric load and can be safely removed.
 
-[[Magic Moment Engineering]] is the destination: the point the user is trying to reach before their attention budget expires. Reducing mental calories everywhere else is in service of getting them there.
+[[concepts/magic-moment-engineering|Magic Moment Engineering]] is the destination: the point the user is trying to reach before their attention budget expires. Reducing mental calories everywhere else is in service of getting them there.
 
 ## Related
 
-- [[Cognitive Load Optimization]] — the parent framework; treating cognitive effort as a first-class design constraint across the full product experience
-- [[Binary Choice Architecture]] — primary technique for reducing calories on decision screens; yes/no flows as the lowest-calorie decision structure
-- [[Behavioral Onboarding Sequencing]] — sequencing high-calorie commitment screens after the magic moment rather than before it
-- [[Data-Driven Friction Audit]] — experimental method for identifying which screen elements carry unnecessary cognitive cost
-- [[Magic Moment Engineering]] — the destination that low-calorie onboarding paths are designed to reach; the first experience of core product value
-- [[Qualification Screening Paradox]] — adjacent pattern where screening friction can motivate qualified users, illustrating that not all calories are equal
+- [[concepts/cognitive-load-optimization|Cognitive Load Optimization]] — the parent framework; treating cognitive effort as a first-class design constraint across the full product experience
+- [[concepts/binary-choice-architecture|Binary Choice Architecture]] — primary technique for reducing calories on decision screens; yes/no flows as the lowest-calorie decision structure
+- [[concepts/behavioral-onboarding-sequencing|Behavioral Onboarding Sequencing]] — sequencing high-calorie commitment screens after the magic moment rather than before it
+- [[concepts/data-driven-friction-audit|Data-Driven Friction Audit]] — experimental method for identifying which screen elements carry unnecessary cognitive cost
+- [[concepts/magic-moment-engineering|Magic Moment Engineering]] — the destination that low-calorie onboarding paths are designed to reach; the first experience of core product value
+- [[concepts/qualification-screening-paradox|Qualification Screening Paradox]] — adjacent pattern where screening friction can motivate qualified users, illustrating that not all calories are equal

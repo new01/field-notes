@@ -43,8 +43,8 @@ Curated distillation of what matters across sessions. Not a log — a continuous
 - Key file paths and system topology
 - Active projects and their status
 
-#### Security note
-Keep `MEMORY.md` out of shared contexts (group chats, multi-user sessions). It contains personal context that shouldn't leak. Load it only in private main sessions.
+> [!danger] Security
+> Keep `MEMORY.md` out of shared contexts (group chats, multi-user sessions). It contains personal context that shouldn't leak. Load it only in private main sessions.
 
 ## Extended Memory Patterns
 
@@ -80,6 +80,9 @@ Genuinely proactive. The agent surfaces things you'd want to know before you thi
 ### The cost consideration
 
 Every memory file that auto-loads costs tokens on every session. A 50KB MEMORY.md means 50KB of context before any actual work starts.
+
+> [!note] Memory budget discipline
+> Every line in a memory file costs tokens on every session. Keep daily notes factual and compressed. Review MEMORY.md monthly and prune what's no longer relevant.
 
 ##### The discipline
 - Keep daily notes factual and compressed

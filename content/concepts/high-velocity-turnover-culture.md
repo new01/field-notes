@@ -50,11 +50,11 @@ The ethical foundation also matters for the ongoing culture. Teams that watch th
 
 ## Relationship to adjacent patterns
 
-High-velocity turnover culture pairs naturally with [[Curiosity-First Hiring]]. If the organization can move fast on misfires, the cost of a bet on an unconventional candidate is lower. The combination allows screening for genuine capability signals — demonstrated mastery, contrarian thinking, real intellectual engagement — without requiring certainty before making an offer. The downside of a misfire is bounded by how quickly and cleanly the organization can course-correct.
+High-velocity turnover culture pairs naturally with [[concepts/curiosity-first-hiring|Curiosity-First Hiring]]. If the organization can move fast on misfires, the cost of a bet on an unconventional candidate is lower. The combination allows screening for genuine capability signals — demonstrated mastery, contrarian thinking, real intellectual engagement — without requiring certainty before making an offer. The downside of a misfire is bounded by how quickly and cleanly the organization can course-correct.
 
-[[Qualification Screening Paradox]] is relevant in the opposite direction: introducing friction earlier in the process — through honest disclosure about what the role actually involves — can reduce mismatches before they become expensive. Candidates who are not a fit for the culture are better filtered at the offer stage than at the exit stage.
+[[concepts/qualification-screening-paradox|Qualification Screening Paradox]] is relevant in the opposite direction: introducing friction earlier in the process — through honest disclosure about what the role actually involves — can reduce mismatches before they become expensive. Candidates who are not a fit for the culture are better filtered at the offer stage than at the exit stage.
 
-The broader people philosophy this represents — treating organizational design as a system to optimize, not a set of relationships to preserve — also shows up in [[Behavioral Onboarding Sequencing]] and [[Cognitive Load Optimization]], where the same willingness to measure and iterate on outcomes drives product design decisions.
+The broader people philosophy this represents — treating organizational design as a system to optimize, not a set of relationships to preserve — also shows up in [[concepts/behavioral-onboarding-sequencing|Behavioral Onboarding Sequencing]] and [[concepts/cognitive-load-optimization|Cognitive Load Optimization]], where the same willingness to measure and iterate on outcomes drives product design decisions.
 
 ## Limitations
 
@@ -70,7 +70,7 @@ Done well, with honest disclosure, real severance, sound performance evaluation,
 
 ## Related
 
-- [[Curiosity-First Hiring]] — complementary screening philosophy; fast course-correction on misfires reduces the cost of curiosity-first bets and makes unconventional hires viable
-- [[Qualification Screening Paradox]] — upfront disclosure acts as a screening mechanism; candidates who opt out before the offer are better served by the no-hire than by a mismatch
-- [[Behavioral Onboarding Sequencing]] — same organizational philosophy applied to product; sequence for genuine commitment and build structures that identify misfits early
-- [[Cognitive Load Optimization]] — adjacent principle; both patterns optimize for genuine signal over legible proxies, in hiring and in product design respectively
+- [[concepts/curiosity-first-hiring|Curiosity-First Hiring]] — complementary screening philosophy; fast course-correction on misfires reduces the cost of curiosity-first bets and makes unconventional hires viable
+- [[concepts/qualification-screening-paradox|Qualification Screening Paradox]] — upfront disclosure acts as a screening mechanism; candidates who opt out before the offer are better served by the no-hire than by a mismatch
+- [[concepts/behavioral-onboarding-sequencing|Behavioral Onboarding Sequencing]] — same organizational philosophy applied to product; sequence for genuine commitment and build structures that identify misfits early
+- [[concepts/cognitive-load-optimization|Cognitive Load Optimization]] — adjacent principle; both patterns optimize for genuine signal over legible proxies, in hiring and in product design respectively

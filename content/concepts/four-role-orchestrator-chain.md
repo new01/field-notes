@@ -23,6 +23,9 @@ Takes the raw request and produces a structured spec.
 #### What the Planner produces
 A JSON brief with all the context downstream stages need: goal, constraints, acceptance criteria, relevant files, expected output format.
 
+> [!caution] Planner scope creep
+> The most common mistake is a Planner that tries to start the work. Keep it strictly to spec production.
+
 ##### Planner anti-patterns
 - Trying to do any actual work (leave that to Builder)
 - Making assumptions not grounded in the task — flag ambiguity, don't resolve it silently
@@ -76,6 +79,9 @@ Routes the artifact: file write, API call, Discord message, email, database writ
 - Delivering to the wrong destination without confirmation
 
 ## Why the Handoff Contract Matters
+
+> [!info] The handoff IS the artifact
+> Each stage appends its output to a shared JSON file and passes the whole thing forward. The file is the coordination mechanism — not a message, not a return value. Inspect it at any point to understand exactly what each stage produced.
 
 ### Debuggability
 

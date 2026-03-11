@@ -44,6 +44,6 @@ Free-tier or subscription-tier workarounds for production agent workloads are a 
 
 ## Related
 
-- [[Pipeline Cost Per Run]] — establishes concrete cost benchmarks for API-priced workloads
-- [[LLM Cost Comparison Tools]] — tools for comparing API pricing across providers
-- [[Dead-Man's Switch]] — monitoring pattern for when agent infrastructure goes down unexpectedly
+- [[concepts/pipeline-cost-per-run|Pipeline Cost Per Run]] — establishes concrete cost benchmarks for API-priced workloads
+- [[concepts/llm-cost-comparison-tools|LLM Cost Comparison Tools]] — tools for comparing API pricing across providers
+- [[concepts/dead-mans-switch|Dead-Man's Switch]] — monitoring pattern for when agent infrastructure goes down unexpectedly

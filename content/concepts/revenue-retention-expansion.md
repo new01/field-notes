@@ -52,11 +52,11 @@ The practical implementation requires three elements working together:
 
 ## The relationship to onboarding
 
-Expansion surfaces work best when users encounter them before they've anchored to a final price. This connects Revenue Retention Expansion directly to [[Behavioral Onboarding Sequencing]] — both patterns treat the early user experience as the moment where price expectations are set.
+Expansion surfaces work best when users encounter them before they've anchored to a final price. This connects Revenue Retention Expansion directly to [[concepts/behavioral-onboarding-sequencing|Behavioral Onboarding Sequencing]] — both patterns treat the early user experience as the moment where price expectations are set.
 
 If a user completes onboarding believing the product costs $100/year, every subsequent upsell feels like a departure from what they signed up for. If they complete onboarding knowing the product has a $100 starting point and a $600 ceiling, an expansion purchase later is fulfillment of a framework they already accepted.
 
-The onboarding moment is also where [[Qualification Screening Paradox]] intersects with expansion: users who self-qualify past income or use-case gates have demonstrated a different price orientation than users who don't. They're the expansion candidates.
+The onboarding moment is also where [[concepts/qualification-screening-paradox|Qualification Screening Paradox]] intersects with expansion: users who self-qualify past income or use-case gates have demonstrated a different price orientation than users who don't. They're the expansion candidates.
 
 ## Application across SaaS categories
 
@@ -86,14 +86,14 @@ The operational shift that Revenue Retention Expansion requires is tracking NRR 
 
 Running NRR as a leading metric means cohort analysis becomes a core operational function: monthly NRR by cohort, expansion rate by cohort, churn offset calculation. The question isn't "how many users renewed?" — it's "is this cohort worth more or less than it was, and why?"
 
-This pairs naturally with [[Data-Driven Friction Audit]] methodology: every change to the expansion purchase surface is a testable intervention, and its effect on cohort NRR is the measured outcome.
+This pairs naturally with [[concepts/data-driven-friction-audit|Data-Driven Friction Audit]] methodology: every change to the expansion purchase surface is a testable intervention, and its effect on cohort NRR is the measured outcome.
 
 ## Related
 
-- [[Behavioral Onboarding Sequencing]] — the onboarding stage is where expansion price frames are set; users who encounter the full marketplace during onboarding have a different price orientation than those who don't
-- [[Qualification Screening Paradox]] — users who self-select past qualification gates are the expansion candidates; both patterns come from the same product philosophy of pre-filtering for high-value users
-- [[Magic Moment Engineering]] — expansion purchases are most successful when users have already experienced the core value of the product; the magic moment is the prerequisite for expansion willingness
-- [[Data-Driven Friction Audit]] — expansion surface design benefits from A/B testing; the right unit sizing, pricing, and purchase sequence are empirical questions with measurable NRR effects
-- [[Mental Calories Framework]] — each add-on purchase is a decision event with cognitive cost; expansion marketplace design needs to minimize the friction of individual purchase decisions to keep the stack accessible
-- [[Cognitive Load Optimization]] — presenting a full expansion marketplace without overwhelming users requires the same principles as onboarding optimization: limited simultaneous options, progressive disclosure, clear value framing per unit
-- [[Binary Choice Architecture]] — individual add-on purchase decisions work best as simple yes/no choices; complex tier matrices create decision paralysis that suppresses expansion purchases
+- [[concepts/behavioral-onboarding-sequencing|Behavioral Onboarding Sequencing]] — the onboarding stage is where expansion price frames are set; users who encounter the full marketplace during onboarding have a different price orientation than those who don't
+- [[concepts/qualification-screening-paradox|Qualification Screening Paradox]] — users who self-select past qualification gates are the expansion candidates; both patterns come from the same product philosophy of pre-filtering for high-value users
+- [[concepts/magic-moment-engineering|Magic Moment Engineering]] — expansion purchases are most successful when users have already experienced the core value of the product; the magic moment is the prerequisite for expansion willingness
+- [[concepts/data-driven-friction-audit|Data-Driven Friction Audit]] — expansion surface design benefits from A/B testing; the right unit sizing, pricing, and purchase sequence are empirical questions with measurable NRR effects
+- [[concepts/mental-calories-framework|Mental Calories Framework]] — each add-on purchase is a decision event with cognitive cost; expansion marketplace design needs to minimize the friction of individual purchase decisions to keep the stack accessible
+- [[concepts/cognitive-load-optimization|Cognitive Load Optimization]] — presenting a full expansion marketplace without overwhelming users requires the same principles as onboarding optimization: limited simultaneous options, progressive disclosure, clear value framing per unit
+- [[concepts/binary-choice-architecture|Binary Choice Architecture]] — individual add-on purchase decisions work best as simple yes/no choices; complex tier matrices create decision paralysis that suppresses expansion purchases

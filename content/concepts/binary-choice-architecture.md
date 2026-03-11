@@ -38,13 +38,13 @@ Binary choice architecture shows up in several concrete patterns:
 
 ## The relationship to cognitive load
 
-Binary choice architecture is a structural approach to [[Cognitive Load Optimization]]. Where cognitive load optimization looks at every element of a screen and asks "does this need to be here," binary choice architecture asks the same question at the decision level: "does this choice need to exist as its own decision?"
+Binary choice architecture is a structural approach to [[concepts/cognitive-load-optimization|Cognitive Load Optimization]]. Where cognitive load optimization looks at every element of a screen and asks "does this need to be here," binary choice architecture asks the same question at the decision level: "does this choice need to exist as its own decision?"
 
 Combining both frameworks produces onboarding flows where not only are individual screens low-friction, but the sequence of decisions is itself minimized. Users reach the core product faster, with less mental effort expended getting there.
 
 ## The relationship to the magic moment
 
-Reducing decision friction before the [[Magic Moment Engineering]] moment has compounding effects. Every unnecessary decision between the user landing and the user experiencing value is a drop-off opportunity. Binary choice architecture removes those opportunities.
+Reducing decision friction before the [[concepts/magic-moment-engineering|Magic Moment Engineering]] moment has compounding effects. Every unnecessary decision between the user landing and the user experiencing value is a drop-off opportunity. Binary choice architecture removes those opportunities.
 
 The clean version of this: the user lands, answers three binary questions, sees their personalized configuration, and experiences value — without ever encountering a screen that made them pause and think "which one is right for me?"
 
@@ -70,9 +70,9 @@ The fix is almost always the same: either reduce options through curation, or se
 
 ## Related
 
-- [[Cognitive Load Optimization]] — reducing the mental effort of every screen; binary choice architecture applies this principle specifically to decision structure
-- [[Mental Calories Framework]] — quantifying the cognitive cost of each screen action; binary choices have the lowest calorie count possible
-- [[Behavioral Onboarding Sequencing]] — structuring what *type* of decision appears at each stage; binary architecture determines how each decision is presented
-- [[Data-Driven Friction Audit]] — A/B testing to find where friction destroys conversion; decision complexity is typically a high-leverage friction point to audit
-- [[Magic Moment Engineering]] — reducing decisions before the magic moment removes drop-off opportunities and accelerates the path to value
-- [[Qualification Screening Paradox]] — related pattern where binary screening questions can paradoxically increase user motivation to qualify
+- [[concepts/cognitive-load-optimization|Cognitive Load Optimization]] — reducing the mental effort of every screen; binary choice architecture applies this principle specifically to decision structure
+- [[concepts/mental-calories-framework|Mental Calories Framework]] — quantifying the cognitive cost of each screen action; binary choices have the lowest calorie count possible
+- [[concepts/behavioral-onboarding-sequencing|Behavioral Onboarding Sequencing]] — structuring what *type* of decision appears at each stage; binary architecture determines how each decision is presented
+- [[concepts/data-driven-friction-audit|Data-Driven Friction Audit]] — A/B testing to find where friction destroys conversion; decision complexity is typically a high-leverage friction point to audit
+- [[concepts/magic-moment-engineering|Magic Moment Engineering]] — reducing decisions before the magic moment removes drop-off opportunities and accelerates the path to value
+- [[concepts/qualification-screening-paradox|Qualification Screening Paradox]] — related pattern where binary screening questions can paradoxically increase user motivation to qualify

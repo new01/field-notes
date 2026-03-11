@@ -10,6 +10,9 @@ An agent that never reads anything never learns anything. Without wired informat
 
 Continuous ingestion changes that. The agent pulls from curated sources on a schedule, evaluates what's relevant, extracts signal, and routes findings to the right destination. You wake up to a brief that synthesizes what happened while you slept.
 
+> [!important] Ingestion without eval is just noise
+> Every source needs a scoring step. Raw ingestion creates a firehose you'll ignore within a week. The eval step is what turns information into signal.
+
 ## The Eval-First Principle
 
 Before building any ingestion pipeline: **ingestion without an eval step is just noise**.

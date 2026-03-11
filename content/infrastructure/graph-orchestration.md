@@ -103,9 +103,12 @@ Practically, this means:
 
 When a task genuinely warrants external execution (30+ minutes, human actively needs main session), the Claude Code PTY pattern applies: keep a session open, steer it actively, verify its output before marking done. Neither autonomous nor ignored — paired.
 
+> [!tip] Sequential beats parallel
+> Research from AutoGen, LangGraph, and Confluent all validates the same conclusion: sequential execution with committed artifacts between phases outperforms parallel agent swarms on complex tasks. One node at a time isn't a limitation — it's the architecture that actually ships.
+
 ## Related
 
-- [[concepts/Multi-Agent Systems]] — broader context on agent coordination patterns
+- [[concepts/agent-teams|concepts/Multi-Agent Systems]] — broader context on agent coordination patterns
 - [[infrastructure/pipeline-creation-pipeline]] — how we scaffold pipeline artifacts automatically
 
 ---

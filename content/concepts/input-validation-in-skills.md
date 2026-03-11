@@ -64,7 +64,7 @@ Pre-flight checks should support a `--force` flag that bypasses them for testing
 
 ## Related
 
-- [[Skill-Based Agent Architecture]] — the architecture within which input validation lives
-- [[Four-Role Orchestrator Chain]] — each stage in the chain validates its inputs
-- [[Graph Orchestration Patterns]] — the broader orchestration framework
-- [[Self-Improvement System]] — validation failures feed back into the improvement loop
+- [[concepts/skill-based-agent-architecture|Skill-Based Agent Architecture]] — the architecture within which input validation lives
+- [[concepts/four-role-orchestrator-chain|Four-Role Orchestrator Chain]] — each stage in the chain validates its inputs
+- [[concepts/graph-orchestration-patterns|Graph Orchestration Patterns]] — the broader orchestration framework
+- [[concepts/self-improvement-system|Self-Improvement System]] — validation failures feed back into the improvement loop

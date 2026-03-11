@@ -46,5 +46,5 @@ Real cost can be meaningfully lower than list pricing at scale. Track both list 
 
 ## Related
 
-- [[Pipeline Cost Per Run]] — the tracking pattern these tools support
-- [[Subscription Token Account Risk]] — why you need API keys (with metered pricing) rather than subscription tokens
+- [[concepts/pipeline-cost-per-run|Pipeline Cost Per Run]] — the tracking pattern these tools support
+- [[concepts/subscription-token-account-risk|Subscription Token Account Risk]] — why you need API keys (with metered pricing) rather than subscription tokens

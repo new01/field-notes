@@ -59,13 +59,13 @@ Finally, curiosity is necessary but not sufficient. Someone with deep personal i
 
 ## Relationship to adjacent patterns
 
-Curiosity-first hiring pairs naturally with [[High-Velocity Turnover Culture]] — if a company is willing to move fast on people who aren't working out, the cost of a misfire on a curiosity-screened hire is lower, which makes the bet worthwhile. The upside of finding someone exceptional through this lens is high; the downside is bounded by how quickly the organization can course-correct.
+Curiosity-first hiring pairs naturally with [[concepts/high-velocity-turnover-culture|High-Velocity Turnover Culture]] — if a company is willing to move fast on people who aren't working out, the cost of a misfire on a curiosity-screened hire is lower, which makes the bet worthwhile. The upside of finding someone exceptional through this lens is high; the downside is bounded by how quickly the organization can course-correct.
 
-[[Qualification Screening Paradox]] is relevant here too: introducing friction into the screening process — like requiring evidence of genuine depth rather than just checking boxes — can actually attract the candidates you want and filter out those who are optimizing for easy paths through.
+[[concepts/qualification-screening-paradox|Qualification Screening Paradox]] is relevant here too: introducing friction into the screening process — like requiring evidence of genuine depth rather than just checking boxes — can actually attract the candidates you want and filter out those who are optimizing for easy paths through.
 
 ## Related
 
-- [[High-Velocity Turnover Culture]] — complementary people philosophy; fast course-correction on misfires makes curiosity-first bets lower risk and higher upside
-- [[Qualification Screening Paradox]] — screening friction can attract better candidates; applies to how curiosity-first questions filter for genuine depth over performed engagement
-- [[Behavioral Onboarding Sequencing]] — the same product philosophy that generated this hiring approach: sequence for genuine commitment, not checkbox compliance
-- [[Cognitive Load Optimization]] — adjacent principle in product design; both patterns optimize for finding genuine signal rather than optimizing for what's easy to measure
+- [[concepts/high-velocity-turnover-culture|High-Velocity Turnover Culture]] — complementary people philosophy; fast course-correction on misfires makes curiosity-first bets lower risk and higher upside
+- [[concepts/qualification-screening-paradox|Qualification Screening Paradox]] — screening friction can attract better candidates; applies to how curiosity-first questions filter for genuine depth over performed engagement
+- [[concepts/behavioral-onboarding-sequencing|Behavioral Onboarding Sequencing]] — the same product philosophy that generated this hiring approach: sequence for genuine commitment, not checkbox compliance
+- [[concepts/cognitive-load-optimization|Cognitive Load Optimization]] — adjacent principle in product design; both patterns optimize for finding genuine signal rather than optimizing for what's easy to measure

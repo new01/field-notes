@@ -90,7 +90,7 @@ The library also serves as training signal — agents can be prompted with the t
 
 ## Feedback loops vs self-review
 
-[[Agent Self-Review Loop]] and code review feedback loops are complementary, not competing:
+[[concepts/agent-self-review-loop|Agent Self-Review Loop]] and code review feedback loops are complementary, not competing:
 
 - **Self-review** catches issues before anything leaves the agent (one pass, immediate)
 - **Code review feedback loops** catch issues the agent couldn't catch itself, and improve future generations (multi-pass, cumulative)
@@ -99,9 +99,9 @@ Self-review filters the output. Code review improves the generator.
 
 ## Related
 
-- [[Agent Self-Review Loop]] — the intra-agent quality check that runs before code review
-- [[Agent Debugging Infrastructure]] — tools for inspecting what the agent actually did when reviews surface unexpected behavior
-- [[Input Validation in Skills]] — pre-flight validation that prevents obvious errors before the generate-review loop starts
-- [[Graph Orchestration Patterns]] — the pipeline context in which review gates typically operate
-- [[Skill-Based Agent Architecture]] — how review patterns can be packaged as reusable skills
-- [[Agent Orchestration Platforms]] — managing multi-agent review workflows at scale
+- [[concepts/agent-self-review-loop|Agent Self-Review Loop]] — the intra-agent quality check that runs before code review
+- [[concepts/agent-debugging-infrastructure|Agent Debugging Infrastructure]] — tools for inspecting what the agent actually did when reviews surface unexpected behavior
+- [[concepts/input-validation-in-skills|Input Validation in Skills]] — pre-flight validation that prevents obvious errors before the generate-review loop starts
+- [[concepts/graph-orchestration-patterns|Graph Orchestration Patterns]] — the pipeline context in which review gates typically operate
+- [[concepts/skill-based-agent-architecture|Skill-Based Agent Architecture]] — how review patterns can be packaged as reusable skills
+- [[concepts/agent-orchestration-platforms|Agent Orchestration Platforms]] — managing multi-agent review workflows at scale

@@ -81,17 +81,17 @@ Each of these is a symptom of cognitive overload. The fix is usually one of: cur
 
 ## Relationship to adjacent patterns
 
-Cognitive load optimization is the parent concept for several more specific patterns. [[Binary Choice Architecture]] applies it specifically to decision structure — asking whether each choice can be reduced to a yes/no. [[Mental Calories Framework]] provides a quantification lens — assigning a "calorie count" to each screen action and treating lower-calorie flows as a design goal.
+Cognitive load optimization is the parent concept for several more specific patterns. [[concepts/binary-choice-architecture|Binary Choice Architecture]] applies it specifically to decision structure — asking whether each choice can be reduced to a yes/no. [[concepts/mental-calories-framework|Mental Calories Framework]] provides a quantification lens — assigning a "calorie count" to each screen action and treating lower-calorie flows as a design goal.
 
-[[Behavioral Onboarding Sequencing]] structures *when* decisions appear relative to the user's commitment level — presenting payment friction only after the user has already experienced value. [[Data-Driven Friction Audit]] operationalizes the optimization through A/B testing, identifying which screen elements most damage conversion when present and can be safely removed.
+[[concepts/behavioral-onboarding-sequencing|Behavioral Onboarding Sequencing]] structures *when* decisions appear relative to the user's commitment level — presenting payment friction only after the user has already experienced value. [[concepts/data-driven-friction-audit|Data-Driven Friction Audit]] operationalizes the optimization through A/B testing, identifying which screen elements most damage conversion when present and can be safely removed.
 
 Together, these patterns form a toolkit for systematically reducing the cognitive cost of getting a new user to value.
 
 ## Related
 
-- [[Binary Choice Architecture]] — applying cognitive load principles specifically to decision structure; yes/no flows as the lowest-friction implementation of this concept
-- [[Mental Calories Framework]] — quantifying cognitive burden per screen action; provides the measurement layer for cognitive load optimization
-- [[Behavioral Onboarding Sequencing]] — structuring when friction appears relative to user investment; sequencing to maximize the cognitive state at each decision point
-- [[Data-Driven Friction Audit]] — A/B testing to identify which elements inflate cognitive load and can be removed without losing conversion
-- [[Magic Moment Engineering]] — the destination that cognitive load optimization is trying to reach faster; every friction reduction shortens the path to the magic moment
-- [[Qualification Screening Paradox]] — related pattern where screening friction can paradoxically motivate users, demonstrating that cognitive load optimization must account for user psychology, not just option count
+- [[concepts/binary-choice-architecture|Binary Choice Architecture]] — applying cognitive load principles specifically to decision structure; yes/no flows as the lowest-friction implementation of this concept
+- [[concepts/mental-calories-framework|Mental Calories Framework]] — quantifying cognitive burden per screen action; provides the measurement layer for cognitive load optimization
+- [[concepts/behavioral-onboarding-sequencing|Behavioral Onboarding Sequencing]] — structuring when friction appears relative to user investment; sequencing to maximize the cognitive state at each decision point
+- [[concepts/data-driven-friction-audit|Data-Driven Friction Audit]] — A/B testing to identify which elements inflate cognitive load and can be removed without losing conversion
+- [[concepts/magic-moment-engineering|Magic Moment Engineering]] — the destination that cognitive load optimization is trying to reach faster; every friction reduction shortens the path to the magic moment
+- [[concepts/qualification-screening-paradox|Qualification Screening Paradox]] — related pattern where screening friction can paradoxically motivate users, demonstrating that cognitive load optimization must account for user psychology, not just option count

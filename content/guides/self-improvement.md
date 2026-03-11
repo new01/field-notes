@@ -10,6 +10,9 @@ Most OpenClaw setups plateau at "useful chatbot." The agent answers questions, r
 
 This guide is about breaking out of that plateau. It covers the exact setup that gets an agent onto a compounding growth loop — where session N is measurably smarter than session N-1, not because the model changed, but because the context did.
 
+> [!tip] The compounding effect
+> Week 1 feels like overhead. Week 4 feels like having a collaborator that knows your preferences before you state them. The investment front-loads. The payoff compounds.
+
 ## Why Agents Stay Flat
 
 Without intentional setup, an agent starts fresh every session. No memory of what worked. No persistent doctrine about how to behave. No proactive work happening between conversations. You show up, give it a task, it executes, session ends.
@@ -136,6 +139,9 @@ Run it at 6am daily. Tell me when it's wired.
 ```
 
 ---
+
+> [!note] The write-it-down rule
+> "Mental notes" don't survive session restarts. Files do. Every correction, every decision, every lesson — write it to a file immediately. The agent that writes things down is the agent that compounds.
 
 ## Information Sources Worth Wiring
 

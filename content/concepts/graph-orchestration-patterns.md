@@ -10,6 +10,9 @@ Research synthesized from LangGraph, AutoGen, CrewAI, BMAD, Google Agents, and A
 
 This page covers the why, the how, and the specific patterns that work in practice.
 
+> [!warning] The parallel agent trap
+> Running agents simultaneously feels faster. In practice it causes rate limit errors, conflicting file writes, and coordination failures — often producing worse results than sequential execution at lower cost.
+
 ## Why Parallel Agent Swarms Fail
 
 The intuition behind parallel multi-agent systems is seductive: more agents running simultaneously means more throughput. Divide the work, parallelize it, collect results.

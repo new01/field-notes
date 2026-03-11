@@ -35,5 +35,5 @@ The competitive response isn't to match local model capability — it's to addre
 
 ## Related
 
-- [[OpenClaw Ecosystem Growth]] — the broader ecosystem context LocalClaw variants are part of
-- [[Subscription Token Account Risk]] — a reason some users prefer local models (no API key dependency)
+- [[concepts/openclaw-ecosystem-growth|OpenClaw Ecosystem Growth]] — the broader ecosystem context LocalClaw variants are part of
+- [[concepts/subscription-token-account-risk|Subscription Token Account Risk]] — a reason some users prefer local models (no API key dependency)

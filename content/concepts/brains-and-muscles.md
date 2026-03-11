@@ -30,7 +30,10 @@ These have completely different fixes. Mixing them up means you're debugging the
 
 Before writing any code, ask: **what muscle does this need?**
 
-#### The muscle-first checklist
+#> [!tip] Check before you build
+> Most capability gaps in OpenClaw setups are muscle gaps, not brain gaps. Before writing any code, exhaust the checklist below.
+
+### The muscle-first checklist
 1. Does a built-in tool already do this? (Read, Write, Bash, Browser, WebSearch)
 2. Does an existing skill handle it? Check ClawhHub before building.
 3. Is it a one-line shell command the Bash tool can call?

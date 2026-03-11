@@ -70,8 +70,8 @@ Without a gateway, each script has to implement its own overload detection. With
 
 ## Related
 
-- [[LLM Cost Comparison Tools]] — tracking per-model pricing to power gateway routing decisions
-- [[Pipeline Cost Per Run]] — the cost tracking pattern that gateways centralize
-- [[Subscription Token Account Risk]] — why API keys (not subscription tokens) are required for production agent systems
-- [[Agent Orchestration Platforms]] — the layer above that dispatches work to agents using the gateway
-- [[Overload-Tolerant Event Ledger]] — recording and recovering from API failures the gateway surfaces
+- [[concepts/llm-cost-comparison-tools|LLM Cost Comparison Tools]] — tracking per-model pricing to power gateway routing decisions
+- [[concepts/pipeline-cost-per-run|Pipeline Cost Per Run]] — the cost tracking pattern that gateways centralize
+- [[concepts/subscription-token-account-risk|Subscription Token Account Risk]] — why API keys (not subscription tokens) are required for production agent systems
+- [[concepts/agent-orchestration-platforms|Agent Orchestration Platforms]] — the layer above that dispatches work to agents using the gateway
+- [[concepts/overload-tolerant-event-ledger|Overload-Tolerant Event Ledger]] — recording and recovering from API failures the gateway surfaces

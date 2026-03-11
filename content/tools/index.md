@@ -89,8 +89,8 @@ Brief definition of the concept.
 Specific application to our context.
 
 ## Related
-- [[related-concept-1]]
-- [[related-concept-2]]
+- [[infrastructure/graph-orchestration|Graph Orchestration]]
+- [[concepts/build-queue-pattern|Build Queue Pattern]]
 
 ## Sources
 - Source attribution

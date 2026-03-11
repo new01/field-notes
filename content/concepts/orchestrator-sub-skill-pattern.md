@@ -65,7 +65,7 @@ Start flat. Extract sub-skills when the flat skill grows unwieldy.
 
 ## Related
 
-- [[Skill-Based Agent Architecture]] — the foundation this pattern builds on
-- [[Four-Role Orchestrator Chain]] — a specific four-role orchestration pattern
-- [[Input Validation in Skills]] — pre-flight validation at each sub-skill boundary
-- [[Graph Orchestration Patterns]] — the sequential execution model that governs orchestration
+- [[concepts/skill-based-agent-architecture|Skill-Based Agent Architecture]] — the foundation this pattern builds on
+- [[concepts/four-role-orchestrator-chain|Four-Role Orchestrator Chain]] — a specific four-role orchestration pattern
+- [[concepts/input-validation-in-skills|Input Validation in Skills]] — pre-flight validation at each sub-skill boundary
+- [[concepts/graph-orchestration-patterns|Graph Orchestration Patterns]] — the sequential execution model that governs orchestration

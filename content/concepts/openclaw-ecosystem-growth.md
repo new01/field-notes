@@ -35,5 +35,5 @@ The skill marketplace opportunity (curated, paid skills for common use cases) is
 
 ## Related
 
-- [[Skill-Based Agent Architecture]] — the architecture that makes skills distributable
-- [[LocalClaw Competitor Pattern]] — the local-model variant ecosystem growing in parallel
+- [[concepts/skill-based-agent-architecture|Skill-Based Agent Architecture]] — the architecture that makes skills distributable
+- [[concepts/localclaw-competitor-pattern|LocalClaw Competitor Pattern]] — the local-model variant ecosystem growing in parallel

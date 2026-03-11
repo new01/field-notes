@@ -47,7 +47,7 @@ The paradox requires a specific design: the gate must be soft. A hard gate — o
 
 A soft gate creates the perception of exclusivity while preserving access for users willing to signal intent. The back button is not a bug in the design. It's the feature. It converts a potential dead end into a filter — and filters only activate when users push through them.
 
-This is closely related to [[Behavioral Onboarding Sequencing]]: both patterns use the structure of the onboarding flow itself to shape who continues and what psychological state they're in when they encounter commitment friction.
+This is closely related to [[concepts/behavioral-onboarding-sequencing|Behavioral Onboarding Sequencing]]: both patterns use the structure of the onboarding flow itself to shape who continues and what psychological state they're in when they encounter commitment friction.
 
 ## Application beyond income screening
 
@@ -95,11 +95,11 @@ The conversion lift may take time to manifest as review improvement — reviews 
 
 ## Related
 
-- [[Behavioral Onboarding Sequencing]] — complementary pattern that places commitment friction after the user has experienced core value; qualification gates work similarly, placing self-selection before payment
-- [[Magic Moment Engineering]] — the goal the onboarding is trying to reach; qualification gates protect the magic moment experience by filtering for users likely to value it
-- [[Cognitive Load Optimization]] — managing decision friction across the onboarding flow; qualification gates add a friction point strategically, unlike typical optimization targets
-- [[Mental Calories Framework]] — framework for measuring cognitive burden per screen; qualification gates carry high calories that are "earned" because they produce self-selection
-- [[Data-Driven Friction Audit]] — experimental methodology for validating onboarding changes; the qualification gate experiment is a canonical example of friction producing unexpected conversion lift
-- [[Binary Choice Architecture]] — the gate is typically implemented as a binary yes/no decision, making it a specific application of binary choice design
-- [[Curiosity-First Hiring]] — adjacent pattern where screening for motivated self-selectors (employees who research and opt in past friction) produces better long-term fit than open-door selection
-- [[High-Velocity Turnover Culture]] — related pattern of upfront disclosure that pre-filters for the right candidates; both patterns use explicit self-selection to reduce post-commitment regret
+- [[concepts/behavioral-onboarding-sequencing|Behavioral Onboarding Sequencing]] — complementary pattern that places commitment friction after the user has experienced core value; qualification gates work similarly, placing self-selection before payment
+- [[concepts/magic-moment-engineering|Magic Moment Engineering]] — the goal the onboarding is trying to reach; qualification gates protect the magic moment experience by filtering for users likely to value it
+- [[concepts/cognitive-load-optimization|Cognitive Load Optimization]] — managing decision friction across the onboarding flow; qualification gates add a friction point strategically, unlike typical optimization targets
+- [[concepts/mental-calories-framework|Mental Calories Framework]] — framework for measuring cognitive burden per screen; qualification gates carry high calories that are "earned" because they produce self-selection
+- [[concepts/data-driven-friction-audit|Data-Driven Friction Audit]] — experimental methodology for validating onboarding changes; the qualification gate experiment is a canonical example of friction producing unexpected conversion lift
+- [[concepts/binary-choice-architecture|Binary Choice Architecture]] — the gate is typically implemented as a binary yes/no decision, making it a specific application of binary choice design
+- [[concepts/curiosity-first-hiring|Curiosity-First Hiring]] — adjacent pattern where screening for motivated self-selectors (employees who research and opt in past friction) produces better long-term fit than open-door selection
+- [[concepts/high-velocity-turnover-culture|High-Velocity Turnover Culture]] — related pattern of upfront disclosure that pre-filters for the right candidates; both patterns use explicit self-selection to reduce post-commitment regret

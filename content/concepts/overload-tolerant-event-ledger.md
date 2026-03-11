@@ -17,6 +17,9 @@ Without a ledger, overloads are invisible. A cron fires, the agent call hangs, n
 #### The classic failure mode
 Job fires at 2am. API overloads. Agent call hangs until timeout. Cron exits with error. No log entry written (agent wasn't running). Next heartbeat sees normal state. 6 hours of missed work, no trace.
 
+> [!note] Silence as signal
+> Traditional monitoring waits for an error to be written. The event ledger makes silence itself the signal: if a job was expected but its timestamp wasn't updated, it shows up as a miss — no error required.
+
 ### Making silence visible
 
 The ledger inverts this. Every job registers with an expected interval when it starts. If its `last_ok_ts` hasn't updated within `interval * 1.5`, the delta checker flags it as a missed job — even if no error was ever written.

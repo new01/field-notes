@@ -29,6 +29,9 @@ Format:
 
 This file is the agent's correction log. The key discipline: write it immediately when the correction happens, not at the end of the session when you might forget the details.
 
+> [!caution] ERRORS.md is permanent operating rules
+> ERRORS.md isn't a log of past failures — it's rules the agent reads every session. An entry here means "never do this again." Write it immediately when the pattern is recognized, not at session end.
+
 ### ERRORS.md
 
 Recurring error patterns. Not one-off failures — patterns that show up repeatedly across sessions.

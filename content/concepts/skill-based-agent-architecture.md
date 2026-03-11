@@ -132,6 +132,9 @@ Replace `web-research.md` with a version that uses a different data source. The 
 
 ## Trade-offs
 
+> [!tip] When to fall back to code
+> If the logic can't be expressed clearly in prose, or if the agent consistently misinterprets it, write the logic as a script and have the skill call it via Bash. Prose is for workflow; code is for computation.
+
 ### Advantages
 
 - **Portable** — works across model versions and runtimes

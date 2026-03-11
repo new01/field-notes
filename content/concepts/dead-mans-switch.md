@@ -10,6 +10,9 @@ A monitoring pattern where **the absence of a signal is the failure condition** 
 
 ## The Problem It Solves
 
+> [!quote] The core insight
+> You can't ask the patient to diagnose their own unconsciousness.
+
 ### Why traditional monitoring breaks for agents
 
 An AI agent can't self-report an overload. If the API is overloaded, the agent isn't running — so any logging call never gets called. You can't ask the patient to diagnose their own unconsciousness.
@@ -58,6 +61,9 @@ Add 30-60 minutes of buffer beyond the heartbeat interval. Occasional skips (sys
 
 The watchdog runs as a **separate PM2 process**. If the main agent service goes down, the watchdog keeps running. If the notification API is unavailable, it falls back to a direct CLI call.
 
+> [!warning] The separation rule
+> If the observer shares infrastructure with the observed, a single failure takes out both. The watchdog must be independently survivable — separate process, separate failure domain.
+
 #### Why separation matters
 If the observer shared infrastructure with the observed, a single failure could take out both. The watchdog must be independently survivable.
 
@@ -101,6 +107,9 @@ Multiple signals reduce false positives.
 A single stale file could be a bug. A stale file plus multiple cron errors is a systemic failure. The combination catches real incidents without crying wolf on transients.
 
 ## The Key Insight
+
+> [!important] The inversion
+> Instead of "alert me when something goes wrong," the dead-man's switch asks: "alert me if I don't hear that everything went right."
 
 The dead-man's switch pattern applies to **any system where the monitor and the monitored share a failure mode**.
 

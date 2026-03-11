@@ -62,6 +62,6 @@ Automatic rejection is appropriate only when the output is structurally broken (
 
 ## Related
 
-- [[Input Validation in Skills]] — the pre-flight counterpart to self-review (checks inputs before running)
-- [[Tweet Format Taxonomy]] — the format taxonomy that tweet self-review checks against
-- [[Graph Orchestration Patterns]] — the sequential pipeline context this loop operates in
+- [[concepts/input-validation-in-skills|Input Validation in Skills]] — the pre-flight counterpart to self-review (checks inputs before running)
+- [[concepts/tweet-format-taxonomy|Tweet Format Taxonomy]] — the format taxonomy that tweet self-review checks against
+- [[concepts/graph-orchestration-patterns|Graph Orchestration Patterns]] — the sequential pipeline context this loop operates in

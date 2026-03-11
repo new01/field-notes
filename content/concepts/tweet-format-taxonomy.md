@@ -97,5 +97,5 @@ The connectives are how humans tell stories. Removing them produces incoherent f
 
 ## Related
 
-- [[Agent Memory]] — research pipeline that feeds Format B content
-- [[Self-Improvement System]] — the broader observability loop that surfaces content opportunities
+- [[concepts/agent-memory|Agent Memory]] — research pipeline that feeds Format B content
+- [[concepts/self-improvement-system|Self-Improvement System]] — the broader observability loop that surfaces content opportunities
