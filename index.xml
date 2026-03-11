@@ -6,65 +6,65 @@
       <description>Last 10 notes on Claw Field Notes</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Toyota Production System for Agents</title>
-    <link>https://new01.github.io/field-notes/concepts/toyota-production-system-for-agents</link>
-    <guid>https://new01.github.io/field-notes/concepts/toyota-production-system-for-agents</guid>
-    <description><![CDATA[ Applying the TPS stop-the-line principle to LLM agents — agents halt and signal when they detect quality issues rather than pushing through and compounding errors ]]></description>
-    <pubDate>Wed, 11 Mar 2026 02:18:05 GMT</pubDate>
+    <title>Meta Ads Library Scraper</title>
+    <link>https://new01.github.io/field-notes/concepts/meta-ads-library-scraper</link>
+    <guid>https://new01.github.io/field-notes/concepts/meta-ads-library-scraper</guid>
+    <description><![CDATA[ A browser-based sub-skill that visits the Meta Ads Library, handles lazy-load scrolling, downloads creatives, and visits landing pages — producing per-ad analysis grouped by funnel stage ]]></description>
+    <pubDate>Wed, 11 Mar 2026 02:19:20 GMT</pubDate>
   </item><item>
-    <title>Tweet Format Taxonomy</title>
-    <link>https://new01.github.io/field-notes/concepts/tweet-format-taxonomy</link>
-    <guid>https://new01.github.io/field-notes/concepts/tweet-format-taxonomy</guid>
-    <description><![CDATA[ A classified set of tweet formats for an AI workflow builder account, designed for systematic split-testing and format retirement ]]></description>
-    <pubDate>Wed, 11 Mar 2026 02:18:05 GMT</pubDate>
+    <title>OpenClaw Ecosystem Growth</title>
+    <link>https://new01.github.io/field-notes/concepts/openclaw-ecosystem-growth</link>
+    <guid>https://new01.github.io/field-notes/concepts/openclaw-ecosystem-growth</guid>
+    <description><![CDATA[ The rapid expansion of the OpenClaw ecosystem — derivative projects, GUIs, deployment services, and forks across multiple markets ]]></description>
+    <pubDate>Wed, 11 Mar 2026 02:19:20 GMT</pubDate>
   </item><item>
-    <title>Getting Started with OpenClaw</title>
-    <link>https://new01.github.io/field-notes/guides/getting-started</link>
-    <guid>https://new01.github.io/field-notes/guides/getting-started</guid>
-    <description><![CDATA[ What to set up first and what to do in your first week ]]></description>
-    <pubDate>Wed, 11 Mar 2026 02:18:05 GMT</pubDate>
+    <title>Orchestrator Sub-Skill Pattern</title>
+    <link>https://new01.github.io/field-notes/concepts/orchestrator-sub-skill-pattern</link>
+    <guid>https://new01.github.io/field-notes/concepts/orchestrator-sub-skill-pattern</guid>
+    <description><![CDATA[ Top-level orchestrator skills delegate to focused sub-skills — keeping individual skills narrow, composable, and independently replaceable ]]></description>
+    <pubDate>Wed, 11 Mar 2026 02:19:20 GMT</pubDate>
   </item><item>
-    <title>Guides</title>
-    <link>https://new01.github.io/field-notes/guides/</link>
-    <guid>https://new01.github.io/field-notes/guides/</guid>
-    <description><![CDATA[ Practical walkthroughs for OpenClaw builders ]]></description>
-    <pubDate>Wed, 11 Mar 2026 02:18:05 GMT</pubDate>
+    <title>Overload-Tolerant Event Ledger</title>
+    <link>https://new01.github.io/field-notes/concepts/overload-tolerant-event-ledger</link>
+    <guid>https://new01.github.io/field-notes/concepts/overload-tolerant-event-ledger</guid>
+    <description><![CDATA[ A SQLite-based system event log that makes silence visible — so a delta checker can find what should have happened but didn't ]]></description>
+    <pubDate>Wed, 11 Mar 2026 02:19:20 GMT</pubDate>
   </item><item>
-    <title>Claw Field Notes</title>
-    <link>https://new01.github.io/field-notes/</link>
-    <guid>https://new01.github.io/field-notes/</guid>
-    <description><![CDATA[ Production knowledge for OpenClaw builders — patterns, infrastructure, and hard-won lessons ]]></description>
-    <pubDate>Wed, 11 Mar 2026 02:18:05 GMT</pubDate>
+    <title>Pipeline Cost Per Run</title>
+    <link>https://new01.github.io/field-notes/concepts/pipeline-cost-per-run</link>
+    <guid>https://new01.github.io/field-notes/concepts/pipeline-cost-per-run</guid>
+    <description><![CDATA[ Tracking the actual token cost of each agent pipeline run — the benchmark that makes "is this worth automating?" a real question with a real answer ]]></description>
+    <pubDate>Wed, 11 Mar 2026 02:19:20 GMT</pubDate>
   </item><item>
-    <title>Tools</title>
-    <link>https://new01.github.io/field-notes/tools/</link>
-    <guid>https://new01.github.io/field-notes/tools/</guid>
-    <description><![CDATA[ Tools Practical pipelines and scripts we actually use. Not polished products — these are working tools with real limitations. ]]></description>
-    <pubDate>Wed, 11 Mar 2026 02:18:05 GMT</pubDate>
+    <title>Prompt File Governance</title>
+    <link>https://new01.github.io/field-notes/concepts/prompt-file-governance</link>
+    <guid>https://new01.github.io/field-notes/concepts/prompt-file-governance</guid>
+    <description><![CDATA[ Every line in auto-loaded files costs tokens on every request ]]></description>
+    <pubDate>Wed, 11 Mar 2026 02:19:20 GMT</pubDate>
   </item><item>
-    <title>Dead-Man&#039;s Switch</title>
-    <link>https://new01.github.io/field-notes/concepts/dead-mans-switch</link>
-    <guid>https://new01.github.io/field-notes/concepts/dead-mans-switch</guid>
-    <description><![CDATA[ A monitoring pattern where the absence of a signal is the failure condition — for systems that can't self-report their own failure ]]></description>
-    <pubDate>Wed, 11 Mar 2026 02:18:05 GMT</pubDate>
+    <title>Security Hygiene</title>
+    <link>https://new01.github.io/field-notes/concepts/security-hygiene</link>
+    <guid>https://new01.github.io/field-notes/concepts/security-hygiene</guid>
+    <description><![CDATA[ What to lock down before giving your OpenClaw agent any external access ]]></description>
+    <pubDate>Wed, 11 Mar 2026 02:19:20 GMT</pubDate>
   </item><item>
-    <title>Deterministic Agent Action Layer</title>
-    <link>https://new01.github.io/field-notes/concepts/deterministic-agent-action-layer</link>
-    <guid>https://new01.github.io/field-notes/concepts/deterministic-agent-action-layer</guid>
-    <description><![CDATA[ A structured contract between agent reasoning and tool execution that makes agent behavior reproducible — separating what the agent decides from how it's carried out ]]></description>
-    <pubDate>Wed, 11 Mar 2026 02:18:05 GMT</pubDate>
+    <title>Self-Improvement System</title>
+    <link>https://new01.github.io/field-notes/concepts/self-improvement-system</link>
+    <guid>https://new01.github.io/field-notes/concepts/self-improvement-system</guid>
+    <description><![CDATA[ A feedback loop where the agent tracks its own errors and proposes improvements ]]></description>
+    <pubDate>Wed, 11 Mar 2026 02:19:20 GMT</pubDate>
   </item><item>
-    <title>Four-Role Orchestrator Chain</title>
-    <link>https://new01.github.io/field-notes/concepts/four-role-orchestrator-chain</link>
-    <guid>https://new01.github.io/field-notes/concepts/four-role-orchestrator-chain</guid>
-    <description><![CDATA[ A sequential multi-agent pipeline where each orchestrator skill consumes the previous stage's output and explicitly hands off to the next ]]></description>
-    <pubDate>Wed, 11 Mar 2026 02:18:05 GMT</pubDate>
+    <title>Skill-Based Agent Architecture</title>
+    <link>https://new01.github.io/field-notes/concepts/skill-based-agent-architecture</link>
+    <guid>https://new01.github.io/field-notes/concepts/skill-based-agent-architecture</guid>
+    <description><![CDATA[ Every agent capability as a plain markdown instruction file — skills define workflow, tools, inputs, and handoffs in prose with no code ]]></description>
+    <pubDate>Wed, 11 Mar 2026 02:19:20 GMT</pubDate>
   </item><item>
-    <title>Concepts</title>
-    <link>https://new01.github.io/field-notes/concepts/</link>
-    <guid>https://new01.github.io/field-notes/concepts/</guid>
-    <description><![CDATA[ Core mental models for OpenClaw builders ]]></description>
-    <pubDate>Wed, 11 Mar 2026 02:18:05 GMT</pubDate>
+    <title>Subscription Token Account Risk</title>
+    <link>https://new01.github.io/field-notes/concepts/subscription-token-account-risk</link>
+    <guid>https://new01.github.io/field-notes/concepts/subscription-token-account-risk</guid>
+    <description><![CDATA[ Why using Claude subscription tokens for agent automation risks account termination — and why API keys are the only safe path for production workloads ]]></description>
+    <pubDate>Wed, 11 Mar 2026 02:19:20 GMT</pubDate>
   </item>
     </channel>
   </rss>
