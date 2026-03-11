@@ -36,10 +36,6 @@
   --featureful-emphasis: var(--flexoki-yellow);
   --featureful-quote-emphasis: var(--flexoki-orange);
 
-  // Font fallback stacks (monospace all the way down)
-  --titleFont: "Atkinson Hyperlegible Mono", "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
-  --headerFont: "Atkinson Hyperlegible Mono", "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
-  --bodyFont: "Ubuntu Mono", "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
 }
 
 :root[saved-theme="dark"] {
