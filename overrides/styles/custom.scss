@@ -67,70 +67,73 @@
   --featureful-quote-emphasis: var(--flexoki-orange);
 }
 
-// ── Heading color + size overrides ────────────────────────────────────────────
+// ── Heading color + size overrides (article content only) ─────────────────────
+// Scoped to .page article to avoid affecting sidebar, explorer, footer, etc.
 
-h1 {
-  color: var(--h1-color);
-  font-size: var(--h1-size);
-  margin-top: 2.4rem;
-  margin-bottom: 1rem;
-  line-height: 1.18;
-}
+.page article {
+  h1 {
+    color: var(--h1-color);
+    font-size: var(--h1-size);
+    margin-top: 2.4rem;
+    margin-bottom: 1rem;
+    line-height: 1.18;
+  }
 
-h2 {
-  color: var(--h2-color);
-  font-size: var(--h2-size);
-  margin-top: 2.1rem;
-  margin-bottom: 0.95rem;
-  line-height: 1.22;
-}
+  h2 {
+    color: var(--h2-color);
+    font-size: var(--h2-size);
+    margin-top: 2.1rem;
+    margin-bottom: 0.95rem;
+    line-height: 1.22;
+  }
 
-h3 {
-  color: var(--h3-color);
-  font-size: var(--h3-size);
-  margin-top: 1.8rem;
-  margin-bottom: 0.9rem;
-  line-height: 1.28;
-}
+  h3 {
+    color: var(--h3-color);
+    font-size: var(--h3-size);
+    margin-top: 1.8rem;
+    margin-bottom: 0.9rem;
+    line-height: 1.28;
+  }
 
-h4 {
-  color: var(--h4-color);
-  font-size: var(--h4-size);
-  margin-top: 1.6rem;
-  margin-bottom: 0.85rem;
-  line-height: 1.32;
-}
+  h4 {
+    color: var(--h4-color);
+    font-size: var(--h4-size);
+    margin-top: 1.6rem;
+    margin-bottom: 0.85rem;
+    line-height: 1.32;
+  }
 
-h5 {
-  color: var(--h5-color);
-  font-size: var(--h5-size);
-  margin-top: 1.45rem;
-  margin-bottom: 0.8rem;
-  line-height: 1.36;
-}
+  h5 {
+    color: var(--h5-color);
+    font-size: var(--h5-size);
+    margin-top: 1.45rem;
+    margin-bottom: 0.8rem;
+    line-height: 1.36;
+  }
 
-h6 {
-  color: var(--h6-color);
-  font-size: var(--h6-size);
-  margin-top: 1.35rem;
-  margin-bottom: 0.75rem;
-  line-height: 1.4;
-}
+  h6 {
+    color: var(--h6-color);
+    font-size: var(--h6-size);
+    margin-top: 1.35rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.4;
+  }
 
-// ── Emphasis + inline styles ──────────────────────────────────────────────────
+  // ── Emphasis + inline styles ────────────────────────────────────────────────
 
-strong {
-  color: var(--featureful-emphasis);
-  font-weight: 700;
-}
+  strong {
+    color: var(--featureful-emphasis);
+    font-weight: 700;
+  }
 
-em {
-  color: var(--featureful-emphasis);
-  font-style: italic;
-}
+  em {
+    color: var(--featureful-emphasis);
+    font-style: italic;
+  }
 
-blockquote em {
-  color: var(--featureful-quote-emphasis);
+  blockquote em {
+    color: var(--featureful-quote-emphasis);
+  }
 }
 
 // ── Internal links — no highlight box, just colored text ─────────────────────
