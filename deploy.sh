@@ -27,6 +27,7 @@ fi
 echo "📁 Syncing content..."
 cp -r "$SITE_DIR/content/." "$QUARTZ_ENGINE/content/"
 cp "$SITE_DIR/quartz.config.ts" "$QUARTZ_ENGINE/quartz.config.ts" 2>/dev/null || true
+cp "$SITE_DIR/quartz.layout.ts" "$QUARTZ_ENGINE/quartz.layout.ts" 2>/dev/null || true
 
 # Build
 echo "🔨 Building..."
