@@ -2,69 +2,69 @@
 <rss version="2.0">
     <channel>
       <title>Claw Field Notes</title>
-      <link>https://new01.github.io/field-notes</link>
+      <link>https://example.com</link>
       <description>Last 10 notes on Claw Field Notes</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Agent Memory Poisoning</title>
-    <link>https://new01.github.io/field-notes/concepts/agent-memory-poisoning</link>
-    <guid>https://new01.github.io/field-notes/concepts/agent-memory-poisoning</guid>
-    <description><![CDATA[ MINJA — memory injection attacks where malicious content poisons an agent's persistent memory store, corrupting future behavior ]]></description>
-    <pubDate>Tue, 10 Mar 2026 15:36:13 GMT</pubDate>
-  </item><item>
-    <title>Agent Self-Review Loop</title>
-    <link>https://new01.github.io/field-notes/concepts/agent-self-review-loop</link>
-    <guid>https://new01.github.io/field-notes/concepts/agent-self-review-loop</guid>
-    <description><![CDATA[ After generating an output, the agent checks its own work against a checklist before passing it forward — catching quality failures before they reach the human review queue ]]></description>
-    <pubDate>Tue, 10 Mar 2026 15:36:13 GMT</pubDate>
-  </item><item>
-    <title>Agentic Coding Job Market</title>
-    <link>https://new01.github.io/field-notes/concepts/agentic-coding-job-market</link>
-    <guid>https://new01.github.io/field-notes/concepts/agentic-coding-job-market</guid>
-    <description><![CDATA[ The emerging mainstream recognition that agentic coding — using AI agents to plan, implement, and iterate on code — is becoming a required professional skill ]]></description>
-    <pubDate>Tue, 10 Mar 2026 15:36:13 GMT</pubDate>
-  </item><item>
-    <title>Deterministic Agent Action Layer</title>
-    <link>https://new01.github.io/field-notes/concepts/deterministic-agent-action-layer</link>
-    <guid>https://new01.github.io/field-notes/concepts/deterministic-agent-action-layer</guid>
-    <description><![CDATA[ A structured contract between agent reasoning and tool execution that makes agent behavior reproducible — separating what the agent decides from how it's carried out ]]></description>
-    <pubDate>Tue, 10 Mar 2026 15:36:13 GMT</pubDate>
-  </item><item>
-    <title>Four-Role Orchestrator Chain</title>
-    <link>https://new01.github.io/field-notes/concepts/four-role-orchestrator-chain</link>
-    <guid>https://new01.github.io/field-notes/concepts/four-role-orchestrator-chain</guid>
-    <description><![CDATA[ A sequential multi-agent pipeline where each orchestrator skill consumes the previous stage's output and explicitly hands off to the next ]]></description>
-    <pubDate>Tue, 10 Mar 2026 15:36:13 GMT</pubDate>
-  </item><item>
-    <title>Input Validation in Skills</title>
-    <link>https://new01.github.io/field-notes/concepts/input-validation-in-skills</link>
-    <guid>https://new01.github.io/field-notes/concepts/input-validation-in-skills</guid>
-    <description><![CDATA[ Skills declare required inputs at the top and fail loudly when inputs are missing or stale — preventing pipeline stages from running on incomplete data ]]></description>
-    <pubDate>Tue, 10 Mar 2026 15:36:13 GMT</pubDate>
-  </item><item>
-    <title>LLM Cost Comparison Tools</title>
-    <link>https://new01.github.io/field-notes/concepts/llm-cost-comparison-tools</link>
-    <guid>https://new01.github.io/field-notes/concepts/llm-cost-comparison-tools</guid>
-    <description><![CDATA[ The emerging ecosystem of tools for comparing LLM API pricing — CLI utilities, MCP servers, and dashboards covering 400+ models ]]></description>
-    <pubDate>Tue, 10 Mar 2026 15:36:13 GMT</pubDate>
-  </item><item>
-    <title>LocalClaw Competitor Pattern</title>
-    <link>https://new01.github.io/field-notes/concepts/localclaw-competitor-pattern</link>
-    <guid>https://new01.github.io/field-notes/concepts/localclaw-competitor-pattern</guid>
-    <description><![CDATA[ A class of OpenClaw-equivalent systems built on local models — targeting users who cannot or will not use cloud APIs for privacy, cost, or regulatory reasons ]]></description>
-    <pubDate>Tue, 10 Mar 2026 15:36:13 GMT</pubDate>
-  </item><item>
     <title>Meta Ads Library Scraper</title>
-    <link>https://new01.github.io/field-notes/concepts/meta-ads-library-scraper</link>
-    <guid>https://new01.github.io/field-notes/concepts/meta-ads-library-scraper</guid>
+    <link>https://example.com/concepts/meta-ads-library-scraper</link>
+    <guid>https://example.com/concepts/meta-ads-library-scraper</guid>
     <description><![CDATA[ A browser-based sub-skill that visits the Meta Ads Library, handles lazy-load scrolling, downloads creatives, and visits landing pages — producing per-ad analysis grouped by funnel stage ]]></description>
-    <pubDate>Tue, 10 Mar 2026 15:36:13 GMT</pubDate>
+    <pubDate>Wed, 11 Mar 2026 00:45:54 GMT</pubDate>
   </item><item>
     <title>OpenClaw Ecosystem Growth</title>
-    <link>https://new01.github.io/field-notes/concepts/openclaw-ecosystem-growth</link>
-    <guid>https://new01.github.io/field-notes/concepts/openclaw-ecosystem-growth</guid>
+    <link>https://example.com/concepts/openclaw-ecosystem-growth</link>
+    <guid>https://example.com/concepts/openclaw-ecosystem-growth</guid>
     <description><![CDATA[ The rapid expansion of the OpenClaw ecosystem — derivative projects, GUIs, deployment services, and forks across multiple markets ]]></description>
-    <pubDate>Tue, 10 Mar 2026 15:36:13 GMT</pubDate>
+    <pubDate>Wed, 11 Mar 2026 00:45:54 GMT</pubDate>
+  </item><item>
+    <title>Orchestrator Sub-Skill Pattern</title>
+    <link>https://example.com/concepts/orchestrator-sub-skill-pattern</link>
+    <guid>https://example.com/concepts/orchestrator-sub-skill-pattern</guid>
+    <description><![CDATA[ Top-level orchestrator skills delegate to focused sub-skills — keeping individual skills narrow, composable, and independently replaceable ]]></description>
+    <pubDate>Wed, 11 Mar 2026 00:45:54 GMT</pubDate>
+  </item><item>
+    <title>Overload-Tolerant Event Ledger</title>
+    <link>https://example.com/concepts/overload-tolerant-event-ledger</link>
+    <guid>https://example.com/concepts/overload-tolerant-event-ledger</guid>
+    <description><![CDATA[ A SQLite-based system event log that makes silence visible — so a delta checker can find what should have happened but didn't ]]></description>
+    <pubDate>Wed, 11 Mar 2026 00:45:54 GMT</pubDate>
+  </item><item>
+    <title>Pipeline Cost Per Run</title>
+    <link>https://example.com/concepts/pipeline-cost-per-run</link>
+    <guid>https://example.com/concepts/pipeline-cost-per-run</guid>
+    <description><![CDATA[ Tracking the actual token cost of each agent pipeline run — the benchmark that makes "is this worth automating?" a real question with a real answer ]]></description>
+    <pubDate>Wed, 11 Mar 2026 00:45:54 GMT</pubDate>
+  </item><item>
+    <title>Prompt File Governance</title>
+    <link>https://example.com/concepts/prompt-file-governance</link>
+    <guid>https://example.com/concepts/prompt-file-governance</guid>
+    <description><![CDATA[ Every line in auto-loaded files costs tokens on every request ]]></description>
+    <pubDate>Wed, 11 Mar 2026 00:45:54 GMT</pubDate>
+  </item><item>
+    <title>Security Hygiene</title>
+    <link>https://example.com/concepts/security-hygiene</link>
+    <guid>https://example.com/concepts/security-hygiene</guid>
+    <description><![CDATA[ What to lock down before giving your OpenClaw agent any external access ]]></description>
+    <pubDate>Wed, 11 Mar 2026 00:45:54 GMT</pubDate>
+  </item><item>
+    <title>Self-Improvement System</title>
+    <link>https://example.com/concepts/self-improvement-system</link>
+    <guid>https://example.com/concepts/self-improvement-system</guid>
+    <description><![CDATA[ A feedback loop where the agent tracks its own errors and proposes improvements ]]></description>
+    <pubDate>Wed, 11 Mar 2026 00:45:54 GMT</pubDate>
+  </item><item>
+    <title>Skill-Based Agent Architecture</title>
+    <link>https://example.com/concepts/skill-based-agent-architecture</link>
+    <guid>https://example.com/concepts/skill-based-agent-architecture</guid>
+    <description><![CDATA[ Every agent capability as a plain markdown instruction file — skills define workflow, tools, inputs, and handoffs in prose with no code ]]></description>
+    <pubDate>Wed, 11 Mar 2026 00:45:54 GMT</pubDate>
+  </item><item>
+    <title>Subscription Token Account Risk</title>
+    <link>https://example.com/concepts/subscription-token-account-risk</link>
+    <guid>https://example.com/concepts/subscription-token-account-risk</guid>
+    <description><![CDATA[ Why using Claude subscription tokens for agent automation risks account termination — and why API keys are the only safe path for production workloads ]]></description>
+    <pubDate>Wed, 11 Mar 2026 00:45:54 GMT</pubDate>
   </item>
     </channel>
   </rss>
