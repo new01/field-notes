@@ -1,7 +1,7 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
 
-const baseUrl = process.env.QUARTZ_BASE_URL ?? "example.com"
+const baseUrl = process.env.QUARTZ_BASE_URL ?? "new01.github.io/field-notes"
 
 /**
  * Quartz 4 Configuration
