@@ -32,6 +32,10 @@ cp "$SITE_DIR/quartz.layout.ts" "$QUARTZ_ENGINE/quartz.layout.ts" 2>/dev/null ||
 if [ -d "$SITE_DIR/overrides/components" ]; then
   cp "$SITE_DIR/overrides/components/"*.tsx "$QUARTZ_ENGINE/quartz/components/" 2>/dev/null || true
 fi
+# Copy style overrides
+if [ -d "$SITE_DIR/overrides/styles" ]; then
+  cp "$SITE_DIR/overrides/styles/"*.scss "$QUARTZ_ENGINE/quartz/styles/" 2>/dev/null || true
+fi
 
 # Build
 echo "🔨 Building..."

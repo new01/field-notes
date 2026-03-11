@@ -1,0 +1,148 @@
+// ── Flexoki Color Palette + Custom Heading Colors ─────────────────────────────
+// Restored from the original Claw Field Notes theme
+
+:root {
+  // Flexoki palette — light mode
+  --flexoki-red: #af3029;
+  --flexoki-orange: #bc5215;
+  --flexoki-yellow: #ad8301;
+  --flexoki-green: #66800b;
+  --flexoki-cyan: #24837b;
+  --flexoki-blue: #205ea6;
+  --flexoki-purple: #5e409d;
+  --flexoki-paper: #fffcf0;
+  --flexoki-base-10: #f2f0e5;
+  --flexoki-base-25: #e6e4d9;
+  --flexoki-base-50: #b7b5ac;
+  --flexoki-ink: #100f0f;
+
+  // Heading colors (light mode)
+  --h1-color: var(--flexoki-ink);
+  --h2-color: var(--flexoki-yellow);
+  --h3-color: var(--flexoki-green);
+  --h4-color: var(--flexoki-red);
+  --h5-color: var(--flexoki-blue);
+  --h6-color: var(--flexoki-purple);
+
+  // Heading sizes
+  --h1-size: 2.2rem;
+  --h2-size: 1.8rem;
+  --h3-size: 1.5rem;
+  --h4-size: 1.28rem;
+  --h5-size: 1.12rem;
+  --h6-size: 1rem;
+
+  // Emphasis colors
+  --featureful-emphasis: var(--flexoki-yellow);
+  --featureful-quote-emphasis: var(--flexoki-orange);
+
+  // Font fallback stacks (monospace all the way down)
+  --titleFont: "Atkinson Hyperlegible Mono", "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  --headerFont: "Atkinson Hyperlegible Mono", "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  --bodyFont: "Ubuntu Mono", "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+:root[saved-theme="dark"] {
+  // Flexoki palette — dark mode
+  --flexoki-red: #d14d41;
+  --flexoki-orange: #da702c;
+  --flexoki-yellow: #d0a215;
+  --flexoki-green: #879a39;
+  --flexoki-cyan: #3aa99f;
+  --flexoki-blue: #4385be;
+  --flexoki-purple: #8b7ec8;
+  --flexoki-beige: #be9c52;
+  --flexoki-paper: #100f0f;
+  --flexoki-base-10: #1c1b1a;
+  --flexoki-base-25: #282726;
+  --flexoki-base-50: #575653;
+  --flexoki-ink: #cecdc3;
+
+  // Heading colors (dark mode)
+  --h1-color: var(--flexoki-ink);
+  --h2-color: var(--flexoki-yellow);
+  --h3-color: var(--flexoki-green);
+  --h4-color: var(--flexoki-red);
+  --h5-color: var(--flexoki-purple);
+  --h6-color: var(--flexoki-beige);
+
+  // Emphasis colors (dark mode)
+  --featureful-emphasis: var(--flexoki-orange);
+  --featureful-quote-emphasis: var(--flexoki-orange);
+}
+
+// ── Heading color + size overrides ────────────────────────────────────────────
+
+h1 {
+  color: var(--h1-color);
+  font-size: var(--h1-size);
+  margin-top: 2.4rem;
+  margin-bottom: 1rem;
+  line-height: 1.18;
+}
+
+h2 {
+  color: var(--h2-color);
+  font-size: var(--h2-size);
+  margin-top: 2.1rem;
+  margin-bottom: 0.95rem;
+  line-height: 1.22;
+}
+
+h3 {
+  color: var(--h3-color);
+  font-size: var(--h3-size);
+  margin-top: 1.8rem;
+  margin-bottom: 0.9rem;
+  line-height: 1.28;
+}
+
+h4 {
+  color: var(--h4-color);
+  font-size: var(--h4-size);
+  margin-top: 1.6rem;
+  margin-bottom: 0.85rem;
+  line-height: 1.32;
+}
+
+h5 {
+  color: var(--h5-color);
+  font-size: var(--h5-size);
+  margin-top: 1.45rem;
+  margin-bottom: 0.8rem;
+  line-height: 1.36;
+}
+
+h6 {
+  color: var(--h6-color);
+  font-size: var(--h6-size);
+  margin-top: 1.35rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.4;
+}
+
+// ── Emphasis + inline styles ──────────────────────────────────────────────────
+
+strong {
+  color: var(--featureful-emphasis);
+  font-weight: 700;
+}
+
+em {
+  color: var(--featureful-emphasis);
+  font-style: italic;
+}
+
+blockquote em {
+  color: var(--featureful-quote-emphasis);
+}
+
+// ── Internal links — no highlight box, just colored text ─────────────────────
+// (The default Quartz adds a blue box; original theme used plain colored links)
+
+.page article a.internal {
+  line-height: inherit;
+  background-color: transparent;
+  border-radius: 0;
+  padding: 0;
+}
