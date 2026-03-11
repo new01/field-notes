@@ -23,11 +23,15 @@ if [ ! -f "$QUARTZ_ENGINE/quartz/bootstrap-cli.mjs" ]; then
   cd "$QUARTZ_ENGINE" && npm install --silent 2>&1 | tail -2
 fi
 
-# Sync content + config into quartz engine
+# Sync content + config + component overrides into quartz engine
 echo "📁 Syncing content..."
 cp -r "$SITE_DIR/content/." "$QUARTZ_ENGINE/content/"
 cp "$SITE_DIR/quartz.config.ts" "$QUARTZ_ENGINE/quartz.config.ts" 2>/dev/null || true
 cp "$SITE_DIR/quartz.layout.ts" "$QUARTZ_ENGINE/quartz.layout.ts" 2>/dev/null || true
+# Copy component overrides (patches to quartz internals)
+if [ -d "$SITE_DIR/overrides/components" ]; then
+  cp "$SITE_DIR/overrides/components/"*.tsx "$QUARTZ_ENGINE/quartz/components/" 2>/dev/null || true
+fi
 
 # Build
 echo "🔨 Building..."
