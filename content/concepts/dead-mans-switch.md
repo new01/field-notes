@@ -4,22 +4,62 @@ description: A monitoring pattern where the absence of a signal is the failure c
 tags: [concepts, infrastructure, monitoring, observability, openclaw]
 ---
 
-A monitoring pattern where the **absence of a signal** is the failure condition — rather than waiting for an explicit error report. Used when the thing you want to monitor is exactly the thing that might fail to report.
+# Dead-Man's Switch
 
-## The problem it solves
+A monitoring pattern where **the absence of a signal is the failure condition** — rather than waiting for an explicit error report. Used when the thing you want to monitor is exactly the thing that might fail to report.
+
+## The Problem It Solves
+
+### Why traditional monitoring breaks for agents
 
 An AI agent can't self-report an overload. If the API is overloaded, the agent isn't running — so any logging call never gets called. You can't ask the patient to diagnose their own unconsciousness.
 
-Traditional monitoring (agent logs its own errors → dashboard reads log) breaks completely when the agent is the failure point.
+#### The failure loop
+Traditional monitoring: agent logs its own errors → dashboard reads log → alert fires.
 
-## How it works
+This breaks completely when the agent is the failure point. If the agent stops running, the log never gets written, the dashboard shows nothing, no alert fires. The system appears healthy while doing nothing.
 
-1. **The agent writes a proof-of-life timestamp** to a file on every successful heartbeat — first action, before anything else
-2. **An external observer** (separate process, separate daemon) checks the file age every 60 seconds
-3. If the file is older than the expected heartbeat interval plus buffer (e.g., 90 minutes for a 1h heartbeat), the observer flags a failure
-4. The observer sends notifications directly — bypassing the agent entirely
+#### What this looks like in practice
+Your heartbeat is configured to run every 30 minutes. The API goes overloaded at 2am. You wake up at 8am to 6 hours of missed tasks and no alerts. The last log entry is from 1:58am saying "everything normal."
 
-The key: the observer is **not subject to the same failure mode** as the thing it monitors. It's a lightweight process — no API calls, no LLM context.
+### The solution: invert the monitoring assumption
+
+Instead of "alert me when something goes wrong," the dead-man's switch asks: "alert me if I don't hear that everything went right."
+
+## How It Works
+
+### The proof-of-life file
+
+The agent writes a Unix timestamp to a file as the **very first action of every heartbeat** — before any other work, before any API calls.
+
+```bash
+date +%s%3N > /tmp/agent-alive.ts
+```
+
+This is the "I'm alive" signal. It requires no API, no LLM, no network — just a file write.
+
+### The external observer
+
+A separate process (the watchdog) checks the file age every 60 seconds. It is deliberately minimal — no LLM, no API calls, just file stat and timestamp comparison.
+
+#### The check logic
+```
+file_age = now - last_modified_timestamp
+expected_interval = heartbeat_interval_minutes * 60 * 1000
+
+if file_age > expected_interval + buffer:
+    fire alert
+```
+
+#### The buffer
+Add 30-60 minutes of buffer beyond the heartbeat interval. Occasional skips (system busy, brief API hiccup) shouldn't trigger false alerts. Sustained absence should.
+
+### The separation of concerns
+
+The watchdog runs as a **separate PM2 process**. If the main agent service goes down, the watchdog keeps running. If the notification API is unavailable, it falls back to a direct CLI call.
+
+#### Why separation matters
+If the observer shared infrastructure with the observed, a single failure could take out both. The watchdog must be independently survivable.
 
 ## Implementation
 
@@ -29,33 +69,52 @@ scripts/watchdog.js             — check logic + DB update + notification sende
 scripts/watchdog-daemon.js      — PM2 daemon wrapper (runs every 60s)
 ```
 
-**The watchdog runs as a separate PM2 process.** If your main service goes down, the watchdog keeps running. If your notification API is unavailable, it falls back to a CLI call directly.
+A cron entry restarts the watchdog every few minutes if it dies — defense in depth.
 
-A cron restarts the watchdog every few minutes if it dies.
+## Notification Behavior
 
-## Notification behavior
+### Alert stages
 
-- **On detection**: immediate alert — overload detected, reason, will ping every 10 minutes
-- **Every 10 minutes while ongoing**: overload ongoing, duration
-- **On recovery**: cleared, duration of the incident
+#### On detection
+Immediate alert — "Heartbeat stopped. Last seen: [time]. Will ping every 10 minutes while ongoing."
 
-## Signal combination
+#### While ongoing (every 10 minutes)
+"Heartbeat still stopped. Duration: [N] minutes."
+
+#### On recovery
+"Heartbeat restored. Incident duration: [N] minutes."
+
+### Delivery path
+
+Notifications route through a channel that does **not** depend on the agent — direct API call from the watchdog, not through OpenClaw's notification system (which itself depends on the agent being healthy).
+
+## Signal Combination
+
+Multiple signals reduce false positives.
 
 | Signal | What it detects |
 |--------|----------------|
-| Stale alive file (>90 min) | Heartbeat stopped — probable API overload |
-| 2+ cron error files | Multiple agent calls failing simultaneously |
+| Stale alive file (>90 min for 1h heartbeat) | Heartbeat stopped — probable API overload |
+| 2+ cron error files in `/tmp/cron-errors/` | Multiple agent calls failing simultaneously |
+| Both signals together | Systemic failure — high confidence |
 
-Single-signal could be a bug. Multi-signal is a systemic failure. The combination reduces false positives.
+A single stale file could be a bug. A stale file plus multiple cron errors is a systemic failure. The combination catches real incidents without crying wolf on transients.
 
-## The key insight
+## The Key Insight
 
-The dead-man's switch pattern applies to any system where the monitor and the monitored share a failure mode. Separate the observer. Make the absence of a signal the alarm.
+The dead-man's switch pattern applies to **any system where the monitor and the monitored share a failure mode**.
 
-This inverts the usual assumption of monitoring: instead of "alert me when something goes wrong," it becomes "alert me if I don't hear that everything went right."
+##### Common places it applies
+- Agent health monitoring (heartbeat proof-of-life)
+- Background job health (cron writes timestamp, watchdog checks)
+- Database connection health (writer signals to external checker)
+- External service availability (poller signals absence of response)
+
+Separate the observer. Make the absence of a signal the alarm.
 
 ## Related
 
-- [[Cron Job Infrastructure]] — cron wrapper scripts write error files that feed the watchdog
-- [[Notification Batching]] — the delivery layer the watchdog routes through
-- [[Overload-Tolerant Event Ledger]] — the ledger the watchdog writes overload state to
+- [[infrastructure/cron-infrastructure|Cron Infrastructure]] — cron wrapper scripts write error files that feed the watchdog
+- [[infrastructure/notification-batching|Notification Batching]] — the delivery layer the watchdog routes through
+- [[concepts/overload-tolerant-event-ledger|Overload-Tolerant Event Ledger]] — the ledger the watchdog writes overload state to
+- [[concepts/heartbeat-system|Heartbeat System]] — the heartbeat that writes the proof-of-life timestamp

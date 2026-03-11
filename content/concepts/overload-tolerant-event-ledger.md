@@ -4,13 +4,24 @@ description: A SQLite-based system event log that makes silence visible — so a
 tags: [concepts, infrastructure, observability, sqlite, openclaw]
 ---
 
+# Overload-Tolerant Event Ledger
+
 A SQLite-based system event log that records every expected action — cron starts and ends, notification attempts, overload events, agent failures — so a delta checker can compare what *should* have happened against what *did* happen on every heartbeat.
 
-## The problem it solves
+## The Problem It Solves
+
+### Why silence is dangerous
 
 Without a ledger, overloads are invisible. A cron fires, the agent call hangs, nothing is logged, nothing is retried. The next heartbeat has no idea what was missed.
 
-The ledger makes silence visible: if a job is registered with an expected interval and its last successful timestamp hasn't updated, it shows up as a missed job.
+#### The classic failure mode
+Job fires at 2am. API overloads. Agent call hangs until timeout. Cron exits with error. No log entry written (agent wasn't running). Next heartbeat sees normal state. 6 hours of missed work, no trace.
+
+### Making silence visible
+
+The ledger inverts this. Every job registers with an expected interval when it starts. If its `last_ok_ts` hasn't updated within `interval * 1.5`, the delta checker flags it as a missed job — even if no error was ever written.
+
+Silence becomes a signal.
 
 ## Architecture
 
@@ -46,7 +57,9 @@ shouldRun(jobName, intervalMs) // idempotency guard
 
 The functions are synchronous and never throw. The goal is that a logging failure never breaks the job being logged.
 
-## Delta check (runs every heartbeat)
+## Delta Check
+
+### Runs every heartbeat
 
 ```js
 // For each job in cron_registry:
@@ -63,7 +76,9 @@ Returns: `{ missedJobs, failedDms, overloadState, summary }`
 
 The heartbeat uses this output to decide what to retry and what to surface to the operator.
 
-## Overload detection sources
+## Overload Detection Sources
+
+### Two independent paths
 
 Overload state is set by two independent paths:
 
@@ -73,11 +88,11 @@ Overload state is set by two independent paths:
 
 Two independent paths means a single point of failure in detection is eliminated.
 
-## Notification retry logic
+## Notification Retry Logic
 
 Every outbound notification goes through `logDmSent()` → gets a `dmId`. On failure, `logDmFailed()` is called. The heartbeat reads `dm_log` and retries up to 3 times. The operator is notified only if the same message fails all 3 attempts.
 
-## API endpoints
+## API Endpoints
 
 ```
 GET /api/system-events    — last 50 events
@@ -87,10 +102,16 @@ GET /api/overload-state   — current overload singleton
 
 ## Why SQLite
 
+### The zero-dependency rationale
+
 No daemon, no network, no credentials. The entire ledger is a single file. Queries are synchronous. The event logger can be imported and called from any script in the stack without setup.
+
+#### What this means in practice
+If Postgres goes down, your monitoring goes down with it. SQLite is the same binary as your Node process — if your app can run, your logging can run.
 
 ## Related
 
-- [[Cron Job Infrastructure]] — jobs call logCronStart/logCronEnd
-- [[Dead-Man's Switch]] — writes to overload_state
-- [[Notification Batching]] — notification log integrates with the delivery queue
+- [[infrastructure/cron-infrastructure|Cron Infrastructure]] — jobs call logCronStart/logCronEnd
+- [[concepts/dead-mans-switch|Dead-Man's Switch]] — writes to overload_state
+- [[infrastructure/notification-batching|Notification Batching]] — notification log integrates with the delivery queue
+- [[infrastructure/mission-control|Mission Control]] — reads /api/system-events and /api/delta-check to display ledger state
