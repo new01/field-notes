@@ -23,6 +23,7 @@ Three paths depending on where you are. Each builds on the previous.
 2. [[concepts/build-queue-pattern|The Build Queue Pattern]] — persistent work backlog the agent picks from
 3. [[infrastructure/graph-orchestration|Graph Orchestration]] — sequential execution that actually produces reliable output
 4. [[guides/self-improvement|The Self-Improvement Grindset]] — compounding growth loop, session over session
+5. [[guides/intelligence-stream-kit|The Intelligence Stream Kit]] — one-prompt multi-domain intelligence pipeline, free sources, self-healing
 
 ### Advanced Path — Production Infrastructure
 
@@ -91,8 +92,9 @@ The short version: a persistent, self-hosted AI agent connected to every communi
 
 ## Recent
 
+- [[guides/intelligence-stream-kit|Intelligence Stream Kit]] — one prompt to build a full multi-domain intelligence pipeline, free sources, DuckDB, self-healing
 - [[concepts/heartbeat-system|Heartbeat System]] — Phase 1 ops vs Phase 2 proactive work, proof-of-life timestamp pattern
 - [[concepts/build-queue-pattern|Build Queue Pattern]] — collaborative tracker model, gate checking, idle dispatch
-- [[concepts/continuous-ingestion|Continuous Information Ingestion]] — free sources, the eval-first principle, YouTube pipeline
+- [[concepts/continuous-ingestion|Continuous Information Ingestion]] — free sources, the eval-first principle, YouTube pipeline, crypto/finance/science sources
 - [[infrastructure/mission-control|Mission Control]] — dashboard setup, stuck detection, doctor report
 - [[concepts/graph-orchestration-patterns|Graph Orchestration Patterns]] — why sequential beats parallel, phase naming, gate checks

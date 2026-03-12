@@ -94,6 +94,42 @@ https://www.producthunt.com/feed
 
 Daily new products. Filter by upvotes (the feed doesn't include them, so check the API for anything that makes your keyword filter). Best for: competitive landscape monitoring, spotting new AI tools, identifying market movements early.
 
+### Crypto & Finance
+
+These require no API key and have no meaningful rate limits for polling intervals of 30-60 minutes.
+
+```
+https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd   — prices, volume, market cap
+https://api.coingecko.com/api/v3/search/trending                  — trending coins (social momentum)
+https://api.coincap.io/v2/assets                                  — live prices (alternative source)
+https://api.binance.com/api/v3/ticker/24hr                        — 24h tickers across 400+ pairs
+https://open.er-api.com/v6/latest/USD                             — 170+ currency exchange rates
+```
+
+Volume-to-market-cap ratio from CoinGecko is the most useful single signal for crypto research: a small cap with outsized volume means something is moving before the crowd catches on. See [[concepts/dead-mans-switch|the gem hunter pattern]] for how we use this in practice.
+
+### Weather & Environment
+
+```
+https://api.open-meteo.com/v1/forecast?latitude=37.7&longitude=-122.4&hourly=temperature_2m
+https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_week.geojson
+https://api.openaq.org/v2/latest?limit=20
+```
+
+Open-Meteo is the standout here — global weather at 1km resolution, updated hourly, no API key, no rate limits worth worrying about. More accurate than most commercial weather APIs.
+
+### Science & Space
+
+```
+https://api.nasa.gov/neo/rest/v1/feed?api_key=DEMO_KEY          — near-earth asteroid tracking
+http://api.open-notify.org/astros.json                           — astronauts in space / ISS position
+https://api.spacexdata.com/v5/launches/latest                    — SpaceX launch data
+https://arxiv.org/rss/cs.AI                                      — AI research papers (daily updates)
+https://arxiv.org/rss/cs.MA                                      — Multi-agent systems papers
+```
+
+NASA's `DEMO_KEY` is public — you get 30 requests/hour and 50/day without any registration. That's enough for a daily polling job. For higher volume, the real key is free to get with just an email.
+
 ### Lobste.rs Tagged Feeds
 
 ```
@@ -233,6 +269,50 @@ The Whisper step is the differentiator. Without local transcription, you'd pay O
 
 ---
 
+## Local Storage: DuckDB
+
+For pipelines that run continuously, you need a database that persists signal across runs. DuckDB is the right choice — single file, no server, fast analytics, works in any Node.js or Python script.
+
+```sql
+CREATE TABLE IF NOT EXISTS signals (
+  id TEXT PRIMARY KEY,       -- sha256(source + item_id) — deduplication key
+  source TEXT,               -- 'hn_show', 'coingecko_trending', 'arxiv_ai', etc.
+  title TEXT,
+  url TEXT,
+  snippet TEXT,
+  score INTEGER,             -- LLM relevance score 1-10
+  reason TEXT,               -- one-line explanation from LLM
+  discovered_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  routed_to TEXT,            -- 'ideas', 'brief', 'watchlist', 'discarded'
+  raw JSON                   -- full original payload
+);
+```
+
+The `id` field handles deduplication automatically. Hash the source name and the item's unique identifier together — if you've seen it before, the insert silently fails. No separate seen-list to maintain.
+
+Purge old discarded records weekly:
+
+```sql
+DELETE FROM signals 
+WHERE routed_to = 'discarded' 
+AND discovered_at < NOW() - INTERVAL '7 days';
+```
+
+For cross-run analysis — what sources produce the best signal:
+
+```sql
+SELECT source, COUNT(*) as items, ROUND(AVG(score), 1) as avg_score,
+       COUNT(*) FILTER (WHERE score >= 7) as high_signal
+FROM signals
+WHERE discovered_at > NOW() - INTERVAL '30 days'
+GROUP BY source ORDER BY avg_score DESC;
+```
+
+This is how you tune your source list over time. Sources with consistently low avg_score get dropped. Sources that keep producing high-signal items get more weight.
+
+> [!note] DuckDB vs JSON files
+> JSON files work fine for small pipelines (< a few thousand items). Once you want to query across runs, filter by date, or do any analysis, DuckDB pays for itself immediately. The migration is a one-time `INSERT INTO signals SELECT ... FROM read_json_auto('findings.json')`.
+
 ## Monitoring the OpenClaw Ecosystem
 
 Keep a pulse on what's changing in the tools you depend on:
@@ -248,5 +328,6 @@ Discord channel monitoring (with user token) gives you community discussion as i
 
 ## Related
 
+- [[guides/intelligence-stream-kit|The Intelligence Stream Kit]] — practical guide: one prompt to set up a full multi-domain intelligence pipeline
 - [[guides/self-improvement|Self-Improvement Grindset]] — how ingestion feeds the compounding loop
 - [[concepts/self-improvement-system|Self-Improvement System]] — the broader feedback architecture this connects to

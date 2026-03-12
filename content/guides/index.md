@@ -47,7 +47,11 @@ Why sequential graph execution produces better results than parallel agent swarm
 
 ### 4. [[concepts/continuous-ingestion|Continuous Information Ingestion]]
 
-Wire your agent to information sources so it learns while you're not watching. The eval-first principle (ingestion without evaluation is noise), free sources (HN Algolia API, GitHub RSS, YouTube channel RSS, ArXiv, Product Hunt, Lobste.rs), and the full pipeline pattern: fetch → filter → score → extract → route → discard.
+Wire your agent to information sources so it learns while you're not watching. The eval-first principle (ingestion without evaluation is noise), free sources (HN Algolia API, GitHub RSS, YouTube channel RSS, ArXiv, Product Hunt, Lobste.rs, crypto/finance APIs, weather, science/space), DuckDB local storage, and the full pipeline pattern: fetch → filter → score → extract → route → discard.
+
+### 5. [[guides/intelligence-stream-kit|The Intelligence Stream Kit]]
+
+One prompt. A full multi-domain intelligence stream covering tech, crypto/finance, weather, science, and news — all from free public APIs with no accounts. How to set it up, the sources that don't require keys, the DuckDB storage layer, self-healing patterns, and what a running pipeline looks like in production.
 
 ---
 
@@ -79,3 +83,4 @@ The curated collection of OpenClaw skills. Skills are the tools your agent uses 
 - [[guides/doctrine-files|Doctrine Files]] — SOUL.md, AGENTS.md, USER.md
 - [[guides/first-automation|First Automation]] — morning brief, cron setup, delivery
 - [[guides/self-improvement|Self-Improvement Grindset]] — compounding loop, pillars, information sources
+- [[guides/intelligence-stream-kit|Intelligence Stream Kit]] — one-prompt multi-domain intelligence pipeline, free sources, DuckDB, self-healing
