@@ -6,65 +6,65 @@
       <description>Last 10 notes on Claw Field Notes</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Autonomous Intelligence Sourcing</title>
+    <link>https://new01.github.io/field-notes/concepts/autonomous-intelligence-sourcing</link>
+    <guid>https://new01.github.io/field-notes/concepts/autonomous-intelligence-sourcing</guid>
+    <description><![CDATA[ How OpenClaw agents find, evaluate, and subscribe to real-world data streams without paywalls or manual configuration. ]]></description>
+    <pubDate>Thu, 12 Mar 2026 03:52:35 GMT</pubDate>
+  </item><item>
     <title>The Build Queue Pattern</title>
     <link>https://new01.github.io/field-notes/concepts/build-queue-pattern</link>
     <guid>https://new01.github.io/field-notes/concepts/build-queue-pattern</guid>
     <description><![CDATA[ How to give an agent a backlog of real work it can pick up autonomously — and why it must be a collaborative tracker, not an autonomous executor ]]></description>
-    <pubDate>Wed, 11 Mar 2026 22:11:11 GMT</pubDate>
+    <pubDate>Thu, 12 Mar 2026 03:52:35 GMT</pubDate>
   </item><item>
     <title>Continuous Information Ingestion</title>
     <link>https://new01.github.io/field-notes/concepts/continuous-ingestion</link>
     <guid>https://new01.github.io/field-notes/concepts/continuous-ingestion</guid>
     <description><![CDATA[ How to wire an agent to information sources so it learns autonomously — the eval-first principle, free sources, and the pipeline pattern ]]></description>
-    <pubDate>Wed, 11 Mar 2026 22:11:11 GMT</pubDate>
+    <pubDate>Thu, 12 Mar 2026 03:52:35 GMT</pubDate>
   </item><item>
     <title>Graph Orchestration Patterns</title>
     <link>https://new01.github.io/field-notes/concepts/graph-orchestration-patterns</link>
     <guid>https://new01.github.io/field-notes/concepts/graph-orchestration-patterns</guid>
     <description><![CDATA[ Why parallel agent swarms fail for build tasks and how directed sequential graphs with committed artifacts consistently outperform them ]]></description>
-    <pubDate>Wed, 11 Mar 2026 22:11:11 GMT</pubDate>
+    <pubDate>Thu, 12 Mar 2026 03:52:35 GMT</pubDate>
   </item><item>
     <title>The Heartbeat System</title>
     <link>https://new01.github.io/field-notes/concepts/heartbeat-system</link>
     <guid>https://new01.github.io/field-notes/concepts/heartbeat-system</guid>
     <description><![CDATA[ How OpenClaw's periodic heartbeat enables autonomous proactive work — and how to configure it correctly ]]></description>
-    <pubDate>Wed, 11 Mar 2026 22:11:11 GMT</pubDate>
+    <pubDate>Thu, 12 Mar 2026 03:52:35 GMT</pubDate>
   </item><item>
     <title>Qualification Screening Paradox</title>
     <link>https://new01.github.io/field-notes/concepts/qualification-screening-paradox</link>
     <guid>https://new01.github.io/field-notes/concepts/qualification-screening-paradox</guid>
     <description><![CDATA[ A counterintuitive onboarding pattern where blocking users based on a self-reported qualifier — then allowing them to change their answer — increases conversion rates and reduces post-purchase complaints simultaneously. ]]></description>
-    <pubDate>Wed, 11 Mar 2026 22:11:11 GMT</pubDate>
-  </item><item>
-    <title>Revenue Retention Expansion</title>
-    <link>https://new01.github.io/field-notes/concepts/revenue-retention-expansion</link>
-    <guid>https://new01.github.io/field-notes/concepts/revenue-retention-expansion</guid>
-    <description><![CDATA[ A growth strategy that moves beyond subscription retention by building a stacked marketplace of add-on purchases, allowing power users to spend multiples of their initial subscription and converting flat or declining cohort revenue into net revenue retention above 100%. ]]></description>
-    <pubDate>Wed, 11 Mar 2026 22:11:11 GMT</pubDate>
+    <pubDate>Thu, 12 Mar 2026 03:52:35 GMT</pubDate>
   </item><item>
     <title>Runtime Control Layer</title>
     <link>https://new01.github.io/field-notes/concepts/runtime-control-layer</link>
     <guid>https://new01.github.io/field-notes/concepts/runtime-control-layer</guid>
     <description><![CDATA[ Middleware that intercepts and modulates autonomous agent actions before execution, enforcing policies, approvals, and rollback mechanisms. ]]></description>
-    <pubDate>Wed, 11 Mar 2026 22:11:11 GMT</pubDate>
+    <pubDate>Thu, 12 Mar 2026 03:52:35 GMT</pubDate>
   </item><item>
     <title>Doctrine Files</title>
     <link>https://new01.github.io/field-notes/guides/doctrine-files</link>
     <guid>https://new01.github.io/field-notes/guides/doctrine-files</guid>
     <description><![CDATA[ The three files that determine how your agent behaves between sessions — and how to write them well ]]></description>
-    <pubDate>Wed, 11 Mar 2026 22:11:11 GMT</pubDate>
+    <pubDate>Thu, 12 Mar 2026 03:52:35 GMT</pubDate>
   </item><item>
     <title>Your First Automation — The Morning Brief</title>
     <link>https://new01.github.io/field-notes/guides/first-automation</link>
     <guid>https://new01.github.io/field-notes/guides/first-automation</guid>
     <description><![CDATA[ Step-by-step guide to building a daily digest that runs autonomously and delivers to Telegram or Discord ]]></description>
-    <pubDate>Wed, 11 Mar 2026 22:11:11 GMT</pubDate>
+    <pubDate>Thu, 12 Mar 2026 03:52:35 GMT</pubDate>
   </item><item>
     <title>Getting Started with OpenClaw</title>
     <link>https://new01.github.io/field-notes/guides/getting-started</link>
     <guid>https://new01.github.io/field-notes/guides/getting-started</guid>
     <description><![CDATA[ What to set up first and what to do in your first week ]]></description>
-    <pubDate>Wed, 11 Mar 2026 22:11:11 GMT</pubDate>
+    <pubDate>Thu, 12 Mar 2026 03:52:35 GMT</pubDate>
   </item>
     </channel>
   </rss>
