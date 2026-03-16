@@ -15,6 +15,13 @@ log_event() {
 
 log_event "running" "Build started"
 
+# Push source to origin/main first
+echo "📤 Pushing source to origin/main..."
+cd "$SITE_DIR"
+git add -A
+git diff --cached --quiet || git commit -m "chore: pre-deploy sync $(date '+%Y-%m-%d %H:%M')"
+git push origin main 2>&1 | tail -3
+
 # Ensure quartz engine exists
 if [ ! -f "$QUARTZ_ENGINE/quartz/bootstrap-cli.mjs" ]; then
   echo "🔧 Setting up Quartz engine..."
