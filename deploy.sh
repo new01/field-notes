@@ -72,5 +72,38 @@ git push origin gh-pages
 rm -rf "$GH_DEPLOY"
 
 DURATION=$(( $(date +%s%3N) - START ))
-log_event "success" "Deployed in ${DURATION}ms — https://new01.github.io/field-notes/"
-echo "✅ Deployed — https://new01.github.io/field-notes/ (${DURATION}ms)"
+
+# Verification — wait for GitHub Pages to propagate, then spot-check 3 pages
+echo "🔍 Verifying deployment..."
+sleep 15
+VERIFY_PASS=0
+VERIFY_FAIL=0
+VERIFY_URLS=()
+
+# Pick index + 2 most recently modified concept pages
+VERIFY_URLS+=("https://new01.github.io/field-notes/")
+RECENT=$(find "$SITE_DIR/content" -name "*.md" -not -name "index.md" | xargs ls -t 2>/dev/null | head -2)
+for f in $RECENT; do
+  slug=$(basename "$f" .md)
+  dir=$(basename $(dirname "$f"))
+  VERIFY_URLS+=("https://new01.github.io/field-notes/$dir/$slug")
+done
+
+for url in "${VERIFY_URLS[@]}"; do
+  STATUS=$(curl -s -o /dev/null -w "%{http_code}" --max-time 10 "$url")
+  if [ "$STATUS" = "200" ]; then
+    echo "  ✅ $STATUS $url"
+    VERIFY_PASS=$((VERIFY_PASS+1))
+  else
+    echo "  ❌ $STATUS $url"
+    VERIFY_FAIL=$((VERIFY_FAIL+1))
+  fi
+done
+
+if [ "$VERIFY_FAIL" -gt 0 ]; then
+  log_event "warning" "Deployed but $VERIFY_FAIL/$((VERIFY_PASS+VERIFY_FAIL)) spot checks failed — pages may not be live yet"
+  echo "⚠️  $VERIFY_FAIL page(s) returned non-200 — GitHub Pages may still be propagating"
+else
+  log_event "success" "Deployed + verified in ${DURATION}ms — https://new01.github.io/field-notes/"
+  echo "✅ Deployed + verified — https://new01.github.io/field-notes/ (${DURATION}ms)"
+fi
