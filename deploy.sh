@@ -101,8 +101,43 @@ for url in "${VERIFY_URLS[@]}"; do
 done
 
 if [ "$VERIFY_FAIL" -gt 0 ]; then
-  log_event "warning" "Deployed but $VERIFY_FAIL/$((VERIFY_PASS+VERIFY_FAIL)) spot checks failed — pages may not be live yet"
-  echo "⚠️  $VERIFY_FAIL page(s) returned non-200 — GitHub Pages may still be propagating"
+  # Auto-retry verification up to 3 more times (GitHub Pages propagation can be slow)
+  RETRY=0
+  while [ "$VERIFY_FAIL" -gt 0 ] && [ "$RETRY" -lt 3 ]; do
+    RETRY=$((RETRY+1))
+    echo "⏳ Retry $RETRY/3 — waiting 20s for GitHub Pages to propagate..."
+    sleep 20
+    VERIFY_FAIL=0
+    VERIFY_PASS=0
+    for url in "${VERIFY_URLS[@]}"; do
+      STATUS=$(curl -s -o /dev/null -w "%{http_code}" --max-time 10 "$url")
+      if [ "$STATUS" = "200" ]; then
+        VERIFY_PASS=$((VERIFY_PASS+1))
+      else
+        echo "  ❌ Still $STATUS: $url"
+        VERIFY_FAIL=$((VERIFY_FAIL+1))
+      fi
+    done
+  done
+  if [ "$VERIFY_FAIL" -gt 0 ]; then
+    log_event "error" "Deploy verification failed after retries — $VERIFY_FAIL pages not returning 200"
+    echo "❌ Verification failed after retries — redeploying..."
+    # Full redeploy attempt
+    cd "$QUARTZ_ENGINE"
+    node quartz/bootstrap-cli.mjs build 2>&1 | tail -3
+    GH_REDEPLOY="/tmp/gh-redeploy-$$"
+    git clone --depth 1 --branch gh-pages https://github.com/new01/field-notes.git "$GH_REDEPLOY" 2>&1 | tail -1
+    rm -rf "$GH_REDEPLOY"/*
+    cp -r "$QUARTZ_ENGINE/public/." "$GH_REDEPLOY/"
+    touch "$GH_REDEPLOY/.nojekyll"
+    cd "$GH_REDEPLOY" && git add -A && git commit -m "redeploy: retry $(date '+%Y-%m-%d %H:%M')" && git push origin gh-pages
+    rm -rf "$GH_REDEPLOY"
+    log_event "warning" "Redeployed — verify manually if issue persists"
+    echo "⚠️  Redeployed — GitHub Pages should catch up within 2 minutes"
+  else
+    log_event "success" "Deployed + verified (after ${RETRY} retry) — https://new01.github.io/field-notes/"
+    echo "✅ Deployed + verified — https://new01.github.io/field-notes/ (${DURATION}ms, ${RETRY} retries)"
+  fi
 else
   log_event "success" "Deployed + verified in ${DURATION}ms — https://new01.github.io/field-notes/"
   echo "✅ Deployed + verified — https://new01.github.io/field-notes/ (${DURATION}ms)"
