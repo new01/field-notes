@@ -6,65 +6,65 @@
       <description>Last 10 notes on Claw Field Notes</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Doctrine Files</title>
-    <link>https://new01.github.io/field-notes/guides/doctrine-files</link>
-    <guid>https://new01.github.io/field-notes/guides/doctrine-files</guid>
-    <description><![CDATA[ The three files that determine how your agent behaves between sessions — and how to write them well ]]></description>
-    <pubDate>Mon, 16 Mar 2026 21:10:02 GMT</pubDate>
-  </item><item>
-    <title>Your First Automation — The Morning Brief</title>
-    <link>https://new01.github.io/field-notes/guides/first-automation</link>
-    <guid>https://new01.github.io/field-notes/guides/first-automation</guid>
-    <description><![CDATA[ Step-by-step guide to building a daily digest that runs autonomously and delivers to Telegram or Discord ]]></description>
-    <pubDate>Mon, 16 Mar 2026 21:10:02 GMT</pubDate>
-  </item><item>
-    <title>Guides</title>
-    <link>https://new01.github.io/field-notes/guides/</link>
-    <guid>https://new01.github.io/field-notes/guides/</guid>
-    <description><![CDATA[ Practical walkthroughs for OpenClaw builders — from first install to production autonomous systems ]]></description>
-    <pubDate>Mon, 16 Mar 2026 21:10:02 GMT</pubDate>
-  </item><item>
-    <title>The Intelligence Stream Kit</title>
-    <link>https://new01.github.io/field-notes/guides/intelligence-stream-kit</link>
-    <guid>https://new01.github.io/field-notes/guides/intelligence-stream-kit</guid>
-    <description><![CDATA[ One prompt. Always-on signal from the web. How to build a private, self-running intelligence feed with zero ongoing maintenance. ]]></description>
-    <pubDate>Mon, 16 Mar 2026 21:10:02 GMT</pubDate>
-  </item><item>
-    <title>The Self-Improvement Grindset</title>
-    <link>https://new01.github.io/field-notes/guides/self-improvement</link>
-    <guid>https://new01.github.io/field-notes/guides/self-improvement</guid>
-    <description><![CDATA[ How to get an OpenClaw agent onto the compounding growth loop — where each session is smarter than the last ]]></description>
-    <pubDate>Mon, 16 Mar 2026 21:10:02 GMT</pubDate>
-  </item><item>
-    <title>Claw Field Notes</title>
-    <link>https://new01.github.io/field-notes/</link>
-    <guid>https://new01.github.io/field-notes/</guid>
-    <description><![CDATA[ Production knowledge for OpenClaw builders — patterns, infrastructure, and hard-won lessons ]]></description>
-    <pubDate>Mon, 16 Mar 2026 21:10:02 GMT</pubDate>
-  </item><item>
-    <title>Tools</title>
-    <link>https://new01.github.io/field-notes/tools/</link>
-    <guid>https://new01.github.io/field-notes/tools/</guid>
-    <description><![CDATA[ Practical pipelines and scripts we run in production — what they do, how they work, where they break ]]></description>
-    <pubDate>Mon, 16 Mar 2026 21:10:02 GMT</pubDate>
-  </item><item>
-    <title>Agent Budget Enforcement</title>
-    <link>https://new01.github.io/field-notes/concepts/agent-budget-enforcement</link>
-    <guid>https://new01.github.io/field-notes/concepts/agent-budget-enforcement</guid>
-    <description><![CDATA[ Pre-execution cost and resource controls that prevent autonomous agents from runaway spending ]]></description>
-    <pubDate>Mon, 16 Mar 2026 21:10:02 GMT</pubDate>
-  </item><item>
-    <title>Agent Dependency Risks</title>
-    <link>https://new01.github.io/field-notes/concepts/agent-dependency-risks</link>
-    <guid>https://new01.github.io/field-notes/concepts/agent-dependency-risks</guid>
-    <description><![CDATA[ Security vulnerabilities that emerge when AI coding agents select, suggest, or install software dependencies — including hallucinated packages, outdated versions, and supply chain attack vectors enabled by agent behavior. ]]></description>
-    <pubDate>Mon, 16 Mar 2026 21:10:02 GMT</pubDate>
-  </item><item>
     <title>Agent Long Term Memory</title>
     <link>https://new01.github.io/field-notes/concepts/agent-long-term-memory</link>
     <guid>https://new01.github.io/field-notes/concepts/agent-long-term-memory</guid>
     <description><![CDATA[ Persistent memory systems that let AI agents maintain state and context across session resets ]]></description>
-    <pubDate>Mon, 16 Mar 2026 21:10:02 GMT</pubDate>
+    <pubDate>Tue, 17 Mar 2026 22:57:20 GMT</pubDate>
+  </item><item>
+    <title>Agent Run Trading Funds</title>
+    <link>https://new01.github.io/field-notes/concepts/agent-run-trading-funds</link>
+    <guid>https://new01.github.io/field-notes/concepts/agent-run-trading-funds</guid>
+    <description><![CDATA[ Autonomous AI agents managing real capital with algorithmic trading strategies ]]></description>
+    <pubDate>Tue, 17 Mar 2026 22:57:20 GMT</pubDate>
+  </item><item>
+    <title>Agent Trust Networks</title>
+    <link>https://new01.github.io/field-notes/concepts/agent-trust-networks</link>
+    <guid>https://new01.github.io/field-notes/concepts/agent-trust-networks</guid>
+    <description><![CDATA[ Systems where AI agents verify and authenticate each other to enable safe multi-agent collaboration ]]></description>
+    <pubDate>Tue, 17 Mar 2026 22:57:20 GMT</pubDate>
+  </item><item>
+    <title>AI Agent Permission Control</title>
+    <link>https://new01.github.io/field-notes/concepts/ai-agent-permission-control</link>
+    <guid>https://new01.github.io/field-notes/concepts/ai-agent-permission-control</guid>
+    <description><![CDATA[ SDKs and frameworks that govern what autonomous AI agents can access and do, using container isolation and vault proxies for security ]]></description>
+    <pubDate>Tue, 17 Mar 2026 22:57:20 GMT</pubDate>
+  </item><item>
+    <title>AI Maintained Knowledge Bases</title>
+    <link>https://new01.github.io/field-notes/concepts/ai-maintained-knowledge-bases</link>
+    <guid>https://new01.github.io/field-notes/concepts/ai-maintained-knowledge-bases</guid>
+    <description><![CDATA[ Knowledge bases where content is created and kept current by AI agents rather than human editors ]]></description>
+    <pubDate>Tue, 17 Mar 2026 22:57:20 GMT</pubDate>
+  </item><item>
+    <title>AI Red Teaming Platforms</title>
+    <link>https://new01.github.io/field-notes/concepts/ai-red-teaming-platforms</link>
+    <guid>https://new01.github.io/field-notes/concepts/ai-red-teaming-platforms</guid>
+    <description><![CDATA[ Full-stack security platforms that proactively test AI ecosystems for infrastructure vulnerabilities, prompt injection, and agent workflow exploits ]]></description>
+    <pubDate>Tue, 17 Mar 2026 22:57:20 GMT</pubDate>
+  </item><item>
+    <title>Behavioral Economics SaaS</title>
+    <link>https://new01.github.io/field-notes/concepts/behavioral-economics-saas</link>
+    <guid>https://new01.github.io/field-notes/concepts/behavioral-economics-saas</guid>
+    <description><![CDATA[ Software tools that analyze digital products through a behavioral economics lens, identifying psychological friction points that hurt conversion and revenue. ]]></description>
+    <pubDate>Tue, 17 Mar 2026 22:57:20 GMT</pubDate>
+  </item><item>
+    <title>Email To Structured Data APIs</title>
+    <link>https://new01.github.io/field-notes/concepts/email-to-structured-data-apis</link>
+    <guid>https://new01.github.io/field-notes/concepts/email-to-structured-data-apis</guid>
+    <description><![CDATA[ Services that parse inbound email into structured JSON, enabling programmatic email processing ]]></description>
+    <pubDate>Tue, 17 Mar 2026 22:57:20 GMT</pubDate>
+  </item><item>
+    <title>LLM Cost Observability</title>
+    <link>https://new01.github.io/field-notes/concepts/llm-cost-observability</link>
+    <guid>https://new01.github.io/field-notes/concepts/llm-cost-observability</guid>
+    <description><![CDATA[ SDKs and dashboards that audit and visualize LLM API spending in real-time ]]></description>
+    <pubDate>Tue, 17 Mar 2026 22:57:20 GMT</pubDate>
+  </item><item>
+    <title>Multi Agent Context Scoping</title>
+    <link>https://new01.github.io/field-notes/concepts/multi-agent-context-scoping</link>
+    <guid>https://new01.github.io/field-notes/concepts/multi-agent-context-scoping</guid>
+    <description><![CDATA[ The discipline of deciding what information each agent in a multi-agent system should see, controlling context boundaries to prevent overload, leakage, and irrelevant noise. ]]></description>
+    <pubDate>Tue, 17 Mar 2026 22:57:20 GMT</pubDate>
   </item>
     </channel>
   </rss>
