@@ -1,4 +1,4 @@
-# Link Opportunities — 2026-03-17
+# Link Opportunities — 2026-03-18
 
 Pages that mention other page topics without linking to them.
 Review and add [[wikilinks]] to strengthen the knowledge graph.
@@ -132,8 +132,19 @@ Review and add [[wikilinks]] to strengthen the knowledge graph.
 - **concepts/agentic-error-recovery-loops.md** mentions `The Self-Improvement Grindset` — add `[[self-improvement|The Self-Improvement Grindset]]`
 - **concepts/agentic-error-recovery-loops.md** mentions `Tools` — add `[[index|Tools]]`
 - **concepts/ai-agent-control-planes.md** mentions `Concepts` — add `[[index|Concepts]]`
+- **concepts/ai-agent-control-planes.md** mentions `Production Readiness Gap` — add `[[production-readiness-gap|Production Readiness Gap]]`
 - **concepts/ai-agent-control-planes.md** mentions `Infrastructure` — add `[[index|Infrastructure]]`
 - **concepts/ai-agent-control-planes.md** mentions `Tools` — add `[[index|Tools]]`
+- **concepts/ai-agent-permission-control.md** mentions `About` — add `[[about|About]]`
+- **concepts/ai-agent-permission-control.md** mentions `Agent Budget Enforcement` — add `[[agent-budget-enforcement|Agent Budget Enforcement]]`
+- **concepts/ai-agent-permission-control.md** mentions `Agent Sandboxing Environments` — add `[[agent-sandboxing-environments|Agent Sandboxing Environments]]`
+- **concepts/ai-agent-permission-control.md** mentions `Agent Trust Networks` — add `[[agent-trust-networks|Agent Trust Networks]]`
+- **concepts/ai-agent-permission-control.md** mentions `AI Pipeline Security Layers` — add `[[ai-pipeline-security-layers|AI Pipeline Security Layers]]`
+- **concepts/ai-agent-permission-control.md** mentions `Concepts` — add `[[index|Concepts]]`
+- **concepts/ai-agent-permission-control.md** mentions `MCP Security Gateways` — add `[[mcp-security-gateways|MCP Security Gateways]]`
+- **concepts/ai-agent-permission-control.md** mentions `Runtime Control Layer` — add `[[runtime-control-layer|Runtime Control Layer]]`
+- **concepts/ai-agent-permission-control.md** mentions `Infrastructure` — add `[[index|Infrastructure]]`
+- **concepts/ai-agent-permission-control.md** mentions `Tools` — add `[[index|Tools]]`
 - **concepts/ai-maintained-knowledge-bases.md** mentions `Agent Long Term Memory` — add `[[agent-long-term-memory|Agent Long Term Memory]]`
 - **concepts/ai-maintained-knowledge-bases.md** mentions `Agent Orchestration Platforms` — add `[[agent-orchestration-platforms|Agent Orchestration Platforms]]`
 - **concepts/ai-maintained-knowledge-bases.md** mentions `Concepts` — add `[[index|Concepts]]`
@@ -161,6 +172,9 @@ Review and add [[wikilinks]] to strengthen the knowledge graph.
 - **concepts/autonomous-test-generation-agents.md** mentions `The Build Queue Pattern` — add `[[build-queue-pattern|The Build Queue Pattern]]`
 - **concepts/autonomous-test-generation-agents.md** mentions `Concepts` — add `[[index|Concepts]]`
 - **concepts/autonomous-test-generation-agents.md** mentions `Infrastructure` — add `[[index|Infrastructure]]`
+- **concepts/behavioral-economics-saas.md** mentions `About` — add `[[about|About]]`
+- **concepts/behavioral-economics-saas.md** mentions `Concepts` — add `[[index|Concepts]]`
+- **concepts/behavioral-economics-saas.md** mentions `Tools` — add `[[index|Tools]]`
 - **concepts/behavioral-onboarding-sequencing.md** mentions `About` — add `[[about|About]]`
 - **concepts/behavioral-onboarding-sequencing.md** mentions `Cognitive Load Optimization` — add `[[cognitive-load-optimization|Cognitive Load Optimization]]`
 - **concepts/behavioral-onboarding-sequencing.md** mentions `Data-Driven Friction Audit` — add `[[data-driven-friction-audit|Data-Driven Friction Audit]]`
@@ -364,10 +378,25 @@ Review and add [[wikilinks]] to strengthen the knowledge graph.
 - **concepts/meta-ads-library-scraper.md** mentions `Orchestrator Sub-Skill Pattern` — add `[[orchestrator-sub-skill-pattern|Orchestrator Sub-Skill Pattern]]`
 - **concepts/meta-ads-library-scraper.md** mentions `Skill-Based Agent Architecture` — add `[[skill-based-agent-architecture|Skill-Based Agent Architecture]]`
 - **concepts/meta-ads-library-scraper.md** mentions `Graph Orchestration` — add `[[graph-orchestration|Graph Orchestration]]`
+- **concepts/multi-agent-context-scoping.md** mentions `About` — add `[[about|About]]`
+- **concepts/multi-agent-context-scoping.md** mentions `Agent Budget Enforcement` — add `[[agent-budget-enforcement|Agent Budget Enforcement]]`
+- **concepts/multi-agent-context-scoping.md** mentions `Agent Memory Systems` — add `[[agent-memory-systems|Agent Memory Systems]]`
+- **concepts/multi-agent-context-scoping.md** mentions `Agent Memory` — add `[[agent-memory|Agent Memory]]`
+- **concepts/multi-agent-context-scoping.md** mentions `Agent Orchestration Platforms` — add `[[agent-orchestration-platforms|Agent Orchestration Platforms]]`
+- **concepts/multi-agent-context-scoping.md** mentions `AI Pipeline Security Layers` — add `[[ai-pipeline-security-layers|AI Pipeline Security Layers]]`
+- **concepts/multi-agent-context-scoping.md** mentions `Cognitive Load Optimization` — add `[[cognitive-load-optimization|Cognitive Load Optimization]]`
+- **concepts/multi-agent-context-scoping.md** mentions `Graph Orchestration Patterns` — add `[[graph-orchestration-patterns|Graph Orchestration Patterns]]`
+- **concepts/multi-agent-context-scoping.md** mentions `Concepts` — add `[[index|Concepts]]`
+- **concepts/multi-agent-context-scoping.md** mentions `Orchestrator Sub-Skill Pattern` — add `[[orchestrator-sub-skill-pattern|Orchestrator Sub-Skill Pattern]]`
+- **concepts/multi-agent-context-scoping.md** mentions `Prompt Enrichment Architecture` — add `[[prompt-enrichment-architecture|Prompt Enrichment Architecture]]`
+- **concepts/multi-agent-context-scoping.md** mentions `Graph Orchestration` — add `[[graph-orchestration|Graph Orchestration]]`
+- **concepts/multi-agent-context-scoping.md** mentions `Infrastructure` — add `[[index|Infrastructure]]`
 - **concepts/multi-user-agent-instance-management.md** mentions `About` — add `[[about|About]]`
 - **concepts/multi-user-agent-instance-management.md** mentions `Concepts` — add `[[index|Concepts]]`
 - **concepts/multi-user-agent-instance-management.md** mentions `Infrastructure` — add `[[index|Infrastructure]]`
 - **concepts/multi-user-agent-instance-management.md** mentions `Tools` — add `[[index|Tools]]`
+- **concepts/niche-saas-positioning.md** mentions `Concepts` — add `[[index|Concepts]]`
+- **concepts/niche-saas-positioning.md** mentions `Tools` — add `[[index|Tools]]`
 - **concepts/openclaw-ecosystem-growth.md** mentions `Concepts` — add `[[index|Concepts]]`
 - **concepts/openclaw-ecosystem-growth.md** mentions `LocalClaw Competitor Pattern` — add `[[localclaw-competitor-pattern|LocalClaw Competitor Pattern]]`
 - **concepts/openclaw-ecosystem-growth.md** mentions `Skill-Based Agent Architecture` — add `[[skill-based-agent-architecture|Skill-Based Agent Architecture]]`
@@ -392,6 +421,8 @@ Review and add [[wikilinks]] to strengthen the knowledge graph.
 - **concepts/pipeline-cost-per-run.md** mentions `Graph Orchestration` — add `[[graph-orchestration|Graph Orchestration]]`
 - **concepts/pipeline-cost-per-run.md** mentions `Infrastructure` — add `[[index|Infrastructure]]`
 - **concepts/pipeline-cost-per-run.md** mentions `Tools` — add `[[index|Tools]]`
+- **concepts/production-readiness-gap.md** mentions `Concepts` — add `[[index|Concepts]]`
+- **concepts/production-readiness-gap.md** mentions `Infrastructure` — add `[[index|Infrastructure]]`
 - **concepts/prompt-enrichment-architecture.md** mentions `About` — add `[[about|About]]`
 - **concepts/prompt-enrichment-architecture.md** mentions `Concepts` — add `[[index|Concepts]]`
 - **concepts/prompt-enrichment-architecture.md** mentions `Infrastructure` — add `[[index|Infrastructure]]`
@@ -415,6 +446,8 @@ Review and add [[wikilinks]] to strengthen the knowledge graph.
 - **concepts/real-time-agent-work-visualization.md** mentions `Concepts` — add `[[index|Concepts]]`
 - **concepts/real-time-agent-work-visualization.md** mentions `Infrastructure` — add `[[index|Infrastructure]]`
 - **concepts/real-time-agent-work-visualization.md** mentions `Tools` — add `[[index|Tools]]`
+- **concepts/reddit-lead-generation.md** mentions `About` — add `[[about|About]]`
+- **concepts/reddit-lead-generation.md** mentions `Concepts` — add `[[index|Concepts]]`
 - **concepts/revenue-retention-expansion.md** mentions `About` — add `[[about|About]]`
 - **concepts/revenue-retention-expansion.md** mentions `Behavioral Onboarding Sequencing` — add `[[behavioral-onboarding-sequencing|Behavioral Onboarding Sequencing]]`
 - **concepts/revenue-retention-expansion.md** mentions `Binary Choice Architecture` — add `[[binary-choice-architecture|Binary Choice Architecture]]`
@@ -435,6 +468,8 @@ Review and add [[wikilinks]] to strengthen the knowledge graph.
 - **concepts/runtime-control-layer.md** mentions `Overload-Tolerant Event Ledger` — add `[[overload-tolerant-event-ledger|Overload-Tolerant Event Ledger]]`
 - **concepts/runtime-control-layer.md** mentions `Toyota Production System for Agents` — add `[[toyota-production-system-for-agents|Toyota Production System for Agents]]`
 - **concepts/runtime-control-layer.md** mentions `Infrastructure` — add `[[index|Infrastructure]]`
+- **concepts/saas-market-noise-problem.md** mentions `Concepts` — add `[[index|Concepts]]`
+- **concepts/saas-market-noise-problem.md** mentions `Tools` — add `[[index|Tools]]`
 - **concepts/security-hygiene.md** mentions `Concepts` — add `[[index|Concepts]]`
 - **concepts/security-hygiene.md** mentions `Prompt File Governance` — add `[[prompt-file-governance|Prompt File Governance]]`
 - **concepts/security-hygiene.md** mentions `Getting Started with OpenClaw` — add `[[getting-started|Getting Started with OpenClaw]]`
