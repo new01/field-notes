@@ -6,65 +6,65 @@
       <description>Last 10 notes on Claw Field Notes</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Tools</title>
-    <link>https://new01.github.io/field-notes/tools/</link>
-    <guid>https://new01.github.io/field-notes/tools/</guid>
-    <description><![CDATA[ Practical pipelines and scripts we run in production — what they do, how they work, where they break ]]></description>
-    <pubDate>Wed, 18 Mar 2026 21:06:14 GMT</pubDate>
-  </item><item>
-    <title>Agent Run Trading Funds</title>
-    <link>https://new01.github.io/field-notes/concepts/agent-run-trading-funds</link>
-    <guid>https://new01.github.io/field-notes/concepts/agent-run-trading-funds</guid>
-    <description><![CDATA[ Autonomous AI agents managing real capital with algorithmic trading strategies ]]></description>
-    <pubDate>Wed, 18 Mar 2026 21:06:14 GMT</pubDate>
-  </item><item>
-    <title>Agent Trust Networks</title>
-    <link>https://new01.github.io/field-notes/concepts/agent-trust-networks</link>
-    <guid>https://new01.github.io/field-notes/concepts/agent-trust-networks</guid>
-    <description><![CDATA[ Systems where AI agents verify and authenticate each other to enable safe multi-agent collaboration ]]></description>
-    <pubDate>Wed, 18 Mar 2026 21:06:14 GMT</pubDate>
-  </item><item>
     <title>AI Agent Permission Control</title>
     <link>https://new01.github.io/field-notes/concepts/ai-agent-permission-control</link>
     <guid>https://new01.github.io/field-notes/concepts/ai-agent-permission-control</guid>
     <description><![CDATA[ SDKs and frameworks that govern what autonomous AI agents can access and do, using container isolation and vault proxies for security ]]></description>
-    <pubDate>Wed, 18 Mar 2026 21:06:14 GMT</pubDate>
-  </item><item>
-    <title>AI Maintained Knowledge Bases</title>
-    <link>https://new01.github.io/field-notes/concepts/ai-maintained-knowledge-bases</link>
-    <guid>https://new01.github.io/field-notes/concepts/ai-maintained-knowledge-bases</guid>
-    <description><![CDATA[ Knowledge bases where content is created and kept current by AI agents rather than human editors ]]></description>
-    <pubDate>Wed, 18 Mar 2026 21:06:14 GMT</pubDate>
-  </item><item>
-    <title>AI Red Teaming Platforms</title>
-    <link>https://new01.github.io/field-notes/concepts/ai-red-teaming-platforms</link>
-    <guid>https://new01.github.io/field-notes/concepts/ai-red-teaming-platforms</guid>
-    <description><![CDATA[ Full-stack security platforms that proactively test AI ecosystems for infrastructure vulnerabilities, prompt injection, and agent workflow exploits ]]></description>
-    <pubDate>Wed, 18 Mar 2026 21:06:14 GMT</pubDate>
-  </item><item>
-    <title>Behavioral Economics SaaS</title>
-    <link>https://new01.github.io/field-notes/concepts/behavioral-economics-saas</link>
-    <guid>https://new01.github.io/field-notes/concepts/behavioral-economics-saas</guid>
-    <description><![CDATA[ Software tools that analyze digital products through a behavioral economics lens, identifying psychological friction points that hurt conversion and revenue. ]]></description>
-    <pubDate>Wed, 18 Mar 2026 21:06:14 GMT</pubDate>
-  </item><item>
-    <title>Email To Structured Data APIs</title>
-    <link>https://new01.github.io/field-notes/concepts/email-to-structured-data-apis</link>
-    <guid>https://new01.github.io/field-notes/concepts/email-to-structured-data-apis</guid>
-    <description><![CDATA[ Services that parse inbound email into structured JSON, enabling programmatic email processing ]]></description>
-    <pubDate>Wed, 18 Mar 2026 21:06:14 GMT</pubDate>
-  </item><item>
-    <title>LLM Cost Observability</title>
-    <link>https://new01.github.io/field-notes/concepts/llm-cost-observability</link>
-    <guid>https://new01.github.io/field-notes/concepts/llm-cost-observability</guid>
-    <description><![CDATA[ SDKs and dashboards that audit and visualize LLM API spending in real-time ]]></description>
-    <pubDate>Wed, 18 Mar 2026 21:06:14 GMT</pubDate>
+    <pubDate>Wed, 18 Mar 2026 21:36:19 GMT</pubDate>
   </item><item>
     <title>Multi Agent Context Scoping</title>
     <link>https://new01.github.io/field-notes/concepts/multi-agent-context-scoping</link>
     <guid>https://new01.github.io/field-notes/concepts/multi-agent-context-scoping</guid>
     <description><![CDATA[ The discipline of deciding what information each agent in a multi-agent system should see, controlling context boundaries to prevent overload, leakage, and irrelevant noise. ]]></description>
-    <pubDate>Wed, 18 Mar 2026 21:06:14 GMT</pubDate>
+    <pubDate>Wed, 18 Mar 2026 21:36:19 GMT</pubDate>
+  </item><item>
+    <title>Niche Vertical SaaS Pattern</title>
+    <link>https://new01.github.io/field-notes/concepts/niche-vertical-saas-pattern</link>
+    <guid>https://new01.github.io/field-notes/concepts/niche-vertical-saas-pattern</guid>
+    <description><![CDATA[ A recurring pattern of successful micro-SaaS products built around narrow professional verticals — from expert witness billing to hemodialysis safety — where specificity itself is the product. ]]></description>
+    <pubDate>Wed, 18 Mar 2026 21:36:19 GMT</pubDate>
+  </item><item>
+    <title>Production Readiness Gap</title>
+    <link>https://new01.github.io/field-notes/concepts/production-readiness-gap</link>
+    <guid>https://new01.github.io/field-notes/concepts/production-readiness-gap</guid>
+    <description><![CDATA[ The underestimated distance between a working AI agent demo and a production-ready system that meets real business requirements for security, reliability, and compliance. ]]></description>
+    <pubDate>Wed, 18 Mar 2026 21:36:19 GMT</pubDate>
+  </item><item>
+    <title>Pulse Signal Monitoring System</title>
+    <link>https://new01.github.io/field-notes/concepts/pulse-signal-monitoring-system</link>
+    <guid>https://new01.github.io/field-notes/concepts/pulse-signal-monitoring-system</guid>
+    <description><![CDATA[ An automated scanner that polls Reddit, Hacker News, GitHub, and other sources on regular intervals to surface SaaS opportunities, pain points, and competitor launches before they become obvious. ]]></description>
+    <pubDate>Wed, 18 Mar 2026 21:36:19 GMT</pubDate>
+  </item><item>
+    <title>Reddit Lead Generation</title>
+    <link>https://new01.github.io/field-notes/concepts/reddit-lead-generation</link>
+    <guid>https://new01.github.io/field-notes/concepts/reddit-lead-generation</guid>
+    <description><![CDATA[ Using Reddit as a distribution channel to find and engage potential customers organically, as an alternative to cold outreach. ]]></description>
+    <pubDate>Wed, 18 Mar 2026 21:36:19 GMT</pubDate>
+  </item><item>
+    <title>SaaS Market Noise Problem</title>
+    <link>https://new01.github.io/field-notes/concepts/saas-market-noise-problem</link>
+    <guid>https://new01.github.io/field-notes/concepts/saas-market-noise-problem</guid>
+    <description><![CDATA[ AI has made SaaS development faster but simultaneously flooded the market, making discovery and differentiation harder for all builders. ]]></description>
+    <pubDate>Wed, 18 Mar 2026 21:36:19 GMT</pubDate>
+  </item><item>
+    <title>Zapier Cost Displacement</title>
+    <link>https://new01.github.io/field-notes/concepts/zapier-cost-displacement</link>
+    <guid>https://new01.github.io/field-notes/concepts/zapier-cost-displacement</guid>
+    <description><![CDATA[ Growing frustration with Zapier's pricing model is driving demand for cheaper, AI-native workflow automation alternatives — creating a real market opening for new entrants. ]]></description>
+    <pubDate>Wed, 18 Mar 2026 21:36:19 GMT</pubDate>
+  </item><item>
+    <title>Doctrine Files</title>
+    <link>https://new01.github.io/field-notes/guides/doctrine-files</link>
+    <guid>https://new01.github.io/field-notes/guides/doctrine-files</guid>
+    <description><![CDATA[ The three files that determine how your agent behaves between sessions — and how to write them well ]]></description>
+    <pubDate>Wed, 18 Mar 2026 21:36:19 GMT</pubDate>
+  </item><item>
+    <title>Your First Automation — The Morning Brief</title>
+    <link>https://new01.github.io/field-notes/guides/first-automation</link>
+    <guid>https://new01.github.io/field-notes/guides/first-automation</guid>
+    <description><![CDATA[ Step-by-step guide to building a daily digest that runs autonomously and delivers to Telegram or Discord ]]></description>
+    <pubDate>Wed, 18 Mar 2026 21:36:19 GMT</pubDate>
   </item>
     </channel>
   </rss>
