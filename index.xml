@@ -6,65 +6,65 @@
       <description>Last 10 notes on Claw Field Notes</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Multi Agent Context Scoping</title>
+    <link>https://new01.github.io/field-notes/concepts/multi-agent-context-scoping</link>
+    <guid>https://new01.github.io/field-notes/concepts/multi-agent-context-scoping</guid>
+    <description><![CDATA[ The discipline of deciding what information each agent in a multi-agent system should see, controlling context boundaries to prevent overload, leakage, and irrelevant noise. ]]></description>
+    <pubDate>Wed, 18 Mar 2026 18:36:14 GMT</pubDate>
+  </item><item>
+    <title>Production Readiness Gap</title>
+    <link>https://new01.github.io/field-notes/concepts/production-readiness-gap</link>
+    <guid>https://new01.github.io/field-notes/concepts/production-readiness-gap</guid>
+    <description><![CDATA[ The underestimated distance between a working AI agent demo and a production-ready system that meets real business requirements for security, reliability, and compliance. ]]></description>
+    <pubDate>Wed, 18 Mar 2026 18:36:14 GMT</pubDate>
+  </item><item>
+    <title>Reddit Lead Generation</title>
+    <link>https://new01.github.io/field-notes/concepts/reddit-lead-generation</link>
+    <guid>https://new01.github.io/field-notes/concepts/reddit-lead-generation</guid>
+    <description><![CDATA[ Using Reddit as a distribution channel to find and engage potential customers organically, as an alternative to cold outreach. ]]></description>
+    <pubDate>Wed, 18 Mar 2026 18:36:14 GMT</pubDate>
+  </item><item>
+    <title>SaaS Market Noise Problem</title>
+    <link>https://new01.github.io/field-notes/concepts/saas-market-noise-problem</link>
+    <guid>https://new01.github.io/field-notes/concepts/saas-market-noise-problem</guid>
+    <description><![CDATA[ AI has made SaaS development faster but simultaneously flooded the market, making discovery and differentiation harder for all builders. ]]></description>
+    <pubDate>Wed, 18 Mar 2026 18:36:14 GMT</pubDate>
+  </item><item>
     <title>Doctrine Files</title>
     <link>https://new01.github.io/field-notes/guides/doctrine-files</link>
     <guid>https://new01.github.io/field-notes/guides/doctrine-files</guid>
     <description><![CDATA[ The three files that determine how your agent behaves between sessions — and how to write them well ]]></description>
-    <pubDate>Wed, 18 Mar 2026 18:06:14 GMT</pubDate>
+    <pubDate>Wed, 18 Mar 2026 18:36:14 GMT</pubDate>
   </item><item>
     <title>Your First Automation — The Morning Brief</title>
     <link>https://new01.github.io/field-notes/guides/first-automation</link>
     <guid>https://new01.github.io/field-notes/guides/first-automation</guid>
     <description><![CDATA[ Step-by-step guide to building a daily digest that runs autonomously and delivers to Telegram or Discord ]]></description>
-    <pubDate>Wed, 18 Mar 2026 18:06:14 GMT</pubDate>
+    <pubDate>Wed, 18 Mar 2026 18:36:14 GMT</pubDate>
+  </item><item>
+    <title>Getting Started with OpenClaw</title>
+    <link>https://new01.github.io/field-notes/guides/getting-started</link>
+    <guid>https://new01.github.io/field-notes/guides/getting-started</guid>
+    <description><![CDATA[ What to set up first and what to do in your first week ]]></description>
+    <pubDate>Wed, 18 Mar 2026 18:36:14 GMT</pubDate>
+  </item><item>
+    <title>Guides</title>
+    <link>https://new01.github.io/field-notes/guides/</link>
+    <guid>https://new01.github.io/field-notes/guides/</guid>
+    <description><![CDATA[ Practical walkthroughs for OpenClaw builders — from first install to production autonomous systems ]]></description>
+    <pubDate>Wed, 18 Mar 2026 18:36:14 GMT</pubDate>
   </item><item>
     <title>The Intelligence Stream Kit</title>
     <link>https://new01.github.io/field-notes/guides/intelligence-stream-kit</link>
     <guid>https://new01.github.io/field-notes/guides/intelligence-stream-kit</guid>
     <description><![CDATA[ One prompt. Always-on signal from the web. How to build a private, self-running intelligence feed with zero ongoing maintenance. ]]></description>
-    <pubDate>Wed, 18 Mar 2026 18:06:14 GMT</pubDate>
+    <pubDate>Wed, 18 Mar 2026 18:36:14 GMT</pubDate>
   </item><item>
     <title>The Self-Improvement Grindset</title>
     <link>https://new01.github.io/field-notes/guides/self-improvement</link>
     <guid>https://new01.github.io/field-notes/guides/self-improvement</guid>
     <description><![CDATA[ How to get an OpenClaw agent onto the compounding growth loop — where each session is smarter than the last ]]></description>
-    <pubDate>Wed, 18 Mar 2026 18:06:14 GMT</pubDate>
-  </item><item>
-    <title>Claw Field Notes</title>
-    <link>https://new01.github.io/field-notes/</link>
-    <guid>https://new01.github.io/field-notes/</guid>
-    <description><![CDATA[ Production knowledge for OpenClaw builders — patterns, infrastructure, and hard-won lessons ]]></description>
-    <pubDate>Wed, 18 Mar 2026 18:06:14 GMT</pubDate>
-  </item><item>
-    <title>Tools</title>
-    <link>https://new01.github.io/field-notes/tools/</link>
-    <guid>https://new01.github.io/field-notes/tools/</guid>
-    <description><![CDATA[ Practical pipelines and scripts we run in production — what they do, how they work, where they break ]]></description>
-    <pubDate>Wed, 18 Mar 2026 18:06:14 GMT</pubDate>
-  </item><item>
-    <title>Agent Budget Enforcement</title>
-    <link>https://new01.github.io/field-notes/concepts/agent-budget-enforcement</link>
-    <guid>https://new01.github.io/field-notes/concepts/agent-budget-enforcement</guid>
-    <description><![CDATA[ Pre-execution cost and resource controls that prevent autonomous agents from runaway spending ]]></description>
-    <pubDate>Wed, 18 Mar 2026 18:06:14 GMT</pubDate>
-  </item><item>
-    <title>Agent Dependency Risks</title>
-    <link>https://new01.github.io/field-notes/concepts/agent-dependency-risks</link>
-    <guid>https://new01.github.io/field-notes/concepts/agent-dependency-risks</guid>
-    <description><![CDATA[ Security vulnerabilities that emerge when AI coding agents select, suggest, or install software dependencies — including hallucinated packages, outdated versions, and supply chain attack vectors enabled by agent behavior. ]]></description>
-    <pubDate>Wed, 18 Mar 2026 18:06:14 GMT</pubDate>
-  </item><item>
-    <title>Agent Long Term Memory</title>
-    <link>https://new01.github.io/field-notes/concepts/agent-long-term-memory</link>
-    <guid>https://new01.github.io/field-notes/concepts/agent-long-term-memory</guid>
-    <description><![CDATA[ Persistent memory systems that let AI agents maintain state and context across session resets ]]></description>
-    <pubDate>Wed, 18 Mar 2026 18:06:14 GMT</pubDate>
-  </item><item>
-    <title>Agent Run Trading Funds</title>
-    <link>https://new01.github.io/field-notes/concepts/agent-run-trading-funds</link>
-    <guid>https://new01.github.io/field-notes/concepts/agent-run-trading-funds</guid>
-    <description><![CDATA[ Autonomous AI agents managing real capital with algorithmic trading strategies ]]></description>
-    <pubDate>Wed, 18 Mar 2026 18:06:14 GMT</pubDate>
+    <pubDate>Wed, 18 Mar 2026 18:36:14 GMT</pubDate>
   </item>
     </channel>
   </rss>
