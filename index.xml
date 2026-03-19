@@ -10,61 +10,61 @@
     <link>https://new01.github.io/field-notes/concepts/ai-agent-permission-control</link>
     <guid>https://new01.github.io/field-notes/concepts/ai-agent-permission-control</guid>
     <description><![CDATA[ SDKs and frameworks that govern what autonomous AI agents can access and do, using container isolation and vault proxies for security ]]></description>
-    <pubDate>Thu, 19 Mar 2026 07:16:15 GMT</pubDate>
+    <pubDate>Thu, 19 Mar 2026 08:46:14 GMT</pubDate>
   </item><item>
     <title>AI Red Teaming Platforms</title>
     <link>https://new01.github.io/field-notes/concepts/ai-red-teaming-platforms</link>
     <guid>https://new01.github.io/field-notes/concepts/ai-red-teaming-platforms</guid>
     <description><![CDATA[ Full-stack security platforms that proactively test AI ecosystems for infrastructure vulnerabilities, prompt injection, and agent workflow exploits ]]></description>
-    <pubDate>Thu, 19 Mar 2026 07:16:15 GMT</pubDate>
+    <pubDate>Thu, 19 Mar 2026 08:46:14 GMT</pubDate>
+  </item><item>
+    <title>Behavioral Economics SaaS</title>
+    <link>https://new01.github.io/field-notes/concepts/behavioral-economics-saas</link>
+    <guid>https://new01.github.io/field-notes/concepts/behavioral-economics-saas</guid>
+    <description><![CDATA[ Software tools that analyze digital products through a behavioral economics lens, identifying psychological friction points that hurt conversion and revenue. ]]></description>
+    <pubDate>Thu, 19 Mar 2026 08:46:14 GMT</pubDate>
+  </item><item>
+    <title>MCP Code Execution Pattern</title>
+    <link>https://new01.github.io/field-notes/concepts/mcp-code-execution-pattern</link>
+    <guid>https://new01.github.io/field-notes/concepts/mcp-code-execution-pattern</guid>
+    <description><![CDATA[ Instead of passing every tool result through the model context window, agents write code that runs against MCP servers directly — reducing token usage by up to 98.7% while handling more tools and larger data payloads. ]]></description>
+    <pubDate>Thu, 19 Mar 2026 08:46:14 GMT</pubDate>
   </item><item>
     <title>Multi Agent Context Scoping</title>
     <link>https://new01.github.io/field-notes/concepts/multi-agent-context-scoping</link>
     <guid>https://new01.github.io/field-notes/concepts/multi-agent-context-scoping</guid>
     <description><![CDATA[ The discipline of deciding what information each agent in a multi-agent system should see, controlling context boundaries to prevent overload, leakage, and irrelevant noise. ]]></description>
-    <pubDate>Thu, 19 Mar 2026 07:16:15 GMT</pubDate>
+    <pubDate>Thu, 19 Mar 2026 08:46:14 GMT</pubDate>
   </item><item>
     <title>Niche SaaS Positioning</title>
     <link>https://new01.github.io/field-notes/concepts/niche-saas-positioning</link>
     <guid>https://new01.github.io/field-notes/concepts/niche-saas-positioning</guid>
     <description><![CDATA[ The strategy of targeting narrow verticals with highly specific software products, using focus as a competitive advantage against broad-market noise. ]]></description>
-    <pubDate>Thu, 19 Mar 2026 07:16:15 GMT</pubDate>
+    <pubDate>Thu, 19 Mar 2026 08:46:14 GMT</pubDate>
   </item><item>
     <title>Niche Vertical SaaS Pattern</title>
     <link>https://new01.github.io/field-notes/concepts/niche-vertical-saas-pattern</link>
     <guid>https://new01.github.io/field-notes/concepts/niche-vertical-saas-pattern</guid>
     <description><![CDATA[ A recurring pattern of successful micro-SaaS products built around narrow professional verticals — from expert witness billing to hemodialysis safety — where specificity itself is the product. ]]></description>
-    <pubDate>Thu, 19 Mar 2026 07:16:15 GMT</pubDate>
+    <pubDate>Thu, 19 Mar 2026 08:46:14 GMT</pubDate>
   </item><item>
     <title>OpenClaw 2026.3.11 — Security Depth, Multimodal Memory, and ACP Session Continuity</title>
     <link>https://new01.github.io/field-notes/concepts/openclaw-2026-3-11</link>
     <guid>https://new01.github.io/field-notes/concepts/openclaw-2026-3-11</guid>
     <description><![CDATA[ A review of the 2026.3.11 release — notable for layered security hardening across privilege separation, sandbox integrity, and auth boundaries, plus multimodal memory indexing and ACP session resumption. ]]></description>
-    <pubDate>Thu, 19 Mar 2026 07:16:15 GMT</pubDate>
+    <pubDate>Thu, 19 Mar 2026 08:46:14 GMT</pubDate>
   </item><item>
     <title>Production Readiness Gap</title>
     <link>https://new01.github.io/field-notes/concepts/production-readiness-gap</link>
     <guid>https://new01.github.io/field-notes/concepts/production-readiness-gap</guid>
     <description><![CDATA[ The underestimated distance between a working AI agent demo and a production-ready system that meets real business requirements for security, reliability, and compliance. ]]></description>
-    <pubDate>Thu, 19 Mar 2026 07:16:15 GMT</pubDate>
+    <pubDate>Thu, 19 Mar 2026 08:46:14 GMT</pubDate>
   </item><item>
     <title>Pulse Signal Monitoring System</title>
     <link>https://new01.github.io/field-notes/concepts/pulse-signal-monitoring-system</link>
     <guid>https://new01.github.io/field-notes/concepts/pulse-signal-monitoring-system</guid>
     <description><![CDATA[ An automated scanner that polls Reddit, Hacker News, GitHub, and other sources on regular intervals to surface SaaS opportunities, pain points, and competitor launches before they become obvious. ]]></description>
-    <pubDate>Thu, 19 Mar 2026 07:16:15 GMT</pubDate>
-  </item><item>
-    <title>Reddit Lead Generation</title>
-    <link>https://new01.github.io/field-notes/concepts/reddit-lead-generation</link>
-    <guid>https://new01.github.io/field-notes/concepts/reddit-lead-generation</guid>
-    <description><![CDATA[ Using Reddit as a distribution channel to find and engage potential customers organically, as an alternative to cold outreach. ]]></description>
-    <pubDate>Thu, 19 Mar 2026 07:16:15 GMT</pubDate>
-  </item><item>
-    <title>SaaS Market Noise Problem</title>
-    <link>https://new01.github.io/field-notes/concepts/saas-market-noise-problem</link>
-    <guid>https://new01.github.io/field-notes/concepts/saas-market-noise-problem</guid>
-    <description><![CDATA[ AI has made SaaS development faster but simultaneously flooded the market, making discovery and differentiation harder for all builders. ]]></description>
-    <pubDate>Thu, 19 Mar 2026 07:16:15 GMT</pubDate>
+    <pubDate>Thu, 19 Mar 2026 08:46:14 GMT</pubDate>
   </item>
     </channel>
   </rss>
