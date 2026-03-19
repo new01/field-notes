@@ -1,4 +1,4 @@
-# Link Opportunities — 2026-03-18
+# Link Opportunities — 2026-03-19
 
 Pages that mention other page topics without linking to them.
 Review and add [[wikilinks]] to strengthen the knowledge graph.
@@ -135,6 +135,13 @@ Review and add [[wikilinks]] to strengthen the knowledge graph.
 - **concepts/ai-agent-control-planes.md** mentions `Production Readiness Gap` — add `[[production-readiness-gap|Production Readiness Gap]]`
 - **concepts/ai-agent-control-planes.md** mentions `Infrastructure` — add `[[index|Infrastructure]]`
 - **concepts/ai-agent-control-planes.md** mentions `Tools` — add `[[index|Tools]]`
+- **concepts/ai-agent-infrastructure-tools.md** mentions `Agent Budget Enforcement` — add `[[agent-budget-enforcement|Agent Budget Enforcement]]`
+- **concepts/ai-agent-infrastructure-tools.md** mentions `Agent Long Term Memory` — add `[[agent-long-term-memory|Agent Long Term Memory]]`
+- **concepts/ai-agent-infrastructure-tools.md** mentions `AI Agent Permission Control` — add `[[ai-agent-permission-control|AI Agent Permission Control]]`
+- **concepts/ai-agent-infrastructure-tools.md** mentions `Concepts` — add `[[index|Concepts]]`
+- **concepts/ai-agent-infrastructure-tools.md** mentions `Multi Agent Context Scoping` — add `[[multi-agent-context-scoping|Multi Agent Context Scoping]]`
+- **concepts/ai-agent-infrastructure-tools.md** mentions `Infrastructure` — add `[[index|Infrastructure]]`
+- **concepts/ai-agent-infrastructure-tools.md** mentions `Tools` — add `[[index|Tools]]`
 - **concepts/ai-agent-permission-control.md** mentions `About` — add `[[about|About]]`
 - **concepts/ai-agent-permission-control.md** mentions `Agent Budget Enforcement` — add `[[agent-budget-enforcement|Agent Budget Enforcement]]`
 - **concepts/ai-agent-permission-control.md** mentions `Agent Sandboxing Environments` — add `[[agent-sandboxing-environments|Agent Sandboxing Environments]]`
@@ -161,6 +168,19 @@ Review and add [[wikilinks]] to strengthen the knowledge graph.
 - **concepts/ai-red-teaming-platforms.md** mentions `Input Validation in Skills` — add `[[input-validation-in-skills|Input Validation in Skills]]`
 - **concepts/ai-red-teaming-platforms.md** mentions `Infrastructure` — add `[[index|Infrastructure]]`
 - **concepts/ai-red-teaming-platforms.md** mentions `Tools` — add `[[index|Tools]]`
+- **concepts/ai-task-delegation-engines.md** mentions `About` — add `[[about|About]]`
+- **concepts/ai-task-delegation-engines.md** mentions `Agent Orchestration Platforms` — add `[[agent-orchestration-platforms|Agent Orchestration Platforms]]`
+- **concepts/ai-task-delegation-engines.md** mentions `Agent Self-Review Loop` — add `[[agent-self-review-loop|Agent Self-Review Loop]]`
+- **concepts/ai-task-delegation-engines.md** mentions `Agent UI Specification DSLs` — add `[[agent-ui-specification-dsl|Agent UI Specification DSLs]]`
+- **concepts/ai-task-delegation-engines.md** mentions `Agentic Coding Job Market` — add `[[agentic-coding-job-market|Agentic Coding Job Market]]`
+- **concepts/ai-task-delegation-engines.md** mentions `Autonomous Test Generation Agents` — add `[[autonomous-test-generation-agents|Autonomous Test Generation Agents]]`
+- **concepts/ai-task-delegation-engines.md** mentions `The Build Queue Pattern` — add `[[build-queue-pattern|The Build Queue Pattern]]`
+- **concepts/ai-task-delegation-engines.md** mentions `Deterministic Agent Action Layer` — add `[[deterministic-agent-action-layer|Deterministic Agent Action Layer]]`
+- **concepts/ai-task-delegation-engines.md** mentions `Four-Role Orchestrator Chain` — add `[[four-role-orchestrator-chain|Four-Role Orchestrator Chain]]`
+- **concepts/ai-task-delegation-engines.md** mentions `Concepts` — add `[[index|Concepts]]`
+- **concepts/ai-task-delegation-engines.md** mentions `Prompt Enrichment Architecture` — add `[[prompt-enrichment-architecture|Prompt Enrichment Architecture]]`
+- **concepts/ai-task-delegation-engines.md** mentions `Infrastructure` — add `[[index|Infrastructure]]`
+- **concepts/ai-task-delegation-engines.md** mentions `Tools` — add `[[index|Tools]]`
 - **concepts/autonomous-intelligence-sourcing.md** mentions `About` — add `[[about|About]]`
 - **concepts/autonomous-intelligence-sourcing.md** mentions `Agent Memory` — add `[[agent-memory|Agent Memory]]`
 - **concepts/autonomous-intelligence-sourcing.md** mentions `Continuous Information Ingestion` — add `[[continuous-ingestion|Continuous Information Ingestion]]`
@@ -310,6 +330,15 @@ Review and add [[wikilinks]] to strengthen the knowledge graph.
 - **concepts/high-velocity-turnover-culture.md** mentions `Curiosity-First Hiring` — add `[[curiosity-first-hiring|Curiosity-First Hiring]]`
 - **concepts/high-velocity-turnover-culture.md** mentions `Concepts` — add `[[index|Concepts]]`
 - **concepts/high-velocity-turnover-culture.md** mentions `Qualification Screening Paradox` — add `[[qualification-screening-paradox|Qualification Screening Paradox]]`
+- **concepts/hunter-alpha.md** mentions `Agent Orchestration Platforms` — add `[[agent-orchestration-platforms|Agent Orchestration Platforms]]`
+- **concepts/hunter-alpha.md** mentions `AI Agent Infrastructure Tools` — add `[[ai-agent-infrastructure-tools|AI Agent Infrastructure Tools]]`
+- **concepts/hunter-alpha.md** mentions `AI Task Delegation Engines` — add `[[ai-task-delegation-engines|AI Task Delegation Engines]]`
+- **concepts/hunter-alpha.md** mentions `Concepts` — add `[[index|Concepts]]`
+- **concepts/hunter-alpha.md** mentions `Guides` — add `[[index|Guides]]`
+- **concepts/hunter-alpha.md** mentions `Claw Field Notes` — add `[[index|Claw Field Notes]]`
+- **concepts/hunter-alpha.md** mentions `Infrastructure` — add `[[index|Infrastructure]]`
+- **concepts/hunter-alpha.md** mentions `OpenClaw Skill Store` — add `[[index|OpenClaw Skill Store]]`
+- **concepts/hunter-alpha.md** mentions `Tools` — add `[[index|Tools]]`
 - **concepts/in-session-agent-correction.md** mentions `About` — add `[[about|About]]`
 - **concepts/in-session-agent-correction.md** mentions `Concepts` — add `[[index|Concepts]]`
 - **concepts/index.md** mentions `Agent Memory` — add `[[agent-memory|Agent Memory]]`
@@ -362,6 +391,26 @@ Review and add [[wikilinks]] to strengthen the knowledge graph.
 - **concepts/magic-moment-engineering.md** mentions `Concepts` — add `[[index|Concepts]]`
 - **concepts/magic-moment-engineering.md** mentions `Qualification Screening Paradox` — add `[[qualification-screening-paradox|Qualification Screening Paradox]]`
 - **concepts/magic-moment-engineering.md** mentions `Tools` — add `[[index|Tools]]`
+- **concepts/mcp-code-execution-pattern.md** mentions `Agent Budget Enforcement` — add `[[agent-budget-enforcement|Agent Budget Enforcement]]`
+- **concepts/mcp-code-execution-pattern.md** mentions `Agent Sandboxing Environments` — add `[[agent-sandboxing-environments|Agent Sandboxing Environments]]`
+- **concepts/mcp-code-execution-pattern.md** mentions `Agent Teams` — add `[[agent-teams|Agent Teams]]`
+- **concepts/mcp-code-execution-pattern.md** mentions `Concepts` — add `[[index|Concepts]]`
+- **concepts/mcp-code-execution-pattern.md** mentions `MCP Protocol Adoption` — add `[[mcp-protocol-adoption|MCP Protocol Adoption]]`
+- **concepts/mcp-code-execution-pattern.md** mentions `MCP Security Gateways` — add `[[mcp-security-gateways|MCP Security Gateways]]`
+- **concepts/mcp-code-execution-pattern.md** mentions `Multi Agent Context Scoping` — add `[[multi-agent-context-scoping|Multi Agent Context Scoping]]`
+- **concepts/mcp-code-execution-pattern.md** mentions `Guides` — add `[[index|Guides]]`
+- **concepts/mcp-code-execution-pattern.md** mentions `Claw Field Notes` — add `[[index|Claw Field Notes]]`
+- **concepts/mcp-code-execution-pattern.md** mentions `Infrastructure` — add `[[index|Infrastructure]]`
+- **concepts/mcp-code-execution-pattern.md** mentions `OpenClaw Skill Store` — add `[[index|OpenClaw Skill Store]]`
+- **concepts/mcp-code-execution-pattern.md** mentions `Tools` — add `[[index|Tools]]`
+- **concepts/mcp-protocol-adoption.md** mentions `Agent Memory Systems` — add `[[agent-memory-systems|Agent Memory Systems]]`
+- **concepts/mcp-protocol-adoption.md** mentions `Agent Memory` — add `[[agent-memory|Agent Memory]]`
+- **concepts/mcp-protocol-adoption.md** mentions `Agent Orchestration Platforms` — add `[[agent-orchestration-platforms|Agent Orchestration Platforms]]`
+- **concepts/mcp-protocol-adoption.md** mentions `Agentic Coding Job Market` — add `[[agentic-coding-job-market|Agentic Coding Job Market]]`
+- **concepts/mcp-protocol-adoption.md** mentions `Concepts` — add `[[index|Concepts]]`
+- **concepts/mcp-protocol-adoption.md** mentions `Skill-Based Agent Architecture` — add `[[skill-based-agent-architecture|Skill-Based Agent Architecture]]`
+- **concepts/mcp-protocol-adoption.md** mentions `Infrastructure` — add `[[index|Infrastructure]]`
+- **concepts/mcp-protocol-adoption.md** mentions `Tools` — add `[[index|Tools]]`
 - **concepts/mcp-security-gateways.md** mentions `Concepts` — add `[[index|Concepts]]`
 - **concepts/mcp-security-gateways.md** mentions `Infrastructure` — add `[[index|Infrastructure]]`
 - **concepts/mcp-security-gateways.md** mentions `Tools` — add `[[index|Tools]]`
@@ -397,6 +446,17 @@ Review and add [[wikilinks]] to strengthen the knowledge graph.
 - **concepts/multi-user-agent-instance-management.md** mentions `Tools` — add `[[index|Tools]]`
 - **concepts/niche-saas-positioning.md** mentions `Concepts` — add `[[index|Concepts]]`
 - **concepts/niche-saas-positioning.md** mentions `Tools` — add `[[index|Tools]]`
+- **concepts/niche-vertical-saas-pattern.md** mentions `About` — add `[[about|About]]`
+- **concepts/niche-vertical-saas-pattern.md** mentions `Concepts` — add `[[index|Concepts]]`
+- **concepts/niche-vertical-saas-pattern.md** mentions `Tools` — add `[[index|Tools]]`
+- **concepts/openclaw-2026-3-11.md** mentions `About` — add `[[about|About]]`
+- **concepts/openclaw-2026-3-11.md** mentions `Agent Memory` — add `[[agent-memory|Agent Memory]]`
+- **concepts/openclaw-2026-3-11.md** mentions `Concepts` — add `[[index|Concepts]]`
+- **concepts/openclaw-2026-3-11.md** mentions `Guides` — add `[[index|Guides]]`
+- **concepts/openclaw-2026-3-11.md** mentions `Claw Field Notes` — add `[[index|Claw Field Notes]]`
+- **concepts/openclaw-2026-3-11.md** mentions `Infrastructure` — add `[[index|Infrastructure]]`
+- **concepts/openclaw-2026-3-11.md** mentions `OpenClaw Skill Store` — add `[[index|OpenClaw Skill Store]]`
+- **concepts/openclaw-2026-3-11.md** mentions `Tools` — add `[[index|Tools]]`
 - **concepts/openclaw-ecosystem-growth.md** mentions `Concepts` — add `[[index|Concepts]]`
 - **concepts/openclaw-ecosystem-growth.md** mentions `LocalClaw Competitor Pattern` — add `[[localclaw-competitor-pattern|LocalClaw Competitor Pattern]]`
 - **concepts/openclaw-ecosystem-growth.md** mentions `Skill-Based Agent Architecture` — add `[[skill-based-agent-architecture|Skill-Based Agent Architecture]]`
@@ -431,6 +491,10 @@ Review and add [[wikilinks]] to strengthen the knowledge graph.
 - **concepts/prompt-file-governance.md** mentions `Brains and Muscles` — add `[[brains-and-muscles|Brains and Muscles]]`
 - **concepts/prompt-file-governance.md** mentions `Concepts` — add `[[index|Concepts]]`
 - **concepts/prompt-file-governance.md** mentions `Tools` — add `[[index|Tools]]`
+- **concepts/pulse-signal-monitoring-system.md** mentions `About` — add `[[about|About]]`
+- **concepts/pulse-signal-monitoring-system.md** mentions `Concepts` — add `[[index|Concepts]]`
+- **concepts/pulse-signal-monitoring-system.md** mentions `Infrastructure` — add `[[index|Infrastructure]]`
+- **concepts/pulse-signal-monitoring-system.md** mentions `Tools` — add `[[index|Tools]]`
 - **concepts/qualification-screening-paradox.md** mentions `About` — add `[[about|About]]`
 - **concepts/qualification-screening-paradox.md** mentions `Behavioral Onboarding Sequencing` — add `[[behavioral-onboarding-sequencing|Behavioral Onboarding Sequencing]]`
 - **concepts/qualification-screening-paradox.md** mentions `Binary Choice Architecture` — add `[[binary-choice-architecture|Binary Choice Architecture]]`
@@ -531,6 +595,9 @@ Review and add [[wikilinks]] to strengthen the knowledge graph.
 - **concepts/vision-first-browser-agents.md** mentions `Concepts` — add `[[index|Concepts]]`
 - **concepts/vision-first-browser-agents.md** mentions `Infrastructure` — add `[[index|Infrastructure]]`
 - **concepts/vision-first-browser-agents.md** mentions `Tools` — add `[[index|Tools]]`
+- **concepts/zapier-cost-displacement.md** mentions `Concepts` — add `[[index|Concepts]]`
+- **concepts/zapier-cost-displacement.md** mentions `Infrastructure` — add `[[index|Infrastructure]]`
+- **concepts/zapier-cost-displacement.md** mentions `Tools` — add `[[index|Tools]]`
 - **guides/doctrine-files.md** mentions `About` — add `[[about|About]]`
 - **guides/doctrine-files.md** mentions `Behavioral Onboarding Sequencing` — add `[[behavioral-onboarding-sequencing|Behavioral Onboarding Sequencing]]`
 - **guides/doctrine-files.md** mentions `Concepts` — add `[[index|Concepts]]`
