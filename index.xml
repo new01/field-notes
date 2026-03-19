@@ -6,65 +6,65 @@
       <description>Last 10 notes on Claw Field Notes</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Claw Field Notes</title>
-    <link>https://new01.github.io/field-notes/</link>
-    <guid>https://new01.github.io/field-notes/</guid>
-    <description><![CDATA[ Production knowledge for OpenClaw builders — patterns, infrastructure, and hard-won lessons ]]></description>
-    <pubDate>Thu, 19 Mar 2026 18:21:14 GMT</pubDate>
-  </item><item>
-    <title>Tools</title>
-    <link>https://new01.github.io/field-notes/tools/</link>
-    <guid>https://new01.github.io/field-notes/tools/</guid>
-    <description><![CDATA[ Practical pipelines and scripts we run in production — what they do, how they work, where they break ]]></description>
-    <pubDate>Thu, 19 Mar 2026 18:21:14 GMT</pubDate>
-  </item><item>
     <title>Agent Protocol Translation</title>
     <link>https://new01.github.io/field-notes/concepts/agent-protocol-translation</link>
     <guid>https://new01.github.io/field-notes/concepts/agent-protocol-translation</guid>
     <description><![CDATA[ Middleware that bridges incompatible AI agent communication protocols, enabling interoperability across tool-calling standards and permission systems in multi-agent architectures. ]]></description>
-    <pubDate>Thu, 19 Mar 2026 18:21:14 GMT</pubDate>
+    <pubDate>Thu, 19 Mar 2026 18:51:24 GMT</pubDate>
   </item><item>
     <title>Agentic Dotfiles Portability</title>
     <link>https://new01.github.io/field-notes/concepts/agentic-dotfiles-portability</link>
     <guid>https://new01.github.io/field-notes/concepts/agentic-dotfiles-portability</guid>
     <description><![CDATA[ The emerging challenge of making AI agent configurations — MCP servers, skill packages, tool settings — portable and reproducible across machines, teams, and environments. ]]></description>
-    <pubDate>Thu, 19 Mar 2026 18:21:14 GMT</pubDate>
+    <pubDate>Thu, 19 Mar 2026 18:51:24 GMT</pubDate>
   </item><item>
-    <title>AI Agent Permission Control</title>
-    <link>https://new01.github.io/field-notes/concepts/ai-agent-permission-control</link>
-    <guid>https://new01.github.io/field-notes/concepts/ai-agent-permission-control</guid>
-    <description><![CDATA[ SDKs and frameworks that govern what autonomous AI agents can access and do, using container isolation and vault proxies for security ]]></description>
-    <pubDate>Thu, 19 Mar 2026 18:21:14 GMT</pubDate>
+    <title>B2B Lead Generation Agents</title>
+    <link>https://new01.github.io/field-notes/concepts/b2b-lead-generation-agents</link>
+    <guid>https://new01.github.io/field-notes/concepts/b2b-lead-generation-agents</guid>
+    <description><![CDATA[ AI agents that autonomously search the live web and company databases to find qualified B2B leads and VC-backed company contacts, replacing manual prospecting pipelines. ]]></description>
+    <pubDate>Thu, 19 Mar 2026 18:51:24 GMT</pubDate>
   </item><item>
-    <title>AI Agent Tool Testing</title>
-    <link>https://new01.github.io/field-notes/concepts/ai-agent-tool-testing</link>
-    <guid>https://new01.github.io/field-notes/concepts/ai-agent-tool-testing</guid>
-    <description><![CDATA[ An emerging category of infrastructure for testing, validating, and adding guardrails to AI agent tool calls — analogous to pytest for agents. ]]></description>
-    <pubDate>Thu, 19 Mar 2026 18:21:14 GMT</pubDate>
+    <title>Doctrine Files</title>
+    <link>https://new01.github.io/field-notes/guides/doctrine-files</link>
+    <guid>https://new01.github.io/field-notes/guides/doctrine-files</guid>
+    <description><![CDATA[ The three files that determine how your agent behaves between sessions — and how to write them well ]]></description>
+    <pubDate>Thu, 19 Mar 2026 18:51:24 GMT</pubDate>
   </item><item>
-    <title>AI Red Teaming Platforms</title>
-    <link>https://new01.github.io/field-notes/concepts/ai-red-teaming-platforms</link>
-    <guid>https://new01.github.io/field-notes/concepts/ai-red-teaming-platforms</guid>
-    <description><![CDATA[ Full-stack security platforms that proactively test AI ecosystems for infrastructure vulnerabilities, prompt injection, and agent workflow exploits ]]></description>
-    <pubDate>Thu, 19 Mar 2026 18:21:14 GMT</pubDate>
+    <title>Your First Automation — The Morning Brief</title>
+    <link>https://new01.github.io/field-notes/guides/first-automation</link>
+    <guid>https://new01.github.io/field-notes/guides/first-automation</guid>
+    <description><![CDATA[ Step-by-step guide to building a daily digest that runs autonomously and delivers to Telegram or Discord ]]></description>
+    <pubDate>Thu, 19 Mar 2026 18:51:24 GMT</pubDate>
   </item><item>
-    <title>Hunter Alpha</title>
-    <link>https://new01.github.io/field-notes/concepts/hunter-alpha</link>
-    <guid>https://new01.github.io/field-notes/concepts/hunter-alpha</guid>
-    <description><![CDATA[ Xiaomi's stealth AI model that surfaced anonymously on OpenRouter in March 2026, later confirmed as MiMo-V2-Pro — a 1-trillion-parameter agent-focused frontier model ]]></description>
-    <pubDate>Thu, 19 Mar 2026 18:21:14 GMT</pubDate>
+    <title>Getting Started with OpenClaw</title>
+    <link>https://new01.github.io/field-notes/guides/getting-started</link>
+    <guid>https://new01.github.io/field-notes/guides/getting-started</guid>
+    <description><![CDATA[ What to set up first and what to do in your first week ]]></description>
+    <pubDate>Thu, 19 Mar 2026 18:51:24 GMT</pubDate>
   </item><item>
-    <title>MCP Code Execution Pattern</title>
-    <link>https://new01.github.io/field-notes/concepts/mcp-code-execution-pattern</link>
-    <guid>https://new01.github.io/field-notes/concepts/mcp-code-execution-pattern</guid>
-    <description><![CDATA[ Instead of passing every tool result through the model context window, agents write code that runs against MCP servers directly — reducing token usage by up to 98.7% while handling more tools and larger data payloads. ]]></description>
-    <pubDate>Thu, 19 Mar 2026 18:21:14 GMT</pubDate>
+    <title>Guides</title>
+    <link>https://new01.github.io/field-notes/guides/</link>
+    <guid>https://new01.github.io/field-notes/guides/</guid>
+    <description><![CDATA[ Practical walkthroughs for OpenClaw builders — from first install to production autonomous systems ]]></description>
+    <pubDate>Thu, 19 Mar 2026 18:51:24 GMT</pubDate>
   </item><item>
-    <title>Multi Agent Context Scoping</title>
-    <link>https://new01.github.io/field-notes/concepts/multi-agent-context-scoping</link>
-    <guid>https://new01.github.io/field-notes/concepts/multi-agent-context-scoping</guid>
-    <description><![CDATA[ The discipline of deciding what information each agent in a multi-agent system should see, controlling context boundaries to prevent overload, leakage, and irrelevant noise. ]]></description>
-    <pubDate>Thu, 19 Mar 2026 18:21:14 GMT</pubDate>
+    <title>The Intelligence Stream Kit</title>
+    <link>https://new01.github.io/field-notes/guides/intelligence-stream-kit</link>
+    <guid>https://new01.github.io/field-notes/guides/intelligence-stream-kit</guid>
+    <description><![CDATA[ One prompt. Always-on signal from the web. How to build a private, self-running intelligence feed with zero ongoing maintenance. ]]></description>
+    <pubDate>Thu, 19 Mar 2026 18:51:24 GMT</pubDate>
+  </item><item>
+    <title>The Self-Improvement Grindset</title>
+    <link>https://new01.github.io/field-notes/guides/self-improvement</link>
+    <guid>https://new01.github.io/field-notes/guides/self-improvement</guid>
+    <description><![CDATA[ How to get an OpenClaw agent onto the compounding growth loop — where each session is smarter than the last ]]></description>
+    <pubDate>Thu, 19 Mar 2026 18:51:24 GMT</pubDate>
+  </item><item>
+    <title>Claw Field Notes</title>
+    <link>https://new01.github.io/field-notes/</link>
+    <guid>https://new01.github.io/field-notes/</guid>
+    <description><![CDATA[ Production knowledge for OpenClaw builders — patterns, infrastructure, and hard-won lessons ]]></description>
+    <pubDate>Thu, 19 Mar 2026 18:51:24 GMT</pubDate>
   </item>
     </channel>
   </rss>
