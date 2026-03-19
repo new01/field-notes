@@ -10,61 +10,61 @@
     <link>https://new01.github.io/field-notes/concepts/agent-protocol-translation</link>
     <guid>https://new01.github.io/field-notes/concepts/agent-protocol-translation</guid>
     <description><![CDATA[ Middleware that bridges incompatible AI agent communication protocols, enabling interoperability across tool-calling standards and permission systems in multi-agent architectures. ]]></description>
-    <pubDate>Thu, 19 Mar 2026 19:46:13 GMT</pubDate>
+    <pubDate>Thu, 19 Mar 2026 20:16:12 GMT</pubDate>
   </item><item>
     <title>Agentic Dotfiles Portability</title>
     <link>https://new01.github.io/field-notes/concepts/agentic-dotfiles-portability</link>
     <guid>https://new01.github.io/field-notes/concepts/agentic-dotfiles-portability</guid>
     <description><![CDATA[ The emerging challenge of making AI agent configurations — MCP servers, skill packages, tool settings — portable and reproducible across machines, teams, and environments. ]]></description>
-    <pubDate>Thu, 19 Mar 2026 19:46:13 GMT</pubDate>
+    <pubDate>Thu, 19 Mar 2026 20:16:12 GMT</pubDate>
   </item><item>
     <title>AI Agent Tool Testing</title>
     <link>https://new01.github.io/field-notes/concepts/ai-agent-tool-testing</link>
     <guid>https://new01.github.io/field-notes/concepts/ai-agent-tool-testing</guid>
     <description><![CDATA[ An emerging category of infrastructure for testing, validating, and adding guardrails to AI agent tool calls — analogous to pytest for agents. ]]></description>
-    <pubDate>Thu, 19 Mar 2026 19:46:13 GMT</pubDate>
+    <pubDate>Thu, 19 Mar 2026 20:16:12 GMT</pubDate>
   </item><item>
     <title>B2B Lead Generation Agents</title>
     <link>https://new01.github.io/field-notes/concepts/b2b-lead-generation-agents</link>
     <guid>https://new01.github.io/field-notes/concepts/b2b-lead-generation-agents</guid>
     <description><![CDATA[ AI agents that autonomously search the live web and company databases to find qualified B2B leads and VC-backed company contacts, replacing manual prospecting pipelines. ]]></description>
-    <pubDate>Thu, 19 Mar 2026 19:46:13 GMT</pubDate>
+    <pubDate>Thu, 19 Mar 2026 20:16:12 GMT</pubDate>
   </item><item>
     <title>Hunter Alpha</title>
     <link>https://new01.github.io/field-notes/concepts/hunter-alpha</link>
     <guid>https://new01.github.io/field-notes/concepts/hunter-alpha</guid>
     <description><![CDATA[ Xiaomi's stealth AI model that surfaced anonymously on OpenRouter in March 2026, later confirmed as MiMo-V2-Pro — a 1-trillion-parameter agent-focused frontier model ]]></description>
-    <pubDate>Thu, 19 Mar 2026 19:46:13 GMT</pubDate>
-  </item><item>
-    <title>MCP Code Execution Pattern</title>
-    <link>https://new01.github.io/field-notes/concepts/mcp-code-execution-pattern</link>
-    <guid>https://new01.github.io/field-notes/concepts/mcp-code-execution-pattern</guid>
-    <description><![CDATA[ Instead of passing every tool result through the model context window, agents write code that runs against MCP servers directly — reducing token usage by up to 98.7% while handling more tools and larger data payloads. ]]></description>
-    <pubDate>Thu, 19 Mar 2026 19:46:13 GMT</pubDate>
+    <pubDate>Thu, 19 Mar 2026 20:16:12 GMT</pubDate>
   </item><item>
     <title>MRR Milestone Progression</title>
     <link>https://new01.github.io/field-notes/concepts/mrr-milestone-progression</link>
     <guid>https://new01.github.io/field-notes/concepts/mrr-milestone-progression</guid>
     <description><![CDATA[ The community discussion pattern around reaching revenue milestones — $500/mo, $4k MRR, and beyond — with emphasis on which tactics actually moved the needle for real founders. ]]></description>
-    <pubDate>Thu, 19 Mar 2026 19:46:13 GMT</pubDate>
-  </item><item>
-    <title>OpenClaw 2026.3.11 — Security Depth, Multimodal Memory, and ACP Session Continuity</title>
-    <link>https://new01.github.io/field-notes/concepts/openclaw-2026-3-11</link>
-    <guid>https://new01.github.io/field-notes/concepts/openclaw-2026-3-11</guid>
-    <description><![CDATA[ A review of the 2026.3.11 release — notable for layered security hardening across privilege separation, sandbox integrity, and auth boundaries, plus multimodal memory indexing and ACP session resumption. ]]></description>
-    <pubDate>Thu, 19 Mar 2026 19:46:13 GMT</pubDate>
+    <pubDate>Thu, 19 Mar 2026 20:16:12 GMT</pubDate>
   </item><item>
     <title>Pulse Feed Monitoring System</title>
     <link>https://new01.github.io/field-notes/concepts/pulse-feed-monitoring-system</link>
     <guid>https://new01.github.io/field-notes/concepts/pulse-feed-monitoring-system</guid>
     <description><![CDATA[ An automated polling system that scans multiple sources on short intervals and classifies discovered content into a structured signal taxonomy for downstream processing. ]]></description>
-    <pubDate>Thu, 19 Mar 2026 19:46:13 GMT</pubDate>
+    <pubDate>Thu, 19 Mar 2026 20:16:12 GMT</pubDate>
+  </item><item>
+    <title>Scratch Your Own Itch SaaS</title>
+    <link>https://new01.github.io/field-notes/concepts/scratch-your-own-itch-saas</link>
+    <guid>https://new01.github.io/field-notes/concepts/scratch-your-own-itch-saas</guid>
+    <description><![CDATA[ A dominant micro-SaaS pattern where founders build tools to solve their own frustrations, then monetize them ]]></description>
+    <pubDate>Thu, 19 Mar 2026 20:16:12 GMT</pubDate>
   </item><item>
     <title>Doctrine Files</title>
     <link>https://new01.github.io/field-notes/guides/doctrine-files</link>
     <guid>https://new01.github.io/field-notes/guides/doctrine-files</guid>
     <description><![CDATA[ The three files that determine how your agent behaves between sessions — and how to write them well ]]></description>
-    <pubDate>Thu, 19 Mar 2026 19:46:13 GMT</pubDate>
+    <pubDate>Thu, 19 Mar 2026 20:16:12 GMT</pubDate>
+  </item><item>
+    <title>Your First Automation — The Morning Brief</title>
+    <link>https://new01.github.io/field-notes/guides/first-automation</link>
+    <guid>https://new01.github.io/field-notes/guides/first-automation</guid>
+    <description><![CDATA[ Step-by-step guide to building a daily digest that runs autonomously and delivers to Telegram or Discord ]]></description>
+    <pubDate>Thu, 19 Mar 2026 20:16:12 GMT</pubDate>
   </item>
     </channel>
   </rss>
