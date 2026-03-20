@@ -6,65 +6,65 @@
       <description>Last 10 notes on Claw Field Notes</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>The Intelligence Stream Kit</title>
+    <link>https://new01.github.io/field-notes/guides/intelligence-stream-kit</link>
+    <guid>https://new01.github.io/field-notes/guides/intelligence-stream-kit</guid>
+    <description><![CDATA[ One prompt. Always-on signal from the web. How to build a private, self-running intelligence feed with zero ongoing maintenance. ]]></description>
+    <pubDate>Fri, 20 Mar 2026 03:21:18 GMT</pubDate>
+  </item><item>
+    <title>Claw Field Notes</title>
+    <link>https://new01.github.io/field-notes/</link>
+    <guid>https://new01.github.io/field-notes/</guid>
+    <description><![CDATA[ Production knowledge for OpenClaw builders — patterns, infrastructure, and hard-won lessons ]]></description>
+    <pubDate>Fri, 20 Mar 2026 03:21:18 GMT</pubDate>
+  </item><item>
+    <title>Tools</title>
+    <link>https://new01.github.io/field-notes/tools/</link>
+    <guid>https://new01.github.io/field-notes/tools/</guid>
+    <description><![CDATA[ Practical pipelines and scripts we run in production — what they do, how they work, where they break ]]></description>
+    <pubDate>Fri, 20 Mar 2026 03:21:18 GMT</pubDate>
+  </item><item>
     <title>Agent Last-Mile Failure</title>
     <link>https://new01.github.io/field-notes/concepts/agent-last-mile-failure</link>
     <guid>https://new01.github.io/field-notes/concepts/agent-last-mile-failure</guid>
     <description><![CDATA[ Why AI agents reliably handle routine tasks but break down on the remaining 20% — edge cases, ambiguity, and deep tool chains in production ]]></description>
-    <pubDate>Thu, 19 Mar 2026 23:21:18 GMT</pubDate>
+    <pubDate>Fri, 20 Mar 2026 03:21:18 GMT</pubDate>
   </item><item>
     <title>Agent Protocol Translation</title>
     <link>https://new01.github.io/field-notes/concepts/agent-protocol-translation</link>
     <guid>https://new01.github.io/field-notes/concepts/agent-protocol-translation</guid>
     <description><![CDATA[ Middleware that bridges incompatible AI agent communication protocols, enabling interoperability across tool-calling standards and permission systems in multi-agent architectures. ]]></description>
-    <pubDate>Thu, 19 Mar 2026 23:21:18 GMT</pubDate>
+    <pubDate>Fri, 20 Mar 2026 03:21:18 GMT</pubDate>
   </item><item>
     <title>Agentic Dotfiles Portability</title>
     <link>https://new01.github.io/field-notes/concepts/agentic-dotfiles-portability</link>
     <guid>https://new01.github.io/field-notes/concepts/agentic-dotfiles-portability</guid>
     <description><![CDATA[ The emerging challenge of making AI agent configurations — MCP servers, skill packages, tool settings — portable and reproducible across machines, teams, and environments. ]]></description>
-    <pubDate>Thu, 19 Mar 2026 23:21:18 GMT</pubDate>
+    <pubDate>Fri, 20 Mar 2026 03:21:18 GMT</pubDate>
   </item><item>
     <title>AI Agent Tool Testing</title>
     <link>https://new01.github.io/field-notes/concepts/ai-agent-tool-testing</link>
     <guid>https://new01.github.io/field-notes/concepts/ai-agent-tool-testing</guid>
     <description><![CDATA[ An emerging category of infrastructure for testing, validating, and adding guardrails to AI agent tool calls — analogous to pytest for agents. ]]></description>
-    <pubDate>Thu, 19 Mar 2026 23:21:18 GMT</pubDate>
+    <pubDate>Fri, 20 Mar 2026 03:21:18 GMT</pubDate>
   </item><item>
     <title>B2B Lead Generation Agents</title>
     <link>https://new01.github.io/field-notes/concepts/b2b-lead-generation-agents</link>
     <guid>https://new01.github.io/field-notes/concepts/b2b-lead-generation-agents</guid>
     <description><![CDATA[ AI agents that autonomously search the live web and company databases to find qualified B2B leads and VC-backed company contacts, replacing manual prospecting pipelines. ]]></description>
-    <pubDate>Thu, 19 Mar 2026 23:21:18 GMT</pubDate>
+    <pubDate>Fri, 20 Mar 2026 03:21:18 GMT</pubDate>
+  </item><item>
+    <title>Claude Code MCP Headless Regression</title>
+    <link>https://new01.github.io/field-notes/concepts/claude-code-mcp-headless-regression</link>
+    <guid>https://new01.github.io/field-notes/concepts/claude-code-mcp-headless-regression</guid>
+    <description><![CDATA[ Cloud MCP connectors configured at claude.ai silently fail to load when Claude Code runs in headless or subprocess mode — a recurring bug pattern that creates a dangerous discrepancy between interactive and automated agent sessions. ]]></description>
+    <pubDate>Fri, 20 Mar 2026 03:21:18 GMT</pubDate>
   </item><item>
     <title>Hunter Alpha</title>
     <link>https://new01.github.io/field-notes/concepts/hunter-alpha</link>
     <guid>https://new01.github.io/field-notes/concepts/hunter-alpha</guid>
     <description><![CDATA[ Xiaomi's stealth AI model that surfaced anonymously on OpenRouter in March 2026, later confirmed as MiMo-V2-Pro — a 1-trillion-parameter agent-focused frontier model ]]></description>
-    <pubDate>Thu, 19 Mar 2026 23:21:18 GMT</pubDate>
-  </item><item>
-    <title>MCP Code Execution Pattern</title>
-    <link>https://new01.github.io/field-notes/concepts/mcp-code-execution-pattern</link>
-    <guid>https://new01.github.io/field-notes/concepts/mcp-code-execution-pattern</guid>
-    <description><![CDATA[ Instead of passing every tool result through the model context window, agents write code that runs against MCP servers directly — reducing token usage by up to 98.7% while handling more tools and larger data payloads. ]]></description>
-    <pubDate>Thu, 19 Mar 2026 23:21:18 GMT</pubDate>
-  </item><item>
-    <title>MRR Milestone Progression</title>
-    <link>https://new01.github.io/field-notes/concepts/mrr-milestone-progression</link>
-    <guid>https://new01.github.io/field-notes/concepts/mrr-milestone-progression</guid>
-    <description><![CDATA[ The community discussion pattern around reaching revenue milestones — $500/mo, $4k MRR, and beyond — with emphasis on which tactics actually moved the needle for real founders. ]]></description>
-    <pubDate>Thu, 19 Mar 2026 23:21:18 GMT</pubDate>
-  </item><item>
-    <title>Pulse Feed Monitoring System</title>
-    <link>https://new01.github.io/field-notes/concepts/pulse-feed-monitoring-system</link>
-    <guid>https://new01.github.io/field-notes/concepts/pulse-feed-monitoring-system</guid>
-    <description><![CDATA[ An automated polling system that scans multiple sources on short intervals and classifies discovered content into a structured signal taxonomy for downstream processing. ]]></description>
-    <pubDate>Thu, 19 Mar 2026 23:21:18 GMT</pubDate>
-  </item><item>
-    <title>Scratch Your Own Itch SaaS</title>
-    <link>https://new01.github.io/field-notes/concepts/scratch-your-own-itch-saas</link>
-    <guid>https://new01.github.io/field-notes/concepts/scratch-your-own-itch-saas</guid>
-    <description><![CDATA[ A dominant micro-SaaS pattern where founders build tools to solve their own frustrations, then monetize them ]]></description>
-    <pubDate>Thu, 19 Mar 2026 23:21:18 GMT</pubDate>
+    <pubDate>Fri, 20 Mar 2026 03:21:18 GMT</pubDate>
   </item>
     </channel>
   </rss>
