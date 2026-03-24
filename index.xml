@@ -10,61 +10,61 @@
     <link>https://new01.github.io/field-notes/concepts/agent-last-mile-failure</link>
     <guid>https://new01.github.io/field-notes/concepts/agent-last-mile-failure</guid>
     <description><![CDATA[ Why AI agents reliably handle routine tasks but break down on the remaining 20% — edge cases, ambiguity, and deep tool chains in production ]]></description>
-    <pubDate>Tue, 24 Mar 2026 15:11:24 GMT</pubDate>
+    <pubDate>Tue, 24 Mar 2026 17:16:24 GMT</pubDate>
   </item><item>
     <title>Agent Protocol Translation</title>
     <link>https://new01.github.io/field-notes/concepts/agent-protocol-translation</link>
     <guid>https://new01.github.io/field-notes/concepts/agent-protocol-translation</guid>
     <description><![CDATA[ Middleware that bridges incompatible AI agent communication protocols, enabling interoperability across tool-calling standards and permission systems in multi-agent architectures. ]]></description>
-    <pubDate>Tue, 24 Mar 2026 15:11:24 GMT</pubDate>
+    <pubDate>Tue, 24 Mar 2026 17:16:24 GMT</pubDate>
   </item><item>
     <title>Agent RAG Memory with Vector Databases</title>
     <link>https://new01.github.io/field-notes/concepts/agent-qdrant-rag-memory</link>
     <guid>https://new01.github.io/field-notes/concepts/agent-qdrant-rag-memory</guid>
     <description><![CDATA[ Using vector databases like Qdrant to give AI agents deep, semantic memory retrieval across unlimited history — beyond what fits in a context window. ]]></description>
-    <pubDate>Tue, 24 Mar 2026 15:11:24 GMT</pubDate>
+    <pubDate>Tue, 24 Mar 2026 17:16:24 GMT</pubDate>
   </item><item>
     <title>Agentic Dotfiles Portability</title>
     <link>https://new01.github.io/field-notes/concepts/agentic-dotfiles-portability</link>
     <guid>https://new01.github.io/field-notes/concepts/agentic-dotfiles-portability</guid>
     <description><![CDATA[ The emerging challenge of making AI agent configurations — MCP servers, skill packages, tool settings — portable and reproducible across machines, teams, and environments. ]]></description>
-    <pubDate>Tue, 24 Mar 2026 15:11:24 GMT</pubDate>
+    <pubDate>Tue, 24 Mar 2026 17:16:24 GMT</pubDate>
+  </item><item>
+    <title>AI Agent Permission Control</title>
+    <link>https://new01.github.io/field-notes/concepts/ai-agent-permission-control</link>
+    <guid>https://new01.github.io/field-notes/concepts/ai-agent-permission-control</guid>
+    <description><![CDATA[ SDKs and frameworks that govern what autonomous AI agents can access and do, using container isolation and vault proxies for security ]]></description>
+    <pubDate>Tue, 24 Mar 2026 17:16:24 GMT</pubDate>
   </item><item>
     <title>AI Agent Tool Testing</title>
     <link>https://new01.github.io/field-notes/concepts/ai-agent-tool-testing</link>
     <guid>https://new01.github.io/field-notes/concepts/ai-agent-tool-testing</guid>
     <description><![CDATA[ An emerging category of infrastructure for testing, validating, and adding guardrails to AI agent tool calls — analogous to pytest for agents. ]]></description>
-    <pubDate>Tue, 24 Mar 2026 15:11:24 GMT</pubDate>
+    <pubDate>Tue, 24 Mar 2026 17:16:24 GMT</pubDate>
+  </item><item>
+    <title>AI Red Teaming Platforms</title>
+    <link>https://new01.github.io/field-notes/concepts/ai-red-teaming-platforms</link>
+    <guid>https://new01.github.io/field-notes/concepts/ai-red-teaming-platforms</guid>
+    <description><![CDATA[ Full-stack security platforms that proactively test AI ecosystems for infrastructure vulnerabilities, prompt injection, and agent workflow exploits ]]></description>
+    <pubDate>Tue, 24 Mar 2026 17:16:24 GMT</pubDate>
   </item><item>
     <title>B2B Lead Generation Agents</title>
     <link>https://new01.github.io/field-notes/concepts/b2b-lead-generation-agents</link>
     <guid>https://new01.github.io/field-notes/concepts/b2b-lead-generation-agents</guid>
     <description><![CDATA[ AI agents that autonomously search the live web and company databases to find qualified B2B leads and VC-backed company contacts, replacing manual prospecting pipelines. ]]></description>
-    <pubDate>Tue, 24 Mar 2026 15:11:24 GMT</pubDate>
+    <pubDate>Tue, 24 Mar 2026 17:16:24 GMT</pubDate>
+  </item><item>
+    <title>Behavioral Economics SaaS</title>
+    <link>https://new01.github.io/field-notes/concepts/behavioral-economics-saas</link>
+    <guid>https://new01.github.io/field-notes/concepts/behavioral-economics-saas</guid>
+    <description><![CDATA[ Software tools that analyze digital products through a behavioral economics lens, identifying psychological friction points that hurt conversion and revenue. ]]></description>
+    <pubDate>Tue, 24 Mar 2026 17:16:24 GMT</pubDate>
   </item><item>
     <title>Claude Code MCP Headless Regression</title>
     <link>https://new01.github.io/field-notes/concepts/claude-code-mcp-headless-regression</link>
     <guid>https://new01.github.io/field-notes/concepts/claude-code-mcp-headless-regression</guid>
     <description><![CDATA[ Cloud MCP connectors configured at claude.ai silently fail to load when Claude Code runs in headless or subprocess mode — a recurring bug pattern that creates a dangerous discrepancy between interactive and automated agent sessions. ]]></description>
-    <pubDate>Tue, 24 Mar 2026 15:11:24 GMT</pubDate>
-  </item><item>
-    <title>Evolutionary Ledger for Agent Memory</title>
-    <link>https://new01.github.io/field-notes/concepts/evolutionary-ledger-agent-memory</link>
-    <guid>https://new01.github.io/field-notes/concepts/evolutionary-ledger-agent-memory</guid>
-    <description><![CDATA[ A structured, append-only record of agent decisions, findings, and state transitions that survives session boundaries — solving the Monday Morning Wall problem in autonomous agents. ]]></description>
-    <pubDate>Tue, 24 Mar 2026 15:11:24 GMT</pubDate>
-  </item><item>
-    <title>Hunter Alpha</title>
-    <link>https://new01.github.io/field-notes/concepts/hunter-alpha</link>
-    <guid>https://new01.github.io/field-notes/concepts/hunter-alpha</guid>
-    <description><![CDATA[ Xiaomi's stealth AI model that surfaced anonymously on OpenRouter in March 2026, later confirmed as MiMo-V2-Pro — a 1-trillion-parameter agent-focused frontier model ]]></description>
-    <pubDate>Tue, 24 Mar 2026 15:11:24 GMT</pubDate>
-  </item><item>
-    <title>MCP Code Execution Pattern</title>
-    <link>https://new01.github.io/field-notes/concepts/mcp-code-execution-pattern</link>
-    <guid>https://new01.github.io/field-notes/concepts/mcp-code-execution-pattern</guid>
-    <description><![CDATA[ Instead of passing every tool result through the model context window, agents write code that runs against MCP servers directly — reducing token usage by up to 98.7% while handling more tools and larger data payloads. ]]></description>
-    <pubDate>Tue, 24 Mar 2026 15:11:24 GMT</pubDate>
+    <pubDate>Tue, 24 Mar 2026 17:16:24 GMT</pubDate>
   </item>
     </channel>
   </rss>
