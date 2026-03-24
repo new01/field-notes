@@ -1,4 +1,4 @@
-# Link Opportunities — 2026-03-19
+# Link Opportunities — 2026-03-24
 
 Pages that mention other page topics without linking to them.
 Review and add [[wikilinks]] to strengthen the knowledge graph.
@@ -23,6 +23,16 @@ Review and add [[wikilinks]] to strengthen the knowledge graph.
 - **concepts/agent-dependency-risks.md** mentions `Agent Memory` — add `[[agent-memory|Agent Memory]]`
 - **concepts/agent-dependency-risks.md** mentions `Concepts` — add `[[index|Concepts]]`
 - **concepts/agent-dependency-risks.md** mentions `Tools` — add `[[index|Tools]]`
+- **concepts/agent-last-mile-failure.md** mentions `About` — add `[[about|About]]`
+- **concepts/agent-last-mile-failure.md** mentions `Agent Budget Enforcement` — add `[[agent-budget-enforcement|Agent Budget Enforcement]]`
+- **concepts/agent-last-mile-failure.md** mentions `Agent Debugging Infrastructure` — add `[[agent-debugging-infrastructure|Agent Debugging Infrastructure]]`
+- **concepts/agent-last-mile-failure.md** mentions `Agent Self-Review Loop` — add `[[agent-self-review-loop|Agent Self-Review Loop]]`
+- **concepts/agent-last-mile-failure.md** mentions `Agent Uncertainty Tracking` — add `[[agent-uncertainty-tracking|Agent Uncertainty Tracking]]`
+- **concepts/agent-last-mile-failure.md** mentions `Agentic Error Recovery Loops` — add `[[agentic-error-recovery-loops|Agentic Error Recovery Loops]]`
+- **concepts/agent-last-mile-failure.md** mentions `AI Agent Infrastructure Tools` — add `[[ai-agent-infrastructure-tools|AI Agent Infrastructure Tools]]`
+- **concepts/agent-last-mile-failure.md** mentions `Concepts` — add `[[index|Concepts]]`
+- **concepts/agent-last-mile-failure.md** mentions `Infrastructure` — add `[[index|Infrastructure]]`
+- **concepts/agent-last-mile-failure.md** mentions `Tools` — add `[[index|Tools]]`
 - **concepts/agent-long-term-memory.md** mentions `Agent Budget Enforcement` — add `[[agent-budget-enforcement|Agent Budget Enforcement]]`
 - **concepts/agent-long-term-memory.md** mentions `Agent Memory` — add `[[agent-memory|Agent Memory]]`
 - **concepts/agent-long-term-memory.md** mentions `Agent Orchestration Platforms` — add `[[agent-orchestration-platforms|Agent Orchestration Platforms]]`
@@ -70,6 +80,27 @@ Review and add [[wikilinks]] to strengthen the knowledge graph.
 - **concepts/agent-orchestration-platforms.md** mentions `Skill-Based Agent Architecture` — add `[[skill-based-agent-architecture|Skill-Based Agent Architecture]]`
 - **concepts/agent-orchestration-platforms.md** mentions `Graph Orchestration` — add `[[graph-orchestration|Graph Orchestration]]`
 - **concepts/agent-orchestration-platforms.md** mentions `Infrastructure` — add `[[index|Infrastructure]]`
+- **concepts/agent-protocol-translation.md** mentions `About` — add `[[about|About]]`
+- **concepts/agent-protocol-translation.md** mentions `Agent Orchestration Platforms` — add `[[agent-orchestration-platforms|Agent Orchestration Platforms]]`
+- **concepts/agent-protocol-translation.md** mentions `Agent Trust Networks` — add `[[agent-trust-networks|Agent Trust Networks]]`
+- **concepts/agent-protocol-translation.md** mentions `AI Agent Infrastructure Tools` — add `[[ai-agent-infrastructure-tools|AI Agent Infrastructure Tools]]`
+- **concepts/agent-protocol-translation.md** mentions `AI Agent Permission Control` — add `[[ai-agent-permission-control|AI Agent Permission Control]]`
+- **concepts/agent-protocol-translation.md** mentions `Concepts` — add `[[index|Concepts]]`
+- **concepts/agent-protocol-translation.md** mentions `LLM Gateway Abstraction` — add `[[llm-gateway-abstraction|LLM Gateway Abstraction]]`
+- **concepts/agent-protocol-translation.md** mentions `MCP Protocol Adoption` — add `[[mcp-protocol-adoption|MCP Protocol Adoption]]`
+- **concepts/agent-protocol-translation.md** mentions `MCP Security Gateways` — add `[[mcp-security-gateways|MCP Security Gateways]]`
+- **concepts/agent-protocol-translation.md** mentions `Multi Agent Context Scoping` — add `[[multi-agent-context-scoping|Multi Agent Context Scoping]]`
+- **concepts/agent-protocol-translation.md** mentions `Infrastructure` — add `[[index|Infrastructure]]`
+- **concepts/agent-protocol-translation.md** mentions `Tools` — add `[[index|Tools]]`
+- **concepts/agent-qdrant-rag-memory.md** mentions `About` — add `[[about|About]]`
+- **concepts/agent-qdrant-rag-memory.md** mentions `Agent Long Term Memory` — add `[[agent-long-term-memory|Agent Long Term Memory]]`
+- **concepts/agent-qdrant-rag-memory.md** mentions `Agent Memory Systems` — add `[[agent-memory-systems|Agent Memory Systems]]`
+- **concepts/agent-qdrant-rag-memory.md** mentions `Agent Memory` — add `[[agent-memory|Agent Memory]]`
+- **concepts/agent-qdrant-rag-memory.md** mentions `Agent Self-Review Loop` — add `[[agent-self-review-loop|Agent Self-Review Loop]]`
+- **concepts/agent-qdrant-rag-memory.md** mentions `Concepts` — add `[[index|Concepts]]`
+- **concepts/agent-qdrant-rag-memory.md** mentions `Multi-Day Agent Build Loops` — add `[[multi-day-agent-build-loops|Multi-Day Agent Build Loops]]`
+- **concepts/agent-qdrant-rag-memory.md** mentions `Getting Started with OpenClaw` — add `[[getting-started|Getting Started with OpenClaw]]`
+- **concepts/agent-qdrant-rag-memory.md** mentions `Infrastructure` — add `[[index|Infrastructure]]`
 - **concepts/agent-run-trading-funds.md** mentions `About` — add `[[about|About]]`
 - **concepts/agent-run-trading-funds.md** mentions `Agent Budget Enforcement` — add `[[agent-budget-enforcement|Agent Budget Enforcement]]`
 - **concepts/agent-run-trading-funds.md** mentions `Agent Orchestration Platforms` — add `[[agent-orchestration-platforms|Agent Orchestration Platforms]]`
@@ -128,6 +159,18 @@ Review and add [[wikilinks]] to strengthen the knowledge graph.
 - **concepts/agentic-coding-job-market.md** mentions `Skill-Based Agent Architecture` — add `[[skill-based-agent-architecture|Skill-Based Agent Architecture]]`
 - **concepts/agentic-coding-job-market.md** mentions `Graph Orchestration` — add `[[graph-orchestration|Graph Orchestration]]`
 - **concepts/agentic-coding-job-market.md** mentions `Tools` — add `[[index|Tools]]`
+- **concepts/agentic-dotfiles-portability.md** mentions `About` — add `[[about|About]]`
+- **concepts/agentic-dotfiles-portability.md** mentions `Agent Orchestration Platforms` — add `[[agent-orchestration-platforms|Agent Orchestration Platforms]]`
+- **concepts/agentic-dotfiles-portability.md** mentions `Agent Skill Packages` — add `[[agent-skill-packages|Agent Skill Packages]]`
+- **concepts/agentic-dotfiles-portability.md** mentions `AI Agent Infrastructure Tools` — add `[[ai-agent-infrastructure-tools|AI Agent Infrastructure Tools]]`
+- **concepts/agentic-dotfiles-portability.md** mentions `Desktop Agent Harnesses` — add `[[desktop-agent-harnesses|Desktop Agent Harnesses]]`
+- **concepts/agentic-dotfiles-portability.md** mentions `Concepts` — add `[[index|Concepts]]`
+- **concepts/agentic-dotfiles-portability.md** mentions `Local-First AI Infrastructure` — add `[[local-first-ai-infrastructure|Local-First AI Infrastructure]]`
+- **concepts/agentic-dotfiles-portability.md** mentions `MCP Protocol Adoption` — add `[[mcp-protocol-adoption|MCP Protocol Adoption]]`
+- **concepts/agentic-dotfiles-portability.md** mentions `Prompt File Governance` — add `[[prompt-file-governance|Prompt File Governance]]`
+- **concepts/agentic-dotfiles-portability.md** mentions `Skill-Based Agent Architecture` — add `[[skill-based-agent-architecture|Skill-Based Agent Architecture]]`
+- **concepts/agentic-dotfiles-portability.md** mentions `Infrastructure` — add `[[index|Infrastructure]]`
+- **concepts/agentic-dotfiles-portability.md** mentions `Tools` — add `[[index|Tools]]`
 - **concepts/agentic-error-recovery-loops.md** mentions `Concepts` — add `[[index|Concepts]]`
 - **concepts/agentic-error-recovery-loops.md** mentions `The Self-Improvement Grindset` — add `[[self-improvement|The Self-Improvement Grindset]]`
 - **concepts/agentic-error-recovery-loops.md** mentions `Tools` — add `[[index|Tools]]`
@@ -152,6 +195,14 @@ Review and add [[wikilinks]] to strengthen the knowledge graph.
 - **concepts/ai-agent-permission-control.md** mentions `Runtime Control Layer` — add `[[runtime-control-layer|Runtime Control Layer]]`
 - **concepts/ai-agent-permission-control.md** mentions `Infrastructure` — add `[[index|Infrastructure]]`
 - **concepts/ai-agent-permission-control.md** mentions `Tools` — add `[[index|Tools]]`
+- **concepts/ai-agent-tool-testing.md** mentions `Agent Budget Enforcement` — add `[[agent-budget-enforcement|Agent Budget Enforcement]]`
+- **concepts/ai-agent-tool-testing.md** mentions `Agent Debugging Infrastructure` — add `[[agent-debugging-infrastructure|Agent Debugging Infrastructure]]`
+- **concepts/ai-agent-tool-testing.md** mentions `Agent Sandboxing Environments` — add `[[agent-sandboxing-environments|Agent Sandboxing Environments]]`
+- **concepts/ai-agent-tool-testing.md** mentions `AI Agent Infrastructure Tools` — add `[[ai-agent-infrastructure-tools|AI Agent Infrastructure Tools]]`
+- **concepts/ai-agent-tool-testing.md** mentions `Autonomous Test Generation Agents` — add `[[autonomous-test-generation-agents|Autonomous Test Generation Agents]]`
+- **concepts/ai-agent-tool-testing.md** mentions `Concepts` — add `[[index|Concepts]]`
+- **concepts/ai-agent-tool-testing.md** mentions `Infrastructure` — add `[[index|Infrastructure]]`
+- **concepts/ai-agent-tool-testing.md** mentions `Tools` — add `[[index|Tools]]`
 - **concepts/ai-maintained-knowledge-bases.md** mentions `Agent Long Term Memory` — add `[[agent-long-term-memory|Agent Long Term Memory]]`
 - **concepts/ai-maintained-knowledge-bases.md** mentions `Agent Orchestration Platforms` — add `[[agent-orchestration-platforms|Agent Orchestration Platforms]]`
 - **concepts/ai-maintained-knowledge-bases.md** mentions `Concepts` — add `[[index|Concepts]]`
@@ -192,6 +243,15 @@ Review and add [[wikilinks]] to strengthen the knowledge graph.
 - **concepts/autonomous-test-generation-agents.md** mentions `The Build Queue Pattern` — add `[[build-queue-pattern|The Build Queue Pattern]]`
 - **concepts/autonomous-test-generation-agents.md** mentions `Concepts` — add `[[index|Concepts]]`
 - **concepts/autonomous-test-generation-agents.md** mentions `Infrastructure` — add `[[index|Infrastructure]]`
+- **concepts/b2b-lead-generation-agents.md** mentions `Agent Orchestration Platforms` — add `[[agent-orchestration-platforms|Agent Orchestration Platforms]]`
+- **concepts/b2b-lead-generation-agents.md** mentions `Agent Teams` — add `[[agent-teams|Agent Teams]]`
+- **concepts/b2b-lead-generation-agents.md** mentions `Autonomous Intelligence Sourcing` — add `[[autonomous-intelligence-sourcing|Autonomous Intelligence Sourcing]]`
+- **concepts/b2b-lead-generation-agents.md** mentions `Brains and Muscles` — add `[[brains-and-muscles|Brains and Muscles]]`
+- **concepts/b2b-lead-generation-agents.md** mentions `Continuous Information Ingestion` — add `[[continuous-ingestion|Continuous Information Ingestion]]`
+- **concepts/b2b-lead-generation-agents.md** mentions `Concepts` — add `[[index|Concepts]]`
+- **concepts/b2b-lead-generation-agents.md** mentions `Reddit Lead Generation` — add `[[reddit-lead-generation|Reddit Lead Generation]]`
+- **concepts/b2b-lead-generation-agents.md** mentions `Infrastructure` — add `[[index|Infrastructure]]`
+- **concepts/b2b-lead-generation-agents.md** mentions `Tools` — add `[[index|Tools]]`
 - **concepts/behavioral-economics-saas.md** mentions `About` — add `[[about|About]]`
 - **concepts/behavioral-economics-saas.md** mentions `Concepts` — add `[[index|Concepts]]`
 - **concepts/behavioral-economics-saas.md** mentions `Tools` — add `[[index|Tools]]`
@@ -226,6 +286,12 @@ Review and add [[wikilinks]] to strengthen the knowledge graph.
 - **concepts/build-queue-pattern.md** mentions `Tools` — add `[[index|Tools]]`
 - **concepts/causal-agent-audit-trails.md** mentions `Concepts` — add `[[index|Concepts]]`
 - **concepts/causal-agent-audit-trails.md** mentions `Infrastructure` — add `[[index|Infrastructure]]`
+- **concepts/claude-code-mcp-headless-regression.md** mentions `Agent Debugging Infrastructure` — add `[[agent-debugging-infrastructure|Agent Debugging Infrastructure]]`
+- **concepts/claude-code-mcp-headless-regression.md** mentions `Agent Last-Mile Failure` — add `[[agent-last-mile-failure|Agent Last-Mile Failure]]`
+- **concepts/claude-code-mcp-headless-regression.md** mentions `Concepts` — add `[[index|Concepts]]`
+- **concepts/claude-code-mcp-headless-regression.md** mentions `MCP Protocol Adoption` — add `[[mcp-protocol-adoption|MCP Protocol Adoption]]`
+- **concepts/claude-code-mcp-headless-regression.md** mentions `Infrastructure` — add `[[index|Infrastructure]]`
+- **concepts/claude-code-mcp-headless-regression.md** mentions `Tools` — add `[[index|Tools]]`
 - **concepts/cli-web-data-tools-for-agents.md** mentions `Continuous Information Ingestion` — add `[[continuous-ingestion|Continuous Information Ingestion]]`
 - **concepts/cli-web-data-tools-for-agents.md** mentions `Concepts` — add `[[index|Concepts]]`
 - **concepts/cli-web-data-tools-for-agents.md** mentions `Guides` — add `[[index|Guides]]`
@@ -303,6 +369,20 @@ Review and add [[wikilinks]] to strengthen the knowledge graph.
 - **concepts/dynamic-rule-loading.md** mentions `Tools` — add `[[index|Tools]]`
 - **concepts/email-to-structured-data-apis.md** mentions `Agent Orchestration Platforms` — add `[[agent-orchestration-platforms|Agent Orchestration Platforms]]`
 - **concepts/email-to-structured-data-apis.md** mentions `Concepts` — add `[[index|Concepts]]`
+- **concepts/evolutionary-ledger-agent-memory.md** mentions `About` — add `[[about|About]]`
+- **concepts/evolutionary-ledger-agent-memory.md** mentions `Agent Memory Systems` — add `[[agent-memory-systems|Agent Memory Systems]]`
+- **concepts/evolutionary-ledger-agent-memory.md** mentions `Agent Memory` — add `[[agent-memory|Agent Memory]]`
+- **concepts/evolutionary-ledger-agent-memory.md** mentions `Agent RAG Memory with Vector Databases` — add `[[agent-qdrant-rag-memory|Agent RAG Memory with Vector Databases]]`
+- **concepts/evolutionary-ledger-agent-memory.md** mentions `Agent Self-Review Loop` — add `[[agent-self-review-loop|Agent Self-Review Loop]]`
+- **concepts/evolutionary-ledger-agent-memory.md** mentions `Causal Agent Audit Trails` — add `[[causal-agent-audit-trails|Causal Agent Audit Trails]]`
+- **concepts/evolutionary-ledger-agent-memory.md** mentions `Concepts` — add `[[index|Concepts]]`
+- **concepts/evolutionary-ledger-agent-memory.md** mentions `Multi-Day Agent Build Loops` — add `[[multi-day-agent-build-loops|Multi-Day Agent Build Loops]]`
+- **concepts/evolutionary-ledger-agent-memory.md** mentions `Overload-Tolerant Event Ledger` — add `[[overload-tolerant-event-ledger|Overload-Tolerant Event Ledger]]`
+- **concepts/evolutionary-ledger-agent-memory.md** mentions `Guides` — add `[[index|Guides]]`
+- **concepts/evolutionary-ledger-agent-memory.md** mentions `Claw Field Notes` — add `[[index|Claw Field Notes]]`
+- **concepts/evolutionary-ledger-agent-memory.md** mentions `Infrastructure` — add `[[index|Infrastructure]]`
+- **concepts/evolutionary-ledger-agent-memory.md** mentions `OpenClaw Skill Store` — add `[[index|OpenClaw Skill Store]]`
+- **concepts/evolutionary-ledger-agent-memory.md** mentions `Tools` — add `[[index|Tools]]`
 - **concepts/four-role-orchestrator-chain.md** mentions `Agent Teams` — add `[[agent-teams|Agent Teams]]`
 - **concepts/four-role-orchestrator-chain.md** mentions `Graph Orchestration Patterns` — add `[[graph-orchestration-patterns|Graph Orchestration Patterns]]`
 - **concepts/four-role-orchestrator-chain.md** mentions `Concepts` — add `[[index|Concepts]]`
@@ -427,6 +507,20 @@ Review and add [[wikilinks]] to strengthen the knowledge graph.
 - **concepts/meta-ads-library-scraper.md** mentions `Orchestrator Sub-Skill Pattern` — add `[[orchestrator-sub-skill-pattern|Orchestrator Sub-Skill Pattern]]`
 - **concepts/meta-ads-library-scraper.md** mentions `Skill-Based Agent Architecture` — add `[[skill-based-agent-architecture|Skill-Based Agent Architecture]]`
 - **concepts/meta-ads-library-scraper.md** mentions `Graph Orchestration` — add `[[graph-orchestration|Graph Orchestration]]`
+- **concepts/monitoring-autonomous-openclaw-agents.md** mentions `Agent Budget Enforcement` — add `[[agent-budget-enforcement|Agent Budget Enforcement]]`
+- **concepts/monitoring-autonomous-openclaw-agents.md** mentions `Agent Debugging Infrastructure` — add `[[agent-debugging-infrastructure|Agent Debugging Infrastructure]]`
+- **concepts/monitoring-autonomous-openclaw-agents.md** mentions `Agent Sandboxing Environments` — add `[[agent-sandboxing-environments|Agent Sandboxing Environments]]`
+- **concepts/monitoring-autonomous-openclaw-agents.md** mentions `AI Agent Control Planes` — add `[[ai-agent-control-planes|AI Agent Control Planes]]`
+- **concepts/monitoring-autonomous-openclaw-agents.md** mentions `AI Agent Permission Control` — add `[[ai-agent-permission-control|AI Agent Permission Control]]`
+- **concepts/monitoring-autonomous-openclaw-agents.md** mentions `The Build Queue Pattern` — add `[[build-queue-pattern|The Build Queue Pattern]]`
+- **concepts/monitoring-autonomous-openclaw-agents.md** mentions `Causal Agent Audit Trails` — add `[[causal-agent-audit-trails|Causal Agent Audit Trails]]`
+- **concepts/monitoring-autonomous-openclaw-agents.md** mentions `Dead-Man's Switch` — add `[[dead-mans-switch|Dead-Man's Switch]]`
+- **concepts/monitoring-autonomous-openclaw-agents.md** mentions `The Heartbeat System` — add `[[heartbeat-system|The Heartbeat System]]`
+- **concepts/monitoring-autonomous-openclaw-agents.md** mentions `Concepts` — add `[[index|Concepts]]`
+- **concepts/monitoring-autonomous-openclaw-agents.md** mentions `LLM Cost Observability` — add `[[llm-cost-observability|LLM Cost Observability]]`
+- **concepts/monitoring-autonomous-openclaw-agents.md** mentions `Infrastructure` — add `[[index|Infrastructure]]`
+- **concepts/monitoring-autonomous-openclaw-agents.md** mentions `Tools` — add `[[index|Tools]]`
+- **concepts/mrr-milestone-progression.md** mentions `Concepts` — add `[[index|Concepts]]`
 - **concepts/multi-agent-context-scoping.md** mentions `About` — add `[[about|About]]`
 - **concepts/multi-agent-context-scoping.md** mentions `Agent Budget Enforcement` — add `[[agent-budget-enforcement|Agent Budget Enforcement]]`
 - **concepts/multi-agent-context-scoping.md** mentions `Agent Memory Systems` — add `[[agent-memory-systems|Agent Memory Systems]]`
@@ -440,6 +534,11 @@ Review and add [[wikilinks]] to strengthen the knowledge graph.
 - **concepts/multi-agent-context-scoping.md** mentions `Prompt Enrichment Architecture` — add `[[prompt-enrichment-architecture|Prompt Enrichment Architecture]]`
 - **concepts/multi-agent-context-scoping.md** mentions `Graph Orchestration` — add `[[graph-orchestration|Graph Orchestration]]`
 - **concepts/multi-agent-context-scoping.md** mentions `Infrastructure` — add `[[index|Infrastructure]]`
+- **concepts/multi-day-agent-build-loops.md** mentions `Agent Long Term Memory` — add `[[agent-long-term-memory|Agent Long Term Memory]]`
+- **concepts/multi-day-agent-build-loops.md** mentions `Agent Memory` — add `[[agent-memory|Agent Memory]]`
+- **concepts/multi-day-agent-build-loops.md** mentions `Agentic Error Recovery Loops` — add `[[agentic-error-recovery-loops|Agentic Error Recovery Loops]]`
+- **concepts/multi-day-agent-build-loops.md** mentions `The Build Queue Pattern` — add `[[build-queue-pattern|The Build Queue Pattern]]`
+- **concepts/multi-day-agent-build-loops.md** mentions `Concepts` — add `[[index|Concepts]]`
 - **concepts/multi-user-agent-instance-management.md** mentions `About` — add `[[about|About]]`
 - **concepts/multi-user-agent-instance-management.md** mentions `Concepts` — add `[[index|Concepts]]`
 - **concepts/multi-user-agent-instance-management.md** mentions `Infrastructure` — add `[[index|Infrastructure]]`
@@ -457,6 +556,16 @@ Review and add [[wikilinks]] to strengthen the knowledge graph.
 - **concepts/openclaw-2026-3-11.md** mentions `Infrastructure` — add `[[index|Infrastructure]]`
 - **concepts/openclaw-2026-3-11.md** mentions `OpenClaw Skill Store` — add `[[index|OpenClaw Skill Store]]`
 - **concepts/openclaw-2026-3-11.md** mentions `Tools` — add `[[index|Tools]]`
+- **concepts/openclaw-2026-3-23-2.md** mentions `Agent Skill Packages` — add `[[agent-skill-packages|Agent Skill Packages]]`
+- **concepts/openclaw-2026-3-23-2.md** mentions `Concepts` — add `[[index|Concepts]]`
+- **concepts/openclaw-2026-3-23-2.md** mentions `OpenClaw 2026.3.11 — Security Depth, Multimodal Memory, and ACP Session Continuity` — add `[[openclaw-2026-3-11|OpenClaw 2026.3.11 — Security Depth, Multimodal Memory, and ACP Session Continuity]]`
+- **concepts/openclaw-2026-3-23-2.md** mentions `OpenClaw 2026.3.23 — Browser Reliability, ClawHub Auth, and Operational Hardening` — add `[[openclaw-2026-3-23|OpenClaw 2026.3.23 — Browser Reliability, ClawHub Auth, and Operational Hardening]]`
+- **concepts/openclaw-2026-3-23.md** mentions `About` — add `[[about|About]]`
+- **concepts/openclaw-2026-3-23.md** mentions `Agent Memory Systems` — add `[[agent-memory-systems|Agent Memory Systems]]`
+- **concepts/openclaw-2026-3-23.md** mentions `Agent Memory` — add `[[agent-memory|Agent Memory]]`
+- **concepts/openclaw-2026-3-23.md** mentions `Agent Skill Packages` — add `[[agent-skill-packages|Agent Skill Packages]]`
+- **concepts/openclaw-2026-3-23.md** mentions `Concepts` — add `[[index|Concepts]]`
+- **concepts/openclaw-2026-3-23.md** mentions `OpenClaw 2026.3.11 — Security Depth, Multimodal Memory, and ACP Session Continuity` — add `[[openclaw-2026-3-11|OpenClaw 2026.3.11 — Security Depth, Multimodal Memory, and ACP Session Continuity]]`
 - **concepts/openclaw-ecosystem-growth.md** mentions `Concepts` — add `[[index|Concepts]]`
 - **concepts/openclaw-ecosystem-growth.md** mentions `LocalClaw Competitor Pattern` — add `[[localclaw-competitor-pattern|LocalClaw Competitor Pattern]]`
 - **concepts/openclaw-ecosystem-growth.md** mentions `Skill-Based Agent Architecture` — add `[[skill-based-agent-architecture|Skill-Based Agent Architecture]]`
@@ -473,6 +582,14 @@ Review and add [[wikilinks]] to strengthen the knowledge graph.
 - **concepts/overload-tolerant-event-ledger.md** mentions `Infrastructure` — add `[[index|Infrastructure]]`
 - **concepts/overload-tolerant-event-ledger.md** mentions `Mission Control` — add `[[mission-control|Mission Control]]`
 - **concepts/overload-tolerant-event-ledger.md** mentions `Notification Batching` — add `[[notification-batching|Notification Batching]]`
+- **concepts/permanent-companion-agent-local-hardware.md** mentions `About` — add `[[about|About]]`
+- **concepts/permanent-companion-agent-local-hardware.md** mentions `Agent Memory Systems` — add `[[agent-memory-systems|Agent Memory Systems]]`
+- **concepts/permanent-companion-agent-local-hardware.md** mentions `Agent Memory` — add `[[agent-memory|Agent Memory]]`
+- **concepts/permanent-companion-agent-local-hardware.md** mentions `Agent RAG Memory with Vector Databases` — add `[[agent-qdrant-rag-memory|Agent RAG Memory with Vector Databases]]`
+- **concepts/permanent-companion-agent-local-hardware.md** mentions `Concepts` — add `[[index|Concepts]]`
+- **concepts/permanent-companion-agent-local-hardware.md** mentions `Local-First AI Infrastructure` — add `[[local-first-ai-infrastructure|Local-First AI Infrastructure]]`
+- **concepts/permanent-companion-agent-local-hardware.md** mentions `Multi-Day Agent Build Loops` — add `[[multi-day-agent-build-loops|Multi-Day Agent Build Loops]]`
+- **concepts/permanent-companion-agent-local-hardware.md** mentions `Infrastructure` — add `[[index|Infrastructure]]`
 - **concepts/pipeline-cost-per-run.md** mentions `Graph Orchestration Patterns` — add `[[graph-orchestration-patterns|Graph Orchestration Patterns]]`
 - **concepts/pipeline-cost-per-run.md** mentions `Concepts` — add `[[index|Concepts]]`
 - **concepts/pipeline-cost-per-run.md** mentions `LLM Cost Comparison Tools` — add `[[llm-cost-comparison-tools|LLM Cost Comparison Tools]]`
@@ -491,6 +608,12 @@ Review and add [[wikilinks]] to strengthen the knowledge graph.
 - **concepts/prompt-file-governance.md** mentions `Brains and Muscles` — add `[[brains-and-muscles|Brains and Muscles]]`
 - **concepts/prompt-file-governance.md** mentions `Concepts` — add `[[index|Concepts]]`
 - **concepts/prompt-file-governance.md** mentions `Tools` — add `[[index|Tools]]`
+- **concepts/pulse-feed-monitoring-system.md** mentions `Concepts` — add `[[index|Concepts]]`
+- **concepts/pulse-feed-monitoring-system.md** mentions `Guides` — add `[[index|Guides]]`
+- **concepts/pulse-feed-monitoring-system.md** mentions `Claw Field Notes` — add `[[index|Claw Field Notes]]`
+- **concepts/pulse-feed-monitoring-system.md** mentions `Infrastructure` — add `[[index|Infrastructure]]`
+- **concepts/pulse-feed-monitoring-system.md** mentions `OpenClaw Skill Store` — add `[[index|OpenClaw Skill Store]]`
+- **concepts/pulse-feed-monitoring-system.md** mentions `Tools` — add `[[index|Tools]]`
 - **concepts/pulse-signal-monitoring-system.md** mentions `About` — add `[[about|About]]`
 - **concepts/pulse-signal-monitoring-system.md** mentions `Concepts` — add `[[index|Concepts]]`
 - **concepts/pulse-signal-monitoring-system.md** mentions `Infrastructure` — add `[[index|Infrastructure]]`
@@ -534,6 +657,14 @@ Review and add [[wikilinks]] to strengthen the knowledge graph.
 - **concepts/runtime-control-layer.md** mentions `Infrastructure` — add `[[index|Infrastructure]]`
 - **concepts/saas-market-noise-problem.md** mentions `Concepts` — add `[[index|Concepts]]`
 - **concepts/saas-market-noise-problem.md** mentions `Tools` — add `[[index|Tools]]`
+- **concepts/scratch-your-own-itch-saas.md** mentions `Behavioral Economics SaaS` — add `[[behavioral-economics-saas|Behavioral Economics SaaS]]`
+- **concepts/scratch-your-own-itch-saas.md** mentions `Concepts` — add `[[index|Concepts]]`
+- **concepts/scratch-your-own-itch-saas.md** mentions `MRR Milestone Progression` — add `[[mrr-milestone-progression|MRR Milestone Progression]]`
+- **concepts/scratch-your-own-itch-saas.md** mentions `Niche SaaS Positioning` — add `[[niche-saas-positioning|Niche SaaS Positioning]]`
+- **concepts/scratch-your-own-itch-saas.md** mentions `Niche Vertical SaaS Pattern` — add `[[niche-vertical-saas-pattern|Niche Vertical SaaS Pattern]]`
+- **concepts/scratch-your-own-itch-saas.md** mentions `Reddit Lead Generation` — add `[[reddit-lead-generation|Reddit Lead Generation]]`
+- **concepts/scratch-your-own-itch-saas.md** mentions `SaaS Market Noise Problem` — add `[[saas-market-noise-problem|SaaS Market Noise Problem]]`
+- **concepts/scratch-your-own-itch-saas.md** mentions `Tools` — add `[[index|Tools]]`
 - **concepts/security-hygiene.md** mentions `Concepts` — add `[[index|Concepts]]`
 - **concepts/security-hygiene.md** mentions `Prompt File Governance` — add `[[prompt-file-governance|Prompt File Governance]]`
 - **concepts/security-hygiene.md** mentions `Getting Started with OpenClaw` — add `[[getting-started|Getting Started with OpenClaw]]`
@@ -592,6 +723,15 @@ Review and add [[wikilinks]] to strengthen the knowledge graph.
 - **concepts/tweet-format-taxonomy.md** mentions `Concepts` — add `[[index|Concepts]]`
 - **concepts/tweet-format-taxonomy.md** mentions `Self-Improvement System` — add `[[self-improvement-system|Self-Improvement System]]`
 - **concepts/tweet-format-taxonomy.md** mentions `The Self-Improvement Grindset` — add `[[self-improvement|The Self-Improvement Grindset]]`
+- **concepts/vibe-coding-microservices.md** mentions `About` — add `[[about|About]]`
+- **concepts/vibe-coding-microservices.md** mentions `Agent Sandboxing Environments` — add `[[agent-sandboxing-environments|Agent Sandboxing Environments]]`
+- **concepts/vibe-coding-microservices.md** mentions `Agent Self-Review Loop` — add `[[agent-self-review-loop|Agent Self-Review Loop]]`
+- **concepts/vibe-coding-microservices.md** mentions `AI Pipeline Security Layers` — add `[[ai-pipeline-security-layers|AI Pipeline Security Layers]]`
+- **concepts/vibe-coding-microservices.md** mentions `Code Review Feedback Loops` — add `[[code-review-feedback-loops|Code Review Feedback Loops]]`
+- **concepts/vibe-coding-microservices.md** mentions `Deterministic Agent Action Layer` — add `[[deterministic-agent-action-layer|Deterministic Agent Action Layer]]`
+- **concepts/vibe-coding-microservices.md** mentions `Concepts` — add `[[index|Concepts]]`
+- **concepts/vibe-coding-microservices.md** mentions `Infrastructure` — add `[[index|Infrastructure]]`
+- **concepts/vibe-coding-microservices.md** mentions `Tools` — add `[[index|Tools]]`
 - **concepts/vision-first-browser-agents.md** mentions `Concepts` — add `[[index|Concepts]]`
 - **concepts/vision-first-browser-agents.md** mentions `Infrastructure` — add `[[index|Infrastructure]]`
 - **concepts/vision-first-browser-agents.md** mentions `Tools` — add `[[index|Tools]]`
