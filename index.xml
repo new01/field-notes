@@ -6,65 +6,65 @@
       <description>Last 10 notes on Claw Field Notes</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Claw Field Notes</title>
-    <link>https://new01.github.io/field-notes/</link>
-    <guid>https://new01.github.io/field-notes/</guid>
-    <description><![CDATA[ Production knowledge for OpenClaw builders — patterns, infrastructure, and hard-won lessons ]]></description>
-    <pubDate>Tue, 24 Mar 2026 03:31:21 GMT</pubDate>
-  </item><item>
-    <title>Tools</title>
-    <link>https://new01.github.io/field-notes/tools/</link>
-    <guid>https://new01.github.io/field-notes/tools/</guid>
-    <description><![CDATA[ Practical pipelines and scripts we run in production — what they do, how they work, where they break ]]></description>
-    <pubDate>Tue, 24 Mar 2026 03:31:21 GMT</pubDate>
-  </item><item>
     <title>Doctrine Files</title>
     <link>https://new01.github.io/field-notes/guides/doctrine-files</link>
     <guid>https://new01.github.io/field-notes/guides/doctrine-files</guid>
     <description><![CDATA[ The three files that determine how your agent behaves between sessions — and how to write them well ]]></description>
-    <pubDate>Tue, 24 Mar 2026 03:31:21 GMT</pubDate>
+    <pubDate>Tue, 24 Mar 2026 04:28:04 GMT</pubDate>
   </item><item>
     <title>Your First Automation — The Morning Brief</title>
     <link>https://new01.github.io/field-notes/guides/first-automation</link>
     <guid>https://new01.github.io/field-notes/guides/first-automation</guid>
     <description><![CDATA[ Step-by-step guide to building a daily digest that runs autonomously and delivers to Telegram or Discord ]]></description>
-    <pubDate>Tue, 24 Mar 2026 03:31:21 GMT</pubDate>
-  </item><item>
-    <title>Guides</title>
-    <link>https://new01.github.io/field-notes/guides/</link>
-    <guid>https://new01.github.io/field-notes/guides/</guid>
-    <description><![CDATA[ Practical walkthroughs for OpenClaw builders — from first install to production autonomous systems ]]></description>
-    <pubDate>Tue, 24 Mar 2026 03:31:21 GMT</pubDate>
+    <pubDate>Tue, 24 Mar 2026 04:28:04 GMT</pubDate>
   </item><item>
     <title>The Intelligence Stream Kit</title>
     <link>https://new01.github.io/field-notes/guides/intelligence-stream-kit</link>
     <guid>https://new01.github.io/field-notes/guides/intelligence-stream-kit</guid>
     <description><![CDATA[ One prompt. Always-on signal from the web. How to build a private, self-running intelligence feed with zero ongoing maintenance. ]]></description>
-    <pubDate>Tue, 24 Mar 2026 03:31:21 GMT</pubDate>
+    <pubDate>Tue, 24 Mar 2026 04:28:04 GMT</pubDate>
   </item><item>
-    <title>The Self-Improvement Grindset</title>
-    <link>https://new01.github.io/field-notes/guides/self-improvement</link>
-    <guid>https://new01.github.io/field-notes/guides/self-improvement</guid>
-    <description><![CDATA[ How to get an OpenClaw agent onto the compounding growth loop — where each session is smarter than the last ]]></description>
-    <pubDate>Tue, 24 Mar 2026 03:31:21 GMT</pubDate>
+    <title>Claw Field Notes</title>
+    <link>https://new01.github.io/field-notes/</link>
+    <guid>https://new01.github.io/field-notes/</guid>
+    <description><![CDATA[ Production knowledge for OpenClaw builders — patterns, infrastructure, and hard-won lessons ]]></description>
+    <pubDate>Tue, 24 Mar 2026 04:28:04 GMT</pubDate>
   </item><item>
-    <title>Agent Last-Mile Failure</title>
-    <link>https://new01.github.io/field-notes/concepts/agent-last-mile-failure</link>
-    <guid>https://new01.github.io/field-notes/concepts/agent-last-mile-failure</guid>
-    <description><![CDATA[ Why AI agents reliably handle routine tasks but break down on the remaining 20% — edge cases, ambiguity, and deep tool chains in production ]]></description>
-    <pubDate>Tue, 24 Mar 2026 03:31:21 GMT</pubDate>
+    <title>Tools</title>
+    <link>https://new01.github.io/field-notes/tools/</link>
+    <guid>https://new01.github.io/field-notes/tools/</guid>
+    <description><![CDATA[ Practical pipelines and scripts we run in production — what they do, how they work, where they break ]]></description>
+    <pubDate>Tue, 24 Mar 2026 04:28:04 GMT</pubDate>
   </item><item>
     <title>Agent RAG Memory with Vector Databases</title>
     <link>https://new01.github.io/field-notes/concepts/agent-qdrant-rag-memory</link>
     <guid>https://new01.github.io/field-notes/concepts/agent-qdrant-rag-memory</guid>
     <description><![CDATA[ Using vector databases like Qdrant to give AI agents deep, semantic memory retrieval across unlimited history — beyond what fits in a context window. ]]></description>
-    <pubDate>Tue, 24 Mar 2026 03:31:21 GMT</pubDate>
+    <pubDate>Tue, 24 Mar 2026 04:28:04 GMT</pubDate>
   </item><item>
     <title>Claude Code MCP Headless Regression</title>
     <link>https://new01.github.io/field-notes/concepts/claude-code-mcp-headless-regression</link>
     <guid>https://new01.github.io/field-notes/concepts/claude-code-mcp-headless-regression</guid>
     <description><![CDATA[ Cloud MCP connectors configured at claude.ai silently fail to load when Claude Code runs in headless or subprocess mode — a recurring bug pattern that creates a dangerous discrepancy between interactive and automated agent sessions. ]]></description>
-    <pubDate>Tue, 24 Mar 2026 03:31:21 GMT</pubDate>
+    <pubDate>Tue, 24 Mar 2026 04:28:04 GMT</pubDate>
+  </item><item>
+    <title>Multi-Day Agent Build Loops</title>
+    <link>https://new01.github.io/field-notes/concepts/multi-day-agent-build-loops</link>
+    <guid>https://new01.github.io/field-notes/concepts/multi-day-agent-build-loops</guid>
+    <description><![CDATA[ Running autonomous AI agents across multiple days works — but session boundaries erase all context, and the memory problem is what actually breaks them ]]></description>
+    <pubDate>Tue, 24 Mar 2026 04:28:04 GMT</pubDate>
+  </item><item>
+    <title>Getting Started with OpenClaw</title>
+    <link>https://new01.github.io/field-notes/guides/getting-started</link>
+    <guid>https://new01.github.io/field-notes/guides/getting-started</guid>
+    <description><![CDATA[ What to set up first and what to do in your first week ]]></description>
+    <pubDate>Tue, 24 Mar 2026 04:28:04 GMT</pubDate>
+  </item><item>
+    <title>Guides</title>
+    <link>https://new01.github.io/field-notes/guides/</link>
+    <guid>https://new01.github.io/field-notes/guides/</guid>
+    <description><![CDATA[ Practical walkthroughs for OpenClaw builders — from first install to production autonomous systems ]]></description>
+    <pubDate>Tue, 24 Mar 2026 04:28:04 GMT</pubDate>
   </item>
     </channel>
   </rss>
