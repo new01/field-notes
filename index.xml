@@ -6,65 +6,65 @@
       <description>Last 10 notes on Claw Field Notes</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Tools</title>
-    <link>https://new01.github.io/field-notes/tools/</link>
-    <guid>https://new01.github.io/field-notes/tools/</guid>
-    <description><![CDATA[ Practical pipelines and scripts we run in production — what they do, how they work, where they break ]]></description>
-    <pubDate>Wed, 25 Mar 2026 00:16:12 GMT</pubDate>
-  </item><item>
-    <title>Agent Budget Enforcement</title>
-    <link>https://new01.github.io/field-notes/concepts/agent-budget-enforcement</link>
-    <guid>https://new01.github.io/field-notes/concepts/agent-budget-enforcement</guid>
-    <description><![CDATA[ Pre-execution cost and resource controls that prevent autonomous agents from runaway spending ]]></description>
-    <pubDate>Wed, 25 Mar 2026 00:16:12 GMT</pubDate>
-  </item><item>
-    <title>Agent Dependency Risks</title>
-    <link>https://new01.github.io/field-notes/concepts/agent-dependency-risks</link>
-    <guid>https://new01.github.io/field-notes/concepts/agent-dependency-risks</guid>
-    <description><![CDATA[ Security vulnerabilities that emerge when AI coding agents select, suggest, or install software dependencies — including hallucinated packages, outdated versions, and supply chain attack vectors enabled by agent behavior. ]]></description>
-    <pubDate>Wed, 25 Mar 2026 00:16:12 GMT</pubDate>
-  </item><item>
-    <title>Agent Last-Mile Failure</title>
-    <link>https://new01.github.io/field-notes/concepts/agent-last-mile-failure</link>
-    <guid>https://new01.github.io/field-notes/concepts/agent-last-mile-failure</guid>
-    <description><![CDATA[ Why AI agents reliably handle routine tasks but break down on the remaining 20% — edge cases, ambiguity, and deep tool chains in production ]]></description>
-    <pubDate>Wed, 25 Mar 2026 00:16:12 GMT</pubDate>
-  </item><item>
-    <title>Agent Long Term Memory</title>
-    <link>https://new01.github.io/field-notes/concepts/agent-long-term-memory</link>
-    <guid>https://new01.github.io/field-notes/concepts/agent-long-term-memory</guid>
-    <description><![CDATA[ Persistent memory systems that let AI agents maintain state and context across session resets ]]></description>
-    <pubDate>Wed, 25 Mar 2026 00:16:12 GMT</pubDate>
-  </item><item>
-    <title>Agent Protocol Translation</title>
-    <link>https://new01.github.io/field-notes/concepts/agent-protocol-translation</link>
-    <guid>https://new01.github.io/field-notes/concepts/agent-protocol-translation</guid>
-    <description><![CDATA[ Middleware that bridges incompatible AI agent communication protocols, enabling interoperability across tool-calling standards and permission systems in multi-agent architectures. ]]></description>
-    <pubDate>Wed, 25 Mar 2026 00:16:12 GMT</pubDate>
-  </item><item>
     <title>Agent RAG Memory with Vector Databases</title>
     <link>https://new01.github.io/field-notes/concepts/agent-qdrant-rag-memory</link>
     <guid>https://new01.github.io/field-notes/concepts/agent-qdrant-rag-memory</guid>
     <description><![CDATA[ Using vector databases like Qdrant to give AI agents deep, semantic memory retrieval across unlimited history — beyond what fits in a context window. ]]></description>
-    <pubDate>Wed, 25 Mar 2026 00:16:12 GMT</pubDate>
+    <pubDate>Wed, 25 Mar 2026 03:26:12 GMT</pubDate>
   </item><item>
-    <title>Agent Run Trading Funds</title>
-    <link>https://new01.github.io/field-notes/concepts/agent-run-trading-funds</link>
-    <guid>https://new01.github.io/field-notes/concepts/agent-run-trading-funds</guid>
-    <description><![CDATA[ Autonomous AI agents managing real capital with algorithmic trading strategies ]]></description>
-    <pubDate>Wed, 25 Mar 2026 00:16:12 GMT</pubDate>
+    <title>AI Toolchain Dependency Poisoning: How the LiteLLM Backdoor Spread Through MCP and Agent Frameworks</title>
+    <link>https://new01.github.io/field-notes/concepts/ai-toolchain-dependency-poisoning</link>
+    <guid>https://new01.github.io/field-notes/concepts/ai-toolchain-dependency-poisoning</guid>
+    <description><![CDATA[ The LiteLLM supply chain compromise was discovered because an MCP plugin in Cursor crashed. A breakdown of how poisoned packages propagate through AI toolchains — MCP servers, agent frameworks, and IDE plugins — and why traditional detection failed. ]]></description>
+    <pubDate>Wed, 25 Mar 2026 03:26:12 GMT</pubDate>
   </item><item>
-    <title>Agent Trust Networks</title>
-    <link>https://new01.github.io/field-notes/concepts/agent-trust-networks</link>
-    <guid>https://new01.github.io/field-notes/concepts/agent-trust-networks</guid>
-    <description><![CDATA[ Systems where AI agents verify and authenticate each other to enable safe multi-agent collaboration ]]></description>
-    <pubDate>Wed, 25 Mar 2026 00:16:12 GMT</pubDate>
+    <title>Evolutionary Ledger for Agent Memory</title>
+    <link>https://new01.github.io/field-notes/concepts/evolutionary-ledger-agent-memory</link>
+    <guid>https://new01.github.io/field-notes/concepts/evolutionary-ledger-agent-memory</guid>
+    <description><![CDATA[ A structured, append-only record of agent decisions, findings, and state transitions that survives session boundaries — solving the Monday Morning Wall problem in autonomous agents. ]]></description>
+    <pubDate>Wed, 25 Mar 2026 03:26:12 GMT</pubDate>
   </item><item>
-    <title>Agent UI Specification DSLs</title>
-    <link>https://new01.github.io/field-notes/concepts/agent-ui-specification-dsl</link>
-    <guid>https://new01.github.io/field-notes/concepts/agent-ui-specification-dsl</guid>
-    <description><![CDATA[ Structured, text-based wireframing schemas that give AI coding agents a deterministic intermediate representation for UI generation — reducing hallucination, improving consistency, and enabling version control. ]]></description>
-    <pubDate>Wed, 25 Mar 2026 00:16:12 GMT</pubDate>
+    <title>LiteLLM Supply Chain Compromise: What Agent Builders Need to Know</title>
+    <link>https://new01.github.io/field-notes/concepts/litellm-supply-chain-compromise</link>
+    <guid>https://new01.github.io/field-notes/concepts/litellm-supply-chain-compromise</guid>
+    <description><![CDATA[ On March 24, 2026, malicious versions of LiteLLM (1.82.7 and 1.82.8) were published to PyPI containing a multi-stage credential stealer, Kubernetes lateral movement toolkit, and persistent backdoor. A breakdown of what happened, who is affected, and how to respond. ]]></description>
+    <pubDate>Wed, 25 Mar 2026 03:26:12 GMT</pubDate>
+  </item><item>
+    <title>Monitoring Autonomous OpenClaw Agents</title>
+    <link>https://new01.github.io/field-notes/concepts/monitoring-autonomous-openclaw-agents</link>
+    <guid>https://new01.github.io/field-notes/concepts/monitoring-autonomous-openclaw-agents</guid>
+    <description><![CDATA[ Tools, patterns, and approaches for observing, auditing, and controlling what OpenClaw agents do when running autonomously in heartbeat mode ]]></description>
+    <pubDate>Wed, 25 Mar 2026 03:26:12 GMT</pubDate>
+  </item><item>
+    <title>OpenClaw 2026.3.23 — Browser Reliability, ClawHub Auth, and Operational Hardening</title>
+    <link>https://new01.github.io/field-notes/concepts/openclaw-2026-3-23</link>
+    <guid>https://new01.github.io/field-notes/concepts/openclaw-2026-3-23</guid>
+    <description><![CDATA[ A review of the 2026.3.23 release — focused on stability and reliability improvements across browser session management, ClawHub credential resolution, model pricing, and gateway supervision. ]]></description>
+    <pubDate>Wed, 25 Mar 2026 03:26:12 GMT</pubDate>
+  </item><item>
+    <title>Permanent Companion Agent on Local Hardware</title>
+    <link>https://new01.github.io/field-notes/concepts/permanent-companion-agent-local-hardware</link>
+    <guid>https://new01.github.io/field-notes/concepts/permanent-companion-agent-local-hardware</guid>
+    <description><![CDATA[ Lessons from running an always-on AI agent on local hardware — what works, what breaks, and how to build an agent that lives on your own machine indefinitely. ]]></description>
+    <pubDate>Wed, 25 Mar 2026 03:26:12 GMT</pubDate>
+  </item><item>
+    <title>Poisoned CLAUDE.md Prompt Injection: Tricking Agents Into Installing Malicious Dependencies</title>
+    <link>https://new01.github.io/field-notes/concepts/poisoned-claude-md-prompt-injection</link>
+    <guid>https://new01.github.io/field-notes/concepts/poisoned-claude-md-prompt-injection</guid>
+    <description><![CDATA[ A specific prompt injection attack where poisoned CLAUDE.md files in third-party repositories instruct Claude Code to install malicious packages. Covers the attack mechanism, how CLAUDE.md is trusted, real-world scenarios, detection techniques, and mitigations. ]]></description>
+    <pubDate>Wed, 25 Mar 2026 03:26:12 GMT</pubDate>
+  </item><item>
+    <title>Poisoned Context Files: How CLAUDE.md and Instruction Files Become Attack Vectors</title>
+    <link>https://new01.github.io/field-notes/concepts/poisoned-context-files-claude-code</link>
+    <guid>https://new01.github.io/field-notes/concepts/poisoned-context-files-claude-code</guid>
+    <description><![CDATA[ AI coding agents like Claude Code, Cursor, and Codex CLI automatically load project instruction files (CLAUDE.md, .cursorrules, AGENTS.md) with implicit trust. Attackers exploit this by planting poisoned versions that trick agents into installing malicious dependencies, exfiltrating secrets, or executing arbitrary commands. ]]></description>
+    <pubDate>Wed, 25 Mar 2026 03:26:12 GMT</pubDate>
+  </item><item>
+    <title>Vibe Coding in Microservices</title>
+    <link>https://new01.github.io/field-notes/concepts/vibe-coding-in-microservices</link>
+    <guid>https://new01.github.io/field-notes/concepts/vibe-coding-in-microservices</guid>
+    <description><![CDATA[ How to use AI code generation effectively in distributed architectures without amplifying mistakes across service boundaries ]]></description>
+    <pubDate>Wed, 25 Mar 2026 03:26:12 GMT</pubDate>
   </item>
     </channel>
   </rss>

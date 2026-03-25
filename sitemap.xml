@@ -1,424 +1,427 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
     <loc>https://new01.github.io/field-notes/about</loc>
-    <lastmod>2026-03-25T00:16:12.499Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.764Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/agent-budget-enforcement</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/agent-debugging-infrastructure</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.764Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/agent-dependency-risks</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/agent-last-mile-failure</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/agent-long-term-memory</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/agent-memory-poisoning</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.764Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/agent-memory-systems</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.764Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/agent-memory</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.764Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/agent-native-source-code</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/agent-orchestration-platforms</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.764Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/agent-protocol-translation</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/agent-qdrant-rag-memory</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.766Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/agent-run-trading-funds</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/agent-sandboxing-environments</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.764Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/agent-self-review-loop</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.764Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/agent-skill-packages</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.764Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/agent-teams</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.764Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/agent-trust-networks</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/agent-ui-specification-dsl</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/agent-uncertainty-tracking</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/agentic-coding-job-market</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.764Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/agentic-dotfiles-portability</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/agentic-error-recovery-loops</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/ai-agent-control-planes</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/ai-agent-infrastructure-tools</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.764Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/ai-agent-permission-control</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/ai-agent-tool-testing</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/ai-maintained-knowledge-bases</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/ai-pipeline-security-layers</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/ai-red-teaming-platforms</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/ai-task-delegation-engines</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.764Z</lastmod>
+  </url><url>
+    <loc>https://new01.github.io/field-notes/concepts/ai-toolchain-dependency-poisoning</loc>
+    <lastmod>2026-03-25T03:26:12.766Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/autonomous-intelligence-sourcing</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/autonomous-test-generation-agents</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/b2b-lead-generation-agents</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/behavioral-economics-saas</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/behavioral-onboarding-sequencing</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.764Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/binary-choice-architecture</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.764Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/brains-and-muscles</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.764Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/build-queue-pattern</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/causal-agent-audit-trails</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/claude-code-mcp-headless-regression</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/cli-web-data-tools-for-agents</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/code-review-feedback-loops</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.764Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/cognitive-load-optimization</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.764Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/continuous-ingestion</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/cross-repository-knowledge-orchestration</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/curiosity-first-hiring</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.764Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/data-driven-friction-audit</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.764Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/dead-mans-switch</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.764Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/desktop-agent-harnesses</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/deterministic-agent-action-layer</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.764Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/dynamic-rule-loading</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/email-to-structured-data-apis</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/evolutionary-ledger-agent-memory</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.766Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/four-role-orchestrator-chain</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.764Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/graph-orchestration-patterns</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/heartbeat-system</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/high-velocity-turnover-culture</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.764Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/hunter-alpha</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/in-session-agent-correction</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.764Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/input-validation-in-skills</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.764Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/knowledge-gap-detection</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/litellm-supply-chain-compromise</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.766Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/llm-cost-comparison-tools</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.764Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/llm-cost-observability</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/llm-gateway-abstraction</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.764Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/local-first-ai-infrastructure</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/localclaw-competitor-pattern</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.764Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/magic-moment-engineering</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.764Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/mcp-code-execution-pattern</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/mcp-protocol-adoption</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.764Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/mcp-security-gateways</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/mental-calories-framework</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.764Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/meta-ads-library-scraper</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.764Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/monitoring-autonomous-openclaw-agents</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.766Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/mrr-milestone-progression</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/multi-agent-context-scoping</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/multi-day-agent-build-loops</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/multi-user-agent-instance-management</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/niche-saas-positioning</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/niche-vertical-saas-pattern</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/openclaw-2026-3-11</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/openclaw-2026-3-23-2</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/openclaw-2026-3-23</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.766Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/openclaw-ecosystem-growth</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.764Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/orchestrator-sub-skill-pattern</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.764Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/overload-tolerant-event-ledger</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.764Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/permanent-companion-agent-local-hardware</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.766Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/pipeline-cost-per-run</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.764Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/poisoned-claude-md-prompt-injection</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.766Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/poisoned-context-files-claude-code</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.766Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/production-readiness-gap</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/prompt-enrichment-architecture</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/prompt-file-governance</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.764Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/pulse-feed-monitoring-system</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/pulse-signal-monitoring-system</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/qualification-screening-paradox</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/real-time-agent-work-visualization</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/reddit-lead-generation</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/revenue-retention-expansion</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/runtime-control-layer</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/saas-market-noise-problem</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/scratch-your-own-itch-saas</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/security-hygiene</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.764Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/self-evolving-agents</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/self-hosted-code-review-agents</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/self-improvement-system</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.764Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/semantic-rule-routing</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/skill-based-agent-architecture</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.764Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/stateless-web-fetch-for-agents</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/subscription-token-account-risk</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.764Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/toyota-production-system-for-agents</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.764Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/tweet-format-taxonomy</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.764Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/vibe-coding-in-microservices</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.766Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/vibe-coding-microservices</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/vision-first-browser-agents</loc>
-    <lastmod>2026-03-25T00:16:12.500Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/concepts/zapier-cost-displacement</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.765Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/guides/doctrine-files</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.766Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/guides/first-automation</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.766Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/guides/getting-started</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.766Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/guides/</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.766Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/guides/intelligence-stream-kit</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.766Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/guides/self-improvement</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.766Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/</loc>
-    <lastmod>2026-03-25T00:16:12.501Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.766Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/infrastructure/ai-advisory-board</loc>
-    <lastmod>2026-03-25T00:16:12.499Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.764Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/infrastructure/cron-infrastructure</loc>
-    <lastmod>2026-03-25T00:16:12.499Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.764Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/infrastructure/graph-orchestration</loc>
     <lastmod>2026-03-10T07:00:00.000Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/infrastructure/</loc>
-    <lastmod>2026-03-25T00:16:12.499Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.764Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/infrastructure/llm-cost-tracking</loc>
-    <lastmod>2026-03-25T00:16:12.499Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.764Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/infrastructure/mission-control</loc>
-    <lastmod>2026-03-25T00:16:12.499Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.764Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/infrastructure/notification-batching</loc>
-    <lastmod>2026-03-25T00:16:12.499Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.764Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/infrastructure/pipeline-creation-pipeline</loc>
-    <lastmod>2026-03-25T00:16:12.499Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.763Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/skill-store/creator-submission-flow</loc>
-    <lastmod>2026-03-25T00:16:12.499Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.764Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/skill-store/</loc>
-    <lastmod>2026-03-25T00:16:12.499Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.764Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/skill-store/pack-codebase-onboarding</loc>
-    <lastmod>2026-03-25T00:16:12.499Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.764Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/skill-store/pack-content-pipeline</loc>
-    <lastmod>2026-03-25T00:16:12.499Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.764Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/skill-store/pack-git-workflow-automator</loc>
-    <lastmod>2026-03-25T00:16:12.499Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.764Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/skill-store/virustotal-integration</loc>
-    <lastmod>2026-03-25T00:16:12.499Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.764Z</lastmod>
   </url><url>
     <loc>https://new01.github.io/field-notes/tools/</loc>
-    <lastmod>2026-03-25T00:16:12.502Z</lastmod>
+    <lastmod>2026-03-25T03:26:12.766Z</lastmod>
   </url></urlset>
